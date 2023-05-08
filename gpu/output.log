@@ -1,0 +1,492 @@
+Processing file 20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es.mp4: 1/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU.mp4: 2/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI.mp4: 3/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk.mp4: 4/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E.mp4: 5/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I.mp4: 6/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk.mp4: 7/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg.mp4: 8/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220113_New_York_pfeift_auf_die_Mfh22Av5-jI.mp4: 9/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_New_York_pfeift_auf_die_Mfh22Av5-jI/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_New_York_pfeift_auf_die_Mfh22Av5-jI/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_New_York_pfeift_auf_die_Mfh22Av5-jI/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_New_York_pfeift_auf_die_Mfh22Av5-jI/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_New_York_pfeift_auf_die_Mfh22Av5-jI/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU.mp4: 10/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M.mp4: 11/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M/speaker_diarization.pkl
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA.mp4: 12/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI.mp4: 13/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY.mp4: 14/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic.mp4: 15/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0.mp4: 16/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0/shot_density.pkl , skip Shot Density calculation
+
+Processing file 20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744.mp4: 17/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_10_kX5DF1JDnqg.mp4: 18/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_10_kX5DF1JDnqg/speaker_diarization.pkl
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_10_kX5DF1JDnqg/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_10_kX5DF1JDnqg/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_10_kX5DF1JDnqg/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_10_kX5DF1JDnqg/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_11__kAfWRM5wZQ.mp4: 19/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_11__kAfWRM5wZQ/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_11__kAfWRM5wZQ/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_11__kAfWRM5wZQ/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_11__kAfWRM5wZQ/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_11__kAfWRM5wZQ/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_13_hLfcV8qf4fY.mp4: 20/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_13_hLfcV8qf4fY/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_13_hLfcV8qf4fY/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_13_hLfcV8qf4fY/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_13_hLfcV8qf4fY/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_13_hLfcV8qf4fY/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_14_84f5Cfl1VPo.mp4: 21/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_14_84f5Cfl1VPo/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_14_84f5Cfl1VPo/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_14_84f5Cfl1VPo/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_14_84f5Cfl1VPo/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_14_84f5Cfl1VPo/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_17_HU1GFKcRV70.mp4: 22/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_17_HU1GFKcRV70/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_17_HU1GFKcRV70/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_17_HU1GFKcRV70/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_17_HU1GFKcRV70/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_17_HU1GFKcRV70/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_18_zwJZgvrfy4c.mp4: 23/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_18_zwJZgvrfy4c/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_18_zwJZgvrfy4c/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_18_zwJZgvrfy4c/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_18_zwJZgvrfy4c/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_18_zwJZgvrfy4c/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_19__PFsywDqSYs.mp4: 24/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_19__PFsywDqSYs/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_19__PFsywDqSYs/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_19__PFsywDqSYs/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_19__PFsywDqSYs/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_19__PFsywDqSYs/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_20_HEdDHMVfJxM.mp4: 25/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_20_HEdDHMVfJxM/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_20_HEdDHMVfJxM/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_20_HEdDHMVfJxM/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_20_HEdDHMVfJxM/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_20_HEdDHMVfJxM/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_21_l8TwbvtsSkc.mp4: 26/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_21_l8TwbvtsSkc/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_21_l8TwbvtsSkc/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_21_l8TwbvtsSkc/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_21_l8TwbvtsSkc/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_21_l8TwbvtsSkc/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_25_T5uY4pYjydI.mp4: 27/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_25_T5uY4pYjydI/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_25_T5uY4pYjydI/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_25_T5uY4pYjydI/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_25_T5uY4pYjydI/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_26_wzQkoDUGMSA.mp4: 28/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_26_wzQkoDUGMSA/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_26_wzQkoDUGMSA/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_26_wzQkoDUGMSA/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_26_wzQkoDUGMSA/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_26_wzQkoDUGMSA/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_27_WU7Ga9cXvc4.mp4: 29/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_27_WU7Ga9cXvc4/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_27_WU7Ga9cXvc4/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_27_WU7Ga9cXvc4/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_27_WU7Ga9cXvc4/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_27_WU7Ga9cXvc4/shot_density.pkl , skip Shot Density calculation
+
+Processing file compacttv_2022_01_31_QFNlmMBLwK0.mp4: 30/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_31_QFNlmMBLwK0/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_31_QFNlmMBLwK0/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_31_QFNlmMBLwK0/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_31_QFNlmMBLwK0/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_31_QFNlmMBLwK0/shot_density.pkl , skip Shot Density calculation
+
+Processing file TV-20220102-2021-1800.webl.h264.mp4: 31/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220102-2021-1800.webl.h264/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220102-2021-1800.webl.h264/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220102-2021-1800.webl.h264/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220102-2021-1800.webl.h264/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220102-2021-1800.webl.h264/shot_density.pkl , skip Shot Density calculation
+
+Processing file TV-20220103-2020-2800.webl.h264.mp4: 32/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220103-2020-2800.webl.h264/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220103-2020-2800.webl.h264/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220103-2020-2800.webl.h264/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220103-2020-2800.webl.h264/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220103-2020-2800.webl.h264/shot_density.pkl , skip Shot Density calculation
+
+Processing file TV-20220104-2020-5700.webl.h264.mp4: 33/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220104-2020-5700.webl.h264/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220104-2020-5700.webl.h264/places365.pkl , skip Places365 modeling
+[CLIP] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220104-2020-5700.webl.h264/clip.pkl , skip CLIP modeling
+[Shot Boundary Detection] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220104-2020-5700.webl.h264/shot_boundary_detection.pkl , skip TransNet V2 Shot Boundary Detection
+[Shot Density] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220104-2020-5700.webl.h264/shot_density.pkl , skip Shot Density calculation
+
+Processing file TV-20220106-2021-1700.webl.h264.mp4: 34/49
+DEVICE: cuda
+[Speaker Diarization] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220106-2021-1700.webl.h264/speaker_diarization.pkl , skip Whisper Speaker Diarization
+[Places365] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220106-2021-1700.webl.h264/places365.pkl , skip Places365 modeling
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220106-2021-1700.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220106-2021-1700.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220106-2021-1700.webl.h264/shot_density.pkl
+
+Processing file TV-20220107-2024-3000.webl.h264.mp4: 35/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220107-2024-3000.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220107-2024-3000.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220107-2024-3000.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220107-2024-3000.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220107-2024-3000.webl.h264/shot_density.pkl
+
+Processing file TV-20220108-2023-3400.webl.h264.mp4: 36/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220108-2023-3400.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220108-2023-3400.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220108-2023-3400.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220108-2023-3400.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220108-2023-3400.webl.h264/shot_density.pkl
+Processing time: 0:27:27.523519
+
+Processing file TV-20220109-2025-2800.webl.h264.mp4: 37/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220109-2025-2800.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220109-2025-2800.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220109-2025-2800.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220109-2025-2800.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220109-2025-2800.webl.h264/shot_density.pkl
+Processing time: 0:27:28.327768
+
+Processing file TV-20220110-2020-5400.webl.h264.mp4: 38/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220110-2020-5400.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220110-2020-5400.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220110-2020-5400.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220110-2020-5400.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220110-2020-5400.webl.h264/shot_density.pkl
+Traceback (most recent call last):
+  File "/nfs/home/arafatj/master_project/feature_extraction_code/features.py", line 388, in <module>
+    duration_formatted = delta.strftime('%H:%M:%S')
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+
+Processing file TV-20220111-2050-1700.webl.h264.mp4: 39/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220111-2050-1700.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220111-2050-1700.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220111-2050-1700.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220111-2050-1700.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220111-2050-1700.webl.h264/shot_density.pkl
+Traceback (most recent call last):
+  File "/nfs/home/arafatj/master_project/feature_extraction_code/features.py", line 388, in <module>
+    duration_formatted = str(td)
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+
+Processing file TV-20220112-2020-3600.webl.h264.mp4: 40/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220112-2020-3600.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220112-2020-3600.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220112-2020-3600.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220112-2020-3600.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220112-2020-3600.webl.h264/shot_density.pkl
+Processing time: 0:25:58.771073
+
+Processing file TV-20220113-2142-2300.webl.h264.mp4: 41/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220113-2142-2300.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220113-2142-2300.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220113-2142-2300.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220113-2142-2300.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220113-2142-2300.webl.h264/shot_density.pkl
+Processing time: 0:27:49.623811
+
+Processing file TV-20220114-2036-2200.webl.h264.mp4: 42/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220114-2036-2200.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220114-2036-2200.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220114-2036-2200.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220114-2036-2200.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220114-2036-2200.webl.h264/shot_density.pkl
+Processing time: 0:27:27.225713
+
+Processing file TV-20220115-2022-0900.webl.h264.mp4: 43/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220115-2022-0900.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220115-2022-0900.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220115-2022-0900.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220115-2022-0900.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220115-2022-0900.webl.h264/shot_density.pkl
+Processing time: 0:25:53.263940
+
+Processing file TV-20220116-2023-3500.webl.h264.mp4: 44/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220116-2023-3500.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220116-2023-3500.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220116-2023-3500.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220116-2023-3500.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220116-2023-3500.webl.h264/shot_density.pkl
+Processing time: 0:26:27.843292
+
+Processing file TV-20220118-1805-1800.webl.h264.mp4: 45/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220118-1805-1800.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220118-1805-1800.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220118-1805-1800.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220118-1805-1800.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220118-1805-1800.webl.h264/shot_density.pkl
+Processing time: 0:26:27.709493
+
+Processing file TV-20220119-2023-5600.webl.h264.mp4: 46/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220119-2023-5600.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220119-2023-5600.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220119-2023-5600.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220119-2023-5600.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220119-2023-5600.webl.h264/shot_density.pkl
+Processing time: 0:27:18.529672
+
+Processing file TV-20220121-2020-0300.webl.h264.mp4: 47/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220121-2020-0300.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220121-2020-0300.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220121-2020-0300.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220121-2020-0300.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220121-2020-0300.webl.h264/shot_density.pkl
+Processing time: 0:26:05.979004
+
+Processing file TV-20220122-2021-3600.webl.h264.mp4: 48/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220122-2021-3600.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220122-2021-3600.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220122-2021-3600.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220122-2021-3600.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220122-2021-3600.webl.h264/shot_density.pkl
+Processing time: 0:25:28.702604
+
+Processing file TV-20220123-2024-3200.webl.h264.mp4: 49/49
+DEVICE: cuda
+[Speaker Diarization] Processing Whisper Speaker Diarization...
+[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220123-2024-3200.webl.h264/speaker_diarization.pkl
+[Places365] Processing video frames...
+[Places365] Successfully applied Places365! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220123-2024-3200.webl.h264/places365.pkl
+[CLIP] Processing video frames...
+[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220123-2024-3200.webl.h264/clip.pkl
+[TransNetV2] Using weights from /nfs/home/arafatj/miniconda3/envs/condavenv/lib/python3.10/site-packages/transnetv2-1.0.0-py3.10.egg/transnetv2/transnetv2-weights/.
+[Shot Boundary Detection] Processing video frames...
+[Shot Boundary Detection] Successfully applied TransNet V2! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220123-2024-3200.webl.h264/shot_boundary_detection.pkl
+[Shot Density] Successfully calculated Shot Density! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220123-2024-3200.webl.h264/shot_density.pkl
+Processing time: 0:27:05.491474
+

@@ -1,0 +1,1 @@
+sbatch -w devbox5 -J ex_feats -o output.log -c 16 --gres=gpu:1 ../master_project/feature_extraction_code/extract_features.sh

@@ -1,0 +1,6 @@
+1. Install conda environment using environment.yml
+2. pip uninstall sentencepiece (causes segfault)
+3. Install separate conda environment for whisper speaker diarization libraries (conflicting versions with first environemnt)
+
+(To install pytorch, torchvision, torchaudio and CUDA with the right versions run: 'conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia'.
+This has to be done in order to prevent compability issues between the versions we need for our feature extractor and to run our code on the GPU.)
