@@ -9,7 +9,7 @@ while read video_path; do
     echo "Processing file $basename: $counter/$total_files"
     counter=$((counter+1))
 
-    python /nfs/home/arafatj/master_project/feature_extraction_code/features.py --video "$video_path" --diarize --places --clip --sbd --sd --noprint
+    python /nfs/home/arafatj/master_project/src/features.py --video "$video_path" --diarize --places --clip --sbd --sd --noprint
 
     echo
 done < "$video_list"

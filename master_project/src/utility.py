@@ -307,6 +307,7 @@ def convert_to_trainable_speaker_data():
             # START of feature vector (sample) generation by processing all pkl outputs and aggregating features
             vector = []
 
+            """ START FEATURES """
             # CLIP
             clip_features = process_clip_data(clip_data, onehotencoders_clip, speaker_start, speaker_end)
             for onehotvector in clip_features:
@@ -317,6 +318,12 @@ def convert_to_trainable_speaker_data():
             avg_shotdensity = process_density_data(sd_data, speaker_start, speaker_end)
             vector.append(avg_shotdensity)
                     
+            # Length of speech
+            los = speaker_end - speaker_start
+            vector.append(los)
+
+
+            """ END FEATURES """
 
             # add numerical ground truth label at the end of the feature vector
             vector.append(groundtruth_numerical)
