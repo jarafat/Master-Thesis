@@ -1,1 +1,0 @@
-sbatch -w devbox5 -J ex_feats -o output.log -c 16 --gres=gpu:1 /nfs/home/arafatj/master_project/src/extract_features.sh

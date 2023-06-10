@@ -1,0 +1,18 @@
+406 annotated speaker turns with a total duration of 02:19:42
+149 speaker turns were dismissed because their label is not our defined vocabulary (e.g. "", "expert, medicine")
+
+Annotation counts for each speaker role:
+	anchor: 101
+	reporter: 162
+	doctor-nurse: 4
+	expert-medicine: 24
+	expert-other: 9
+	layperson: 22
+	layperson-4-covid: 3
+	layperson-x-covid: 20
+	police-frwr: 1
+	politician-ampel: 34
+	politician-other: 17
+	politician-n-de: 4
+	politician-right: 4
+	celeb: 1

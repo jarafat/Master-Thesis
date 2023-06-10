@@ -1,1 +1,1014 @@
-{"video_fn": "20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I.mp4", "default": {"name": "default", "segments": []}, "speaker": {"name": "speaker", "segments": [{"start": 0.06, "end": 32.627, "label": "anchor"}, {"start": 33.062, "end": 65.796, "label": "anchor"}, {"start": 65.799, "end": 99.99, "label": "reporter"}, {"start": 100.01, "end": 103.46, "label": "\"reporter\""}]}, "faces": {"name": "faces", "segments": [{"start": 0.0, "end": 43.8, "label": "anchor"}, {"start": 43.8, "end": 49.58, "label": "reporter"}, {"start": 49.58, "end": 64.21, "label": "anchor"}, {"start": 64.21, "end": 89.48, "label": "reporter"}, {"start": 89.48, "end": 103.44, "label": "\"reporter\""}, {"start": 105.64, "end": 109.72, "label": "\"male anchor\""}, {"start": 109.72, "end": 127.64, "label": "\"reporter\""}, {"start": 127.64, "end": 127.76, "label": "\"female anchor, male anchor\""}, {"start": 127.76, "end": 133.44, "label": "\"female anchor, male anchor\""}, {"start": 133.44, "end": 134.04, "label": "\"female anchor, male anchor\""}, {"start": 134.04, "end": 134.08, "label": "\"\""}, {"start": 134.08, "end": 147.88, "label": "\"reporter\""}, {"start": 154.76, "end": 156.88, "label": "\"male anchor\""}, {"start": 156.88, "end": 157.4, "label": "\"male anchor, reporter\""}, {"start": 157.4, "end": 160.8, "label": "\"reporter\""}, {"start": 160.8, "end": 168.64, "label": "\"reporter\""}, {"start": 168.64, "end": 176.16, "label": "\"female anchor\""}, {"start": 176.16, "end": 199.2, "label": "\"reporter\""}, {"start": 211.96, "end": 222.16, "label": "\"reporter\""}, {"start": 222.16, "end": 226.92, "label": "\"male anchor, reporter\""}, {"start": 226.96, "end": 230.2, "label": "\"female anchor\""}, {"start": 230.2, "end": 230.24, "label": "\"\""}, {"start": 230.24, "end": 239.16, "label": "\"reporter\""}, {"start": 264.8, "end": 267.36, "label": "\"reporter\""}, {"start": 267.36, "end": 272.56, "label": "\"male anchor, reporter\""}, {"start": 272.56, "end": 275.64, "label": "\"reporter\""}, {"start": 275.64, "end": 276.04, "label": "\"female anchor, male anchor\""}, {"start": 276.04, "end": 277.32, "label": "\"female anchor, male anchor\""}, {"start": 277.32, "end": 281.88, "label": "\"female anchor, male anchor\""}, {"start": 281.88, "end": 289.36, "label": "\"reporter\""}, {"start": 292.16, "end": 298.6, "label": "\"male anchor\""}, {"start": 298.6, "end": 313.52, "label": "\"reporter\""}, {"start": 313.52, "end": 318.16, "label": "\"reporter\""}, {"start": 318.16, "end": 322.16, "label": "\"reporter\""}, {"start": 322.16, "end": 326.32, "label": "\"reporter\""}, {"start": 326.32, "end": 329.76, "label": "\"reporter\""}, {"start": 329.76, "end": 334.32, "label": "\"reporter\""}, {"start": 334.32, "end": 336.04, "label": "\"reporter\""}, {"start": 336.04, "end": 336.32, "label": "\"reporter\""}, {"start": 336.32, "end": 338.36, "label": "\"reporter\""}, {"start": 338.36, "end": 344.24, "label": "\"reporter\""}, {"start": 344.24, "end": 348.16, "label": "\"reporter\""}, {"start": 351.56, "end": 355.24, "label": "\"female anchor\""}, {"start": 357.04, "end": 358.68, "label": "\"male anchor\""}, {"start": 358.68, "end": 365.24, "label": "\"reporter\""}, {"start": 365.24, "end": 368.28, "label": "\"female anchor, male anchor\""}, {"start": 368.28, "end": 373.84, "label": "\"female anchor, male anchor\""}]}, "asr-de: korona": {"name": "asr-de: korona", "segments": [{"start": 0.03, "end": 103.45, "label": " corona-news"}]}, "captions: talking": {"name": "captions: talking", "segments": [{"start": 0.06, "end": 43.75, "label": "talking-head"}, {"start": 43.75, "end": 103.45, "label": "commenting"}]}, "captions: walking": {"name": "captions: walking", "segments": []}, "captions: holding": {"name": "captions: holding", "segments": []}, "Freiheit": {"name": "Freiheit", "segments": []}, "uncertainty/blaming": {"name": "uncertainty/blaming", "segments": []}, "fight/conflict": {"name": "fight/conflict", "segments": []}, "shots": {"name": "shots", "segments": [{"start": 0.0, "end": 43.76, "label": "0"}, {"start": 43.8, "end": 49.55, "label": "1"}, {"start": 49.55, "end": 52.76, "label": "2"}, {"start": 52.8, "end": 64.21, "label": "3"}, {"start": 64.21, "end": 85.36, "label": "4"}, {"start": 85.36, "end": 89.44, "label": "5"}, {"start": 89.48, "end": 97.48, "label": "6"}, {"start": 97.52, "end": 103.4, "label": "7"}, {"start": 103.44, "end": 105.6, "label": "8"}, {"start": 105.64, "end": 109.68, "label": "9"}, {"start": 109.72, "end": 127.6, "label": "10"}, {"start": 127.64, "end": 134.04, "label": "11"}, {"start": 134.08, "end": 147.84, "label": "12"}, {"start": 147.88, "end": 157.32, "label": "13"}, {"start": 157.36, "end": 168.6, "label": "14"}, {"start": 168.64, "end": 176.12, "label": "15"}, {"start": 176.16, "end": 199.2, "label": "16"}, {"start": 199.24, "end": 211.92, "label": "17"}, {"start": 211.96, "end": 222.12, "label": "18"}, {"start": 222.16, "end": 226.92, "label": "19"}, {"start": 226.96, "end": 230.2, "label": "20"}, {"start": 230.24, "end": 239.12, "label": "21"}, {"start": 239.16, "end": 240.52, "label": "22"}, {"start": 240.6, "end": 264.76, "label": "23"}, {"start": 264.8, "end": 267.32, "label": "24"}, {"start": 267.36, "end": 272.52, "label": "25"}, {"start": 272.56, "end": 275.6, "label": "26"}, {"start": 275.64, "end": 281.84, "label": "27"}, {"start": 281.88, "end": 289.32, "label": "28"}, {"start": 289.36, "end": 292.12, "label": "29"}, {"start": 292.16, "end": 298.56, "label": "30"}, {"start": 298.6, "end": 313.48, "label": "31"}, {"start": 313.52, "end": 318.12, "label": "32"}, {"start": 318.16, "end": 322.12, "label": "33"}, {"start": 322.16, "end": 329.72, "label": "34"}, {"start": 329.76, "end": 336.0, "label": "35"}, {"start": 336.04, "end": 338.32, "label": "36"}, {"start": 338.36, "end": 344.2, "label": "37"}, {"start": 344.24, "end": 348.12, "label": "38"}, {"start": 348.16, "end": 351.52, "label": "39"}, {"start": 351.56, "end": 355.2, "label": "40"}, {"start": 355.24, "end": 358.64, "label": "41"}, {"start": 358.68, "end": 365.2, "label": "42"}, {"start": 365.24, "end": 373.8, "label": "43"}]}, "places 365": {"name": "places 365", "segments": [{"start": 0.0, "end": 85.36, "label": "studio"}, {"start": 85.36, "end": 103.4, "label": "indoor-other"}, {"start": 103.44, "end": 105.6, "label": "/t/television_studio"}, {"start": 105.64, "end": 109.68, "label": "/c/conference_center"}, {"start": 109.72, "end": 127.6, "label": "/t/television_studio"}, {"start": 127.64, "end": 134.04, "label": "/t/television_studio"}, {"start": 134.08, "end": 147.84, "label": "/t/television_studio"}, {"start": 147.88, "end": 157.32, "label": "/t/television_studio"}, {"start": 157.36, "end": 168.6, "label": "/t/television_studio"}, {"start": 168.64, "end": 176.12, "label": "/t/television_studio"}, {"start": 176.16, "end": 199.2, "label": "/t/television_studio"}, {"start": 199.24, "end": 211.92, "label": "/h/home_theater"}, {"start": 211.96, "end": 222.12, "label": "/t/television_studio"}, {"start": 222.16, "end": 226.92, "label": "/t/television_studio"}, {"start": 226.96, "end": 230.2, "label": "/t/television_studio"}, {"start": 230.24, "end": 239.12, "label": "/t/television_studio"}, {"start": 239.16, "end": 240.52, "label": "/h/home_theater"}, {"start": 240.6, "end": 264.76, "label": "/m/movie_theater/indoor"}, {"start": 264.8, "end": 267.32, "label": "/t/television_studio"}, {"start": 267.36, "end": 272.52, "label": "/t/television_studio"}, {"start": 272.56, "end": 275.6, "label": "/t/television_studio"}, {"start": 275.64, "end": 281.84, "label": "/t/television_studio"}, {"start": 281.88, "end": 289.32, "label": "/t/television_studio"}, {"start": 289.36, "end": 292.12, "label": "/t/television_studio"}, {"start": 292.16, "end": 298.56, "label": "/c/conference_center"}, {"start": 298.6, "end": 313.48, "label": "/t/television_studio"}, {"start": 313.52, "end": 318.12, "label": "/t/television_studio"}, {"start": 318.16, "end": 322.12, "label": "/t/television_studio"}, {"start": 322.16, "end": 329.72, "label": "/t/television_studio"}, {"start": 329.76, "end": 336.0, "label": "/t/television_studio"}, {"start": 336.04, "end": 338.32, "label": "/t/television_studio"}, {"start": 338.36, "end": 344.2, "label": "/t/television_studio"}, {"start": 344.24, "end": 348.12, "label": "/t/television_studio"}, {"start": 348.16, "end": 351.52, "label": "/t/television_studio"}, {"start": 351.56, "end": 355.2, "label": "/t/television_studio"}, {"start": 355.24, "end": 358.64, "label": "/t/television_studio"}, {"start": 358.68, "end": 365.2, "label": "/t/television_studio"}, {"start": 365.24, "end": 373.8, "label": "/t/television_studio"}]}, "shot size": {"name": "shot size", "segments": [{"start": 0.0, "end": 43.76, "label": "Full Shot"}, {"start": 43.8, "end": 49.57, "label": "Medium Shot"}, {"start": 49.57, "end": 52.76, "label": "Full Shot"}, {"start": 52.8, "end": 64.2, "label": "Medium Shot"}, {"start": 64.2, "end": 85.34, "label": "Medium Shot"}, {"start": 85.34, "end": 89.44, "label": "Medium Shot"}, {"start": 89.48, "end": 97.48, "label": "Medium Shot"}, {"start": 97.52, "end": 103.4, "label": "Full Shot"}, {"start": 103.44, "end": 105.6, "label": "Full Shot"}, {"start": 105.64, "end": 109.68, "label": "Close-Up"}, {"start": 109.72, "end": 127.6, "label": "Medium Shot"}, {"start": 127.64, "end": 134.04, "label": "Full Shot"}, {"start": 134.08, "end": 147.84, "label": "Medium Shot"}, {"start": 147.88, "end": 157.32, "label": "Full Shot"}, {"start": 157.36, "end": 168.6, "label": "Medium Shot"}, {"start": 168.64, "end": 176.12, "label": "Medium Shot"}, {"start": 176.16, "end": 199.2, "label": "Medium Shot"}, {"start": 199.24, "end": 211.92, "label": "Full Shot"}, {"start": 211.96, "end": 222.12, "label": "Medium Shot"}, {"start": 222.16, "end": 226.92, "label": "Full Shot"}, {"start": 226.96, "end": 230.2, "label": "Medium Shot"}, {"start": 230.24, "end": 239.12, "label": "Medium Shot"}, {"start": 239.16, "end": 240.52, "label": "Full Shot"}, {"start": 240.6, "end": 264.76, "label": "Full Shot"}, {"start": 264.8, "end": 267.32, "label": "Medium Shot"}, {"start": 267.36, "end": 272.52, "label": "Full Shot"}, {"start": 272.56, "end": 275.6, "label": "Medium Shot"}, {"start": 275.64, "end": 281.84, "label": "Full Shot"}, {"start": 281.88, "end": 289.32, "label": "Medium Shot"}, {"start": 289.36, "end": 292.12, "label": "Full Shot"}, {"start": 292.16, "end": 298.56, "label": "Close-Up"}, {"start": 298.6, "end": 313.48, "label": "Medium Shot"}, {"start": 313.52, "end": 318.12, "label": "Full Shot"}, {"start": 318.16, "end": 322.12, "label": "Full Shot"}, {"start": 322.16, "end": 329.72, "label": "Medium Shot"}, {"start": 329.76, "end": 336.0, "label": "Full Shot"}, {"start": 336.04, "end": 338.32, "label": "Medium Shot"}, {"start": 338.36, "end": 344.2, "label": "Medium Shot"}, {"start": 344.24, "end": 348.12, "label": "Medium Shot"}, {"start": 348.16, "end": 351.52, "label": "Full Shot"}, {"start": 351.56, "end": 355.2, "label": "Close-Up"}, {"start": 355.24, "end": 358.64, "label": "Full Shot"}, {"start": 358.68, "end": 365.2, "label": "Medium Shot"}, {"start": 365.24, "end": 373.8, "label": "Full Shot"}]}, "analytical": {"name": "analytical", "segments": []}, "trust": {"name": "trust", "segments": []}, "emotion": {"name": "emotion", "segments": [{"start": 2.44, "end": 52.82, "label": "schock-panik-angst"}, {"start": 64.21, "end": 79.82, "label": "schock-panik-angst"}]}, "music-noise": {"name": "music-noise", "segments": []}, "speaker-gender": {"name": "speaker-gender", "segments": [{"start": 0.06, "end": 32.627, "label": "M1"}, {"start": 33.062, "end": 65.796, "label": "W1"}, {"start": 65.799, "end": 99.99, "label": "M2"}, {"start": 100.01, "end": 103.46, "label": null}]}}
+{
+    "video_fn": "20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I.mp4",
+    "default": {
+        "name": "default",
+        "segments": []
+    },
+    "speaker": {
+        "name": "speaker",
+        "segments": [
+            {
+                "start": 0.06,
+                "end": 32.627,
+                "label": "anchor"
+            },
+            {
+                "start": 33.062,
+                "end": 65.796,
+                "label": "anchor"
+            },
+            {
+                "start": 65.799,
+                "end": 99.99,
+                "label": "reporter"
+            },
+            {
+                "start": 100.01,
+                "end": 103.46,
+                "label": "\"reporter\""
+            }
+        ]
+    },
+    "faces": {
+        "name": "faces",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 43.8,
+                "label": "anchor"
+            },
+            {
+                "start": 43.8,
+                "end": 49.58,
+                "label": "reporter"
+            },
+            {
+                "start": 49.58,
+                "end": 64.21,
+                "label": "anchor"
+            },
+            {
+                "start": 64.21,
+                "end": 89.48,
+                "label": "reporter"
+            },
+            {
+                "start": 89.48,
+                "end": 103.44,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 105.64,
+                "end": 109.72,
+                "label": "\"male anchor\""
+            },
+            {
+                "start": 109.72,
+                "end": 127.64,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 127.64,
+                "end": 127.76,
+                "label": "\"female anchor, male anchor\""
+            },
+            {
+                "start": 127.76,
+                "end": 133.44,
+                "label": "\"female anchor, male anchor\""
+            },
+            {
+                "start": 133.44,
+                "end": 134.04,
+                "label": "\"female anchor, male anchor\""
+            },
+            {
+                "start": 134.04,
+                "end": 134.08,
+                "label": "\"\""
+            },
+            {
+                "start": 134.08,
+                "end": 147.88,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 154.76,
+                "end": 156.88,
+                "label": "\"male anchor\""
+            },
+            {
+                "start": 156.88,
+                "end": 157.4,
+                "label": "\"male anchor, reporter\""
+            },
+            {
+                "start": 157.4,
+                "end": 160.8,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 160.8,
+                "end": 168.64,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 168.64,
+                "end": 176.16,
+                "label": "\"female anchor\""
+            },
+            {
+                "start": 176.16,
+                "end": 199.2,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 211.96,
+                "end": 222.16,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 222.16,
+                "end": 226.92,
+                "label": "\"male anchor, reporter\""
+            },
+            {
+                "start": 226.96,
+                "end": 230.2,
+                "label": "\"female anchor\""
+            },
+            {
+                "start": 230.2,
+                "end": 230.24,
+                "label": "\"\""
+            },
+            {
+                "start": 230.24,
+                "end": 239.16,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 264.8,
+                "end": 267.36,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 267.36,
+                "end": 272.56,
+                "label": "\"male anchor, reporter\""
+            },
+            {
+                "start": 272.56,
+                "end": 275.64,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 275.64,
+                "end": 276.04,
+                "label": "\"female anchor, male anchor\""
+            },
+            {
+                "start": 276.04,
+                "end": 277.32,
+                "label": "\"female anchor, male anchor\""
+            },
+            {
+                "start": 277.32,
+                "end": 281.88,
+                "label": "\"female anchor, male anchor\""
+            },
+            {
+                "start": 281.88,
+                "end": 289.36,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 292.16,
+                "end": 298.6,
+                "label": "\"male anchor\""
+            },
+            {
+                "start": 298.6,
+                "end": 313.52,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 313.52,
+                "end": 318.16,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 318.16,
+                "end": 322.16,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 322.16,
+                "end": 326.32,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 326.32,
+                "end": 329.76,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 329.76,
+                "end": 334.32,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 334.32,
+                "end": 336.04,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 336.04,
+                "end": 336.32,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 336.32,
+                "end": 338.36,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 338.36,
+                "end": 344.24,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 344.24,
+                "end": 348.16,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 351.56,
+                "end": 355.24,
+                "label": "\"female anchor\""
+            },
+            {
+                "start": 357.04,
+                "end": 358.68,
+                "label": "\"male anchor\""
+            },
+            {
+                "start": 358.68,
+                "end": 365.24,
+                "label": "\"reporter\""
+            },
+            {
+                "start": 365.24,
+                "end": 368.28,
+                "label": "\"female anchor, male anchor\""
+            },
+            {
+                "start": 368.28,
+                "end": 373.84,
+                "label": "\"female anchor, male anchor\""
+            }
+        ]
+    },
+    "asr-de: korona": {
+        "name": "asr-de: korona",
+        "segments": [
+            {
+                "start": 0.03,
+                "end": 103.45,
+                "label": " corona-news"
+            }
+        ]
+    },
+    "captions: talking": {
+        "name": "captions: talking",
+        "segments": [
+            {
+                "start": 0.06,
+                "end": 43.75,
+                "label": "talking-head"
+            },
+            {
+                "start": 43.75,
+                "end": 103.45,
+                "label": "commenting"
+            }
+        ]
+    },
+    "captions: walking": {
+        "name": "captions: walking",
+        "segments": []
+    },
+    "captions: holding": {
+        "name": "captions: holding",
+        "segments": []
+    },
+    "Freiheit": {
+        "name": "Freiheit",
+        "segments": []
+    },
+    "uncertainty/blaming": {
+        "name": "uncertainty/blaming",
+        "segments": []
+    },
+    "fight/conflict": {
+        "name": "fight/conflict",
+        "segments": []
+    },
+    "shots": {
+        "name": "shots",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 43.76,
+                "label": "0"
+            },
+            {
+                "start": 43.8,
+                "end": 49.55,
+                "label": "1"
+            },
+            {
+                "start": 49.55,
+                "end": 52.76,
+                "label": "2"
+            },
+            {
+                "start": 52.8,
+                "end": 64.21,
+                "label": "3"
+            },
+            {
+                "start": 64.21,
+                "end": 85.36,
+                "label": "4"
+            },
+            {
+                "start": 85.36,
+                "end": 89.44,
+                "label": "5"
+            },
+            {
+                "start": 89.48,
+                "end": 97.48,
+                "label": "6"
+            },
+            {
+                "start": 97.52,
+                "end": 103.4,
+                "label": "7"
+            },
+            {
+                "start": 103.44,
+                "end": 105.6,
+                "label": "8"
+            },
+            {
+                "start": 105.64,
+                "end": 109.68,
+                "label": "9"
+            },
+            {
+                "start": 109.72,
+                "end": 127.6,
+                "label": "10"
+            },
+            {
+                "start": 127.64,
+                "end": 134.04,
+                "label": "11"
+            },
+            {
+                "start": 134.08,
+                "end": 147.84,
+                "label": "12"
+            },
+            {
+                "start": 147.88,
+                "end": 157.32,
+                "label": "13"
+            },
+            {
+                "start": 157.36,
+                "end": 168.6,
+                "label": "14"
+            },
+            {
+                "start": 168.64,
+                "end": 176.12,
+                "label": "15"
+            },
+            {
+                "start": 176.16,
+                "end": 199.2,
+                "label": "16"
+            },
+            {
+                "start": 199.24,
+                "end": 211.92,
+                "label": "17"
+            },
+            {
+                "start": 211.96,
+                "end": 222.12,
+                "label": "18"
+            },
+            {
+                "start": 222.16,
+                "end": 226.92,
+                "label": "19"
+            },
+            {
+                "start": 226.96,
+                "end": 230.2,
+                "label": "20"
+            },
+            {
+                "start": 230.24,
+                "end": 239.12,
+                "label": "21"
+            },
+            {
+                "start": 239.16,
+                "end": 240.52,
+                "label": "22"
+            },
+            {
+                "start": 240.6,
+                "end": 264.76,
+                "label": "23"
+            },
+            {
+                "start": 264.8,
+                "end": 267.32,
+                "label": "24"
+            },
+            {
+                "start": 267.36,
+                "end": 272.52,
+                "label": "25"
+            },
+            {
+                "start": 272.56,
+                "end": 275.6,
+                "label": "26"
+            },
+            {
+                "start": 275.64,
+                "end": 281.84,
+                "label": "27"
+            },
+            {
+                "start": 281.88,
+                "end": 289.32,
+                "label": "28"
+            },
+            {
+                "start": 289.36,
+                "end": 292.12,
+                "label": "29"
+            },
+            {
+                "start": 292.16,
+                "end": 298.56,
+                "label": "30"
+            },
+            {
+                "start": 298.6,
+                "end": 313.48,
+                "label": "31"
+            },
+            {
+                "start": 313.52,
+                "end": 318.12,
+                "label": "32"
+            },
+            {
+                "start": 318.16,
+                "end": 322.12,
+                "label": "33"
+            },
+            {
+                "start": 322.16,
+                "end": 329.72,
+                "label": "34"
+            },
+            {
+                "start": 329.76,
+                "end": 336.0,
+                "label": "35"
+            },
+            {
+                "start": 336.04,
+                "end": 338.32,
+                "label": "36"
+            },
+            {
+                "start": 338.36,
+                "end": 344.2,
+                "label": "37"
+            },
+            {
+                "start": 344.24,
+                "end": 348.12,
+                "label": "38"
+            },
+            {
+                "start": 348.16,
+                "end": 351.52,
+                "label": "39"
+            },
+            {
+                "start": 351.56,
+                "end": 355.2,
+                "label": "40"
+            },
+            {
+                "start": 355.24,
+                "end": 358.64,
+                "label": "41"
+            },
+            {
+                "start": 358.68,
+                "end": 365.2,
+                "label": "42"
+            },
+            {
+                "start": 365.24,
+                "end": 373.8,
+                "label": "43"
+            }
+        ]
+    },
+    "places 365": {
+        "name": "places 365",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 85.36,
+                "label": "studio"
+            },
+            {
+                "start": 85.36,
+                "end": 103.4,
+                "label": "indoor-other"
+            },
+            {
+                "start": 103.44,
+                "end": 105.6,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 105.64,
+                "end": 109.68,
+                "label": "/c/conference_center"
+            },
+            {
+                "start": 109.72,
+                "end": 127.6,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 127.64,
+                "end": 134.04,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 134.08,
+                "end": 147.84,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 147.88,
+                "end": 157.32,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 157.36,
+                "end": 168.6,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 168.64,
+                "end": 176.12,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 176.16,
+                "end": 199.2,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 199.24,
+                "end": 211.92,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 211.96,
+                "end": 222.12,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 222.16,
+                "end": 226.92,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 226.96,
+                "end": 230.2,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 230.24,
+                "end": 239.12,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 239.16,
+                "end": 240.52,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 240.6,
+                "end": 264.76,
+                "label": "/m/movie_theater/indoor"
+            },
+            {
+                "start": 264.8,
+                "end": 267.32,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 267.36,
+                "end": 272.52,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 272.56,
+                "end": 275.6,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 275.64,
+                "end": 281.84,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 281.88,
+                "end": 289.32,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 289.36,
+                "end": 292.12,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 292.16,
+                "end": 298.56,
+                "label": "/c/conference_center"
+            },
+            {
+                "start": 298.6,
+                "end": 313.48,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 313.52,
+                "end": 318.12,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 318.16,
+                "end": 322.12,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 322.16,
+                "end": 329.72,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 329.76,
+                "end": 336.0,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 336.04,
+                "end": 338.32,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 338.36,
+                "end": 344.2,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 344.24,
+                "end": 348.12,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 348.16,
+                "end": 351.52,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 351.56,
+                "end": 355.2,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 355.24,
+                "end": 358.64,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 358.68,
+                "end": 365.2,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 365.24,
+                "end": 373.8,
+                "label": "/t/television_studio"
+            }
+        ]
+    },
+    "shot size": {
+        "name": "shot size",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 43.76,
+                "label": "Full Shot"
+            },
+            {
+                "start": 43.8,
+                "end": 49.57,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 49.57,
+                "end": 52.76,
+                "label": "Full Shot"
+            },
+            {
+                "start": 52.8,
+                "end": 64.2,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 64.2,
+                "end": 85.34,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 85.34,
+                "end": 89.44,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 89.48,
+                "end": 97.48,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 97.52,
+                "end": 103.4,
+                "label": "Full Shot"
+            },
+            {
+                "start": 103.44,
+                "end": 105.6,
+                "label": "Full Shot"
+            },
+            {
+                "start": 105.64,
+                "end": 109.68,
+                "label": "Close-Up"
+            },
+            {
+                "start": 109.72,
+                "end": 127.6,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 127.64,
+                "end": 134.04,
+                "label": "Full Shot"
+            },
+            {
+                "start": 134.08,
+                "end": 147.84,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 147.88,
+                "end": 157.32,
+                "label": "Full Shot"
+            },
+            {
+                "start": 157.36,
+                "end": 168.6,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 168.64,
+                "end": 176.12,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 176.16,
+                "end": 199.2,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 199.24,
+                "end": 211.92,
+                "label": "Full Shot"
+            },
+            {
+                "start": 211.96,
+                "end": 222.12,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 222.16,
+                "end": 226.92,
+                "label": "Full Shot"
+            },
+            {
+                "start": 226.96,
+                "end": 230.2,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 230.24,
+                "end": 239.12,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 239.16,
+                "end": 240.52,
+                "label": "Full Shot"
+            },
+            {
+                "start": 240.6,
+                "end": 264.76,
+                "label": "Full Shot"
+            },
+            {
+                "start": 264.8,
+                "end": 267.32,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 267.36,
+                "end": 272.52,
+                "label": "Full Shot"
+            },
+            {
+                "start": 272.56,
+                "end": 275.6,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 275.64,
+                "end": 281.84,
+                "label": "Full Shot"
+            },
+            {
+                "start": 281.88,
+                "end": 289.32,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 289.36,
+                "end": 292.12,
+                "label": "Full Shot"
+            },
+            {
+                "start": 292.16,
+                "end": 298.56,
+                "label": "Close-Up"
+            },
+            {
+                "start": 298.6,
+                "end": 313.48,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 313.52,
+                "end": 318.12,
+                "label": "Full Shot"
+            },
+            {
+                "start": 318.16,
+                "end": 322.12,
+                "label": "Full Shot"
+            },
+            {
+                "start": 322.16,
+                "end": 329.72,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 329.76,
+                "end": 336.0,
+                "label": "Full Shot"
+            },
+            {
+                "start": 336.04,
+                "end": 338.32,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 338.36,
+                "end": 344.2,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 344.24,
+                "end": 348.12,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 348.16,
+                "end": 351.52,
+                "label": "Full Shot"
+            },
+            {
+                "start": 351.56,
+                "end": 355.2,
+                "label": "Close-Up"
+            },
+            {
+                "start": 355.24,
+                "end": 358.64,
+                "label": "Full Shot"
+            },
+            {
+                "start": 358.68,
+                "end": 365.2,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 365.24,
+                "end": 373.8,
+                "label": "Full Shot"
+            }
+        ]
+    },
+    "analytical": {
+        "name": "analytical",
+        "segments": []
+    },
+    "trust": {
+        "name": "trust",
+        "segments": []
+    },
+    "emotion": {
+        "name": "emotion",
+        "segments": [
+            {
+                "start": 2.44,
+                "end": 52.82,
+                "label": "schock-panik-angst"
+            },
+            {
+                "start": 64.21,
+                "end": 79.82,
+                "label": "schock-panik-angst"
+            }
+        ]
+    },
+    "music-noise": {
+        "name": "music-noise",
+        "segments": []
+    },
+    "speaker-gender": {
+        "name": "speaker-gender",
+        "segments": [
+            {
+                "start": 0.06,
+                "end": 32.627,
+                "label": "M1"
+            },
+            {
+                "start": 33.062,
+                "end": 65.796,
+                "label": "W1"
+            },
+            {
+                "start": 65.799,
+                "end": 99.99,
+                "label": "M2"
+            },
+            {
+                "start": 100.01,
+                "end": 103.46,
+                "label": "M2"
+            }
+        ]
+    }
+}

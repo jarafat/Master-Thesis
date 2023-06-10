@@ -4,35 +4,15 @@ from sklearn.preprocessing import OneHotEncoder
 import pickle
 import time
 import numpy as np
+import yaml
+import argparse
 
-config = {
-    "annotations": "/nfs/home/arafatj/master_project/annotations/all/",
-    "clip_queries": "/nfs/home/arafatj/master_project/models/CLIP/CLIP_queries.json",
-    "trainingdata_dir": "/nfs/home/arafatj/master_project/trainingdata/",
-    "output_dir": "/nfs/home/arafatj/master_project/OUTPUT/",
-    "fps": 2,
-    "speaker_hierarchy_mapping": {
-        "anchor": "anchor",
-        "reporter": "reporter",
-        "doctor-nurse": "other",
-        "expert-medicine": "other",
-        "expert-other": "other",
-        "layperson": "other",
-        "layperson-4-covid": "other",
-        "layperson-x-covid": "other",
-        "police-frwr": "other",
-        "politician-ampel": "other",
-        "politician-other": "other",
-        "politician-n-de": "other",
-        "politician-right": "other",
-        "celeb": "other",
-                        },
-    "groundtruth_numerical": {
-        "anchor": 0,
-        "reporter": 1,
-        "other": 2
-    }
-}
+with open('/nfs/home/arafatj/master_project/src/config.yaml', 'r') as file:
+    config = yaml.safe_load(file)
+
+# passed in args
+speaker_hierarchy = None
+hierarchy_level = None
 
 def get_onehotencoders_speaker():
         """
@@ -40,9 +20,9 @@ def get_onehotencoders_speaker():
         """
         # add every speaker label that occurs in the speaker hierarchy mapping
         speaker_labels = []
-        for key in config['speaker_hierarchy_mapping'].keys():
-            if config['speaker_hierarchy_mapping'][key] not in speaker_labels:
-                speaker_labels.append(config['speaker_hierarchy_mapping'][key])
+        for key in speaker_hierarchy.keys():
+            if speaker_hierarchy[key] not in speaker_labels:
+                speaker_labels.append(speaker_hierarchy[key])
         
         onehotencoder = OneHotEncoder(sparse_output=False)
         onehotencoder.fit([[label] for label in speaker_labels])
@@ -71,7 +51,8 @@ def get_onehotencoders_clip():
                     if domain == 'news roles':
                         label = fix_clip_typos(label)
                         # map news roles to our hierarchy
-                        label = config['speaker_hierarchy_mapping'][label]
+                        label = speaker_hierarchy[label]
+                        
 
                     if label not in vocabulary:
                         vocabulary.append(label)
@@ -114,19 +95,19 @@ def fix_clip_typos(label):
         return label
 
 
-def process_clip_data(clip_data, onehotencoders, segment_start, segment_end):
+def process_clip_data(clip_data, segment_start, segment_end):
         """
         Helper to process clip data:
-        Each domain in the CLIP_queries.json is processed seperately, so each domain will result in one feature.
-        To extract features from clip data, we will process the clip outputs for each frame that is within the given segment.
-        (Inside a domain) For each frame, we store the label that was assigned the highest probability by the clip model.
-        All lables with the highest probabilty will be counted across the frames and the label that has
-        the highest occurrence after processing all frames within the segment will be taken as the feature.
-        Since features need to be numbers, the resulting label will be transformed to a OneHotVector.
-        The return value is an array that contains 1 encoded (OneHotEncoded) label for each domain.
+        Each domain in the CLIP_queries.json is processed seperately, so each domain will result in one feature vector.
+        Each feature vector consits of the average probability over the speaker labels within all frames of the speaker segment.
         """
+        
         clip_features = []
         for domain in clip_data.keys():
+            # skip places365 for now
+            if domain == 'places365':
+                continue
+
             # return only the entries (frames) of the array that are within the current speaker segment.
             relevant_frames = []
             for i, data in enumerate(clip_data[domain]):
@@ -135,29 +116,26 @@ def process_clip_data(clip_data, onehotencoders, segment_start, segment_end):
                 if segment_start <= frame_time <= segment_end:
                     relevant_frames.append(data)
 
-            # process clip data
-            label_count = {}
+            # sum um label probabilities over all frames
+            label_sums = {}
             for frame in relevant_frames:
-                # get most probable tuple that are in the form of (label, probability)
-                max_entry = max(frame, key=lambda item: item[1])
-                max_label = max_entry[0]
+                for tup in frame:
+                    label = tup[0]
+                    prob = tup[1]
 
-                # map news roles to defined hierarchy
-                if domain == 'news roles':
-                    max_label = fix_clip_typos(max_label)
-                    max_label = config['speaker_hierarchy_mapping'][max_label]
+                    if label not in label_sums:
+                        label_sums[label] = prob
+                    else:
+                        label_sums[label] += prob
 
-                # Count label occurences
-                if max_label in label_count.keys():
-                    label_count[max_label] += 1
-                else:
-                    label_count[max_label] = 1
+            # calculate avg probability and append to feature vector
+            feature_vec = []
+            for label in label_sums.keys():
+                avg_prob = label_sums[label] / len(relevant_frames)
+                feature_vec.append(avg_prob)
 
-            # get label with highest occurrence and return it
-            max_label = max(label_count, key=label_count.get)
+            clip_features.append(feature_vec)
             
-            onehotvector = onehotencoders[domain].transform([[max_label]])
-            clip_features.append(onehotvector)
         return clip_features
 
 
@@ -184,130 +162,198 @@ def process_density_data(sd_data, segment_start, segment_end):
         return avg_shotdensity
 
 
-def create_train_data():
+def process_sentiment_data(sentiment_data, segment_start, segment_end):
+    """
+    Helper to process sentiment data:
+    Compute the average probabilities for positive, negative, and neutral sentiments across sentences
+    within the speaker segment.
+    Return an array with the entries [probability_positive, probability_negative, probability_neutral].
+    """
+    sentiments_sum = {'positive': 0, 'negative': 0, 'neutral': 0}
+    i = 0
+    for sentence in sentiment_data:
+        # only take sentences that have a duration overlap of >= 80% with a speaker duration to be certain that the statement was made by the speaker
+        ovp = max(0, min(segment_end, sentence['end']) - max(segment_start, sentence['start'])) / (sentence['end'] - sentence['start'])
+        if ovp >= 0.8:
+            i += 1
+            # sum up sentiment probabilities
+            for tup in sentence['sentiment_probs']:
+                sentiment = tup[0]
+                prob = tup[1]
+                sentiments_sum[sentiment] += prob
+    
+    # no sentences found during the speaker segment
+    if i == 0:
+        return [0, 0, 0]
+    
+    # calculate average probabilities
+    probs = []
+    for sentiment in sentiments_sum:
+        avg_prob = sentiments_sum[sentiment] / i
+        probs.append(avg_prob)
+
+    return probs
+
+
+def data_speaker_segments():
     """
     Load all .pkls and create trainable data for Random Forest and XGBoost classifiers.
 
     The result will be a .pkl file with all training samples. 
     Each sample is represented by feature vector containing features that were aggregated during one speaker turn.
     """
+
+    """
     # OneHotEncoder for speaker labels
     onehotencoder_speakers = get_onehotencoders_speaker()
     # dictionary with one OneHotEncoder for each clip domain vocabulary
     onehotencoders_clip = get_onehotencoders_clip()
+    """
     
-    # the following initializations are made to collect data about the processed dataset
+    # the following initializations are made to collect data about the whole dataset
     total_annotated_duration = 0
     total_annotated_speaker_turns = 0
     total_annotations_not_in_vocabulary = 0
     annotation_count_for_speaker = {}
-    for speaker_label in config['speaker_hierarchy_mapping'].keys():
+    for speaker_label in speaker_hierarchy.keys():
         annotation_count_for_speaker[speaker_label] = 0
 
-    feature_vectors = []
-    # iterate over all annotations
-    for annotation_fn in os.listdir(config['annotations']):
-        if not annotation_fn.endswith('.json') or 'com-' in annotation_fn: # TODO: REMOVE COMPACT SKIPPING
-            continue
+    # split the annotations according to news sources
+    dirlist = os.listdir(config['annotations'])
+    for abbrev in config['source_abbreviations']:
+        news_source_annotations = [annotation_fn for annotation_fn in dirlist if abbrev in annotation_fn]
 
-        annotation_path = os.path.join(config['annotations'], annotation_fn)
-        # load annotation json
-        with open(annotation_path) as f:
-            annotations = json.load(f)
+        # annotation statistics on news source level
+        source_annotated_duration = 0
+        source_annotated_speaker_turns = 0
+        source_annotations_not_in_vocabulary = 0
+        source_annotation_count_for_speaker = {}
+        for speaker_label in speaker_hierarchy.keys():
+            source_annotation_count_for_speaker[speaker_label] = 0
 
-        # get video file name and full path to video
-        video_fn = annotations['video_fn']
-        output_dir = os.path.join(config['output_dir'], video_fn.replace('.mp4', ''))
-
-        # this is only relevant if the sbatch process is still running and the features have not yet been fully extracted yet
-        if not os.path.exists(output_dir):
-            print(f'{output_dir} not yet processed')
-            continue
-        elif len(os.listdir(output_dir)) < 5:
-            print(f'{output_dir} still being processed...')
-            continue
-
-        # load feature data from .pkls for the current video
-        clip_data, places365_data, sbd_data, sd_data, diarization_data = None, None, None, None, None
-        for pkl_fn in os.listdir(output_dir):
-            pkl_path = os.path.join(output_dir, pkl_fn)
-
-            if "clip" in pkl_fn:
-                with open(pkl_path, 'rb') as pkl:
-                    clip_data = pickle.load(pkl)
-            elif "places365" in pkl_fn:
-                with open(pkl_path, 'rb') as pkl:
-                    places365_data = pickle.load(pkl)
-            elif "shot_boundary_detection" in pkl_fn:
-                with open(pkl_path, 'rb') as pkl:
-                    sbd_data = pickle.load(pkl)
-            elif "shot_density" in pkl_fn:
-                with open(pkl_path, 'rb') as pkl:
-                    sd_data = pickle.load(pkl)
-            elif "speaker_diarization" in pkl_fn:
-                with open(pkl_path, 'rb') as pkl:
-                    diarization_data = pickle.load(pkl)
-
-        # iterate over every speaker segment in the annotations
-        for speaker_segment in annotations['speaker-gender']['segments']:
-            speaker_start = speaker_segment['start']
-            speaker_end = speaker_segment['end']
-            speaker_label = speaker_segment['label']
-            speaker_groundtruth = get_speaker_annotation(speaker_start, annotations)
-
-            # skip annotations that are not in our defined speaker label vocabulary
-            if speaker_groundtruth not in config['speaker_hierarchy_mapping'].keys():
-                total_annotations_not_in_vocabulary += 1
+        feature_vectors = []
+        # iterate over all annotations for the current news source
+        for annotation_fn in news_source_annotations:
+            if not annotation_fn.endswith('.json'):
                 continue
 
-            # map the speaker ground truth label to our speaker hierarchy (e.g. only "anchor", "reporter" and "other")
-            hierarchical_groundtruth = config['speaker_hierarchy_mapping'][speaker_groundtruth]
-            # encode ground truth as a number
-            groundtruth_numerical = config['groundtruth_numerical'][hierarchical_groundtruth]
+            annotation_path = os.path.join(config['annotations'], annotation_fn)
+            # load annotation json
+            with open(annotation_path) as f:
+                annotations = json.load(f)
+
+            # get video file name and full path to the 
+            video_fn = annotations['video_fn']
+            output_path = os.path.join(config['output_dir'], video_fn.replace('.mp4', ''))
+
+            # this is only relevant if the sbatch process is still running and the features have not yet been fully extracted yet
+            if not os.path.exists(output_path):
+                print(f'{output_path} not yet processed')
+                continue
+
+            # load feature data from .pkls for the current video
+            clip_data, places365_data, sbd_data, sd_data, diarization_data, sentiment_data = None, None, None, None, None, None
+            for pkl_fn in os.listdir(output_path):
+                pkl_path = os.path.join(output_path, pkl_fn)
+
+                if 'clip.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        clip_data = pickle.load(pkl)
+                elif 'places365.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        places365_data = pickle.load(pkl)
+                elif 'shot_boundary_detection.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        sbd_data = pickle.load(pkl)
+                elif 'shot_density.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        sd_data = pickle.load(pkl)
+                elif 'speaker_diarization_large-v2.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        diarization_data = pickle.load(pkl)
+                elif 'sentiment_large-v2.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        sentiment_data = pickle.load(pkl)
+
+            # iterate over every speaker segment in the annotations
+            for speaker_segment in annotations['speaker']['segments']:
+                speaker_start = speaker_segment['start']
+                speaker_end = speaker_segment['end']
+                speaker_groundtruth = speaker_segment['label']
+                #speaker_groundtruth = get_speaker_annotation(speaker_start, annotations)
+
+                # skip annotations that are not in our defined speaker label vocabulary
+                if speaker_groundtruth not in speaker_hierarchy.keys():
+                    total_annotations_not_in_vocabulary += 1
+                    source_annotations_not_in_vocabulary += 1
+                    continue
+
+                # map the speaker ground truth label to our speaker hierarchy (e.g. only "anchor", "reporter" and "other")
+                hierarchical_groundtruth = speaker_hierarchy[speaker_groundtruth]
+                # encode ground truth as a number
+                groundtruth_numerical = config['groundtruth_numerical'][hierarchical_groundtruth]
 
 
-            """ START FEATURES """
-            # feature vector (sample) generation by processing all pkl outputs and aggregating features
-            vector = []
+                """ START FEATURES """
+                # feature vector (sample) generation by processing all pkl outputs and aggregating features
+                vector = []
 
-            # CLIP
-            clip_features = process_clip_data(clip_data, onehotencoders_clip, speaker_start, speaker_end)
-            for onehotvector in clip_features:
-                # add every element of the onehotvector to our feature vector (including the 0's)
-                vector = vector + onehotvector[0].tolist()
-            
-            # Shot Density
-            avg_shotdensity = process_density_data(sd_data, speaker_start, speaker_end)
-            vector.append(avg_shotdensity)
-                    
-            # Length of speech
-            los = speaker_end - speaker_start
-            vector.append(los)
-            """ END FEATURES """
+                # CLIP
+                clip_features = process_clip_data(clip_data, speaker_start, speaker_end)
+                # concat feature vector of every domain
+                for clip_feature_vec in clip_features:
+                    vector = vector + clip_feature_vec
+
+                # Shot Density
+                avg_shotdensity = process_density_data(sd_data, speaker_start, speaker_end)
+                vector.append(avg_shotdensity)
+                        
+                # Length of speech
+                los = speaker_end - speaker_start
+                vector.append(los)
+
+                # Sentiment
+                avg_sentiments = process_sentiment_data(sentiment_data, speaker_start, speaker_end)
+                vector = vector + avg_sentiments
+                """ END FEATURES """
 
 
-            # add numerical ground truth label at the end of the feature vector
-            vector.append(groundtruth_numerical)
+                # add numerical ground truth label at the end of the feature vector
+                vector.append(groundtruth_numerical)
 
-            # add sample
-            feature_vectors.append(vector)
+                # add sample
+                feature_vectors.append(vector)
 
-            # annotation statistics
-            total_annotated_duration += speaker_end - speaker_start
-            total_annotated_speaker_turns +=1
-            annotation_count_for_speaker[speaker_groundtruth] += 1
+                # annotation statistics
+                total_annotated_duration += speaker_end - speaker_start
+                source_annotated_duration += speaker_end - speaker_start
+                total_annotated_speaker_turns +=1
+                source_annotated_speaker_turns += 1
+                annotation_count_for_speaker[speaker_groundtruth] += 1
+                source_annotation_count_for_speaker[speaker_groundtruth] += 1
 
-    # convert feature vectors list to a 2-dim numpy array with the shape (samples, feature_amount)
-    feature_vectors = np.vstack(feature_vectors)
+        # convert feature vectors list to a 2-dim numpy array with the shape (samples, feature_amount)
+        feature_vectors = np.vstack(feature_vectors)
 
-    # store feature samples as pkl
-    with open(os.path.join(config['trainingdata_dir'], str(total_annotated_speaker_turns) + 'samples_trainingdata.pkl'), 'wb') as pkl:
-        pickle.dump(feature_vectors, pkl, protocol=pickle.HIGHEST_PROTOCOL)
-        print(f"Successfully converted collected data to trainable feature vectors! Result: {pkl.name}")
+        out_dir = f'{config["trainingdata_dir"]}/speaker/segment_based/hierarchy_{hierarchy_level}'
+        os.makedirs(out_dir, exist_ok=True)
+
+        # store feature samples as pkl
+        with open(f'{out_dir}/{abbrev}_{str(source_annotated_speaker_turns)}_samples_trainingdata.pkl', 'wb') as pkl:
+            pickle.dump(feature_vectors, pkl, protocol=pickle.HIGHEST_PROTOCOL)
+
+        # store annotation statistics about the news source dataset
+        annotated_duration_formatted = time.strftime('%H:%M:%S', time.gmtime(source_annotated_duration))
+        with open(f'{out_dir}/{abbrev}_{str(source_annotated_speaker_turns)}_samples_statistics.txt', 'w') as txt:
+                txt.write(f'{source_annotated_speaker_turns} annotated speaker turns with a total duration of {annotated_duration_formatted}\n')
+                txt.write(f'{source_annotations_not_in_vocabulary} speaker turns were dismissed because their label is not our defined vocabulary (e.g. "", "expert, medicine")\n\n')
+                txt.write(f'Annotation counts for each speaker role:\n')
+                for speaker in source_annotation_count_for_speaker.keys():
+                    txt.write(f'\t{speaker}: {source_annotation_count_for_speaker[speaker]}\n')
         
-    # store annotation statistics as txt along the trainigndata
+    # store annotation statistics about the whole dataset as txt along the trainingdata
     total_annotated_duration_formatted = time.strftime('%H:%M:%S', time.gmtime(total_annotated_duration))
-    with open(os.path.join(config['trainingdata_dir'], str(total_annotated_speaker_turns) + 'samples_statistics.txt'), 'w') as txt:
+    with open(f'{out_dir}/all_{str(total_annotated_speaker_turns)}_samples_statistics.txt', 'w') as txt:
             txt.write(f'{total_annotated_speaker_turns} annotated speaker turns with a total duration of {total_annotated_duration_formatted}\n')
             txt.write(f'{total_annotations_not_in_vocabulary} speaker turns were dismissed because their label is not our defined vocabulary (e.g. "", "expert, medicine")\n\n')
             txt.write(f'Annotation counts for each speaker role:\n')
@@ -322,5 +368,251 @@ def create_train_data():
     print(f'{total_annotations_not_in_vocabulary} speaker turns were dismissed because their label is not our defined vocabulary (e.g. "", "expert, medicine")')
 
 
+def data_speaker_windows():
+    """
+    Creates training data for news situations based on sliding windows.
+
+    Sliding windows in different lengths (e.g. 5s, 10s, 20s, 40s) are placed over the video from start to 
+    end every 2.5s. Features are aggregated window-wise and concatenated afterwards. A prediction is made
+    every 2.5s based on all sliding windows.
+    """
+    # the following initializations are made to collect data about the whole dataset
+    total_annotated_duration = 0
+    total_annotated_speaker_turns = 0
+    total_annotations_not_in_vocabulary = 0
+    annotation_count_for_speaker = {}
+    for speaker_label in speaker_hierarchy.keys():
+        annotation_count_for_speaker[speaker_label] = 0
+
+    # split the annotations according to news sources
+    dirlist = os.listdir(config['annotations'])
+    for abbrev in config['source_abbreviations']:
+        news_source_annotations = [annotation_fn for annotation_fn in dirlist if abbrev in annotation_fn]
+
+        # annotation statistics on news source level
+        source_annotated_duration = 0
+        source_annotated_speaker_turns = 0
+        source_annotations_not_in_vocabulary = 0
+        source_annotation_count_for_speaker = {}
+        for speaker_label in speaker_hierarchy.keys():
+            source_annotation_count_for_speaker[speaker_label] = 0
+
+        feature_vectors = []
+        # iterate over all annotations for the current news source
+        for annotation_fn in news_source_annotations:
+            if not annotation_fn.endswith('.json'):
+                continue
+
+            annotation_path = os.path.join(config['annotations'], annotation_fn)
+            # load annotation json
+            with open(annotation_path) as f:
+                annotations = json.load(f)
+
+            # get video file name and full path to the 
+            video_fn = annotations['video_fn']
+            output_path = os.path.join(config['output_dir'], video_fn.replace('.mp4', ''))
+
+            # this is only relevant if the sbatch process is still running and the features have not yet been fully extracted yet
+            if not os.path.exists(output_path):
+                print(f'{output_path} not yet processed')
+                continue
+
+            # load feature data from .pkls for the current video
+            clip_data, places365_data, sbd_data, sd_data, diarization_data, sentiment_data = None, None, None, None, None, None
+            for pkl_fn in os.listdir(output_path):
+                pkl_path = os.path.join(output_path, pkl_fn)
+
+                if 'clip.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        clip_data = pickle.load(pkl)
+                elif 'places365.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        places365_data = pickle.load(pkl)
+                elif 'shot_boundary_detection.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        sbd_data = pickle.load(pkl)
+                elif 'shot_density.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        sd_data = pickle.load(pkl)
+                elif 'speaker_diarization_large-v2.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        diarization_data = pickle.load(pkl)
+                elif 'sentiment_large-v2.pkl' == pkl_fn:
+                    with open(pkl_path, 'rb') as pkl:
+                        sentiment_data = pickle.load(pkl)
+
+            # iterate over every speaker segment in the annotations
+            for speaker_segment in annotations['speaker']['segments']:
+                speaker_start = speaker_segment['start']
+                speaker_end = speaker_segment['end']
+                speaker_groundtruth = speaker_segment['label']
+
+                # skip annotations that are not in our defined speaker label vocabulary
+                if speaker_groundtruth not in speaker_hierarchy.keys():
+                    total_annotations_not_in_vocabulary += 1
+                    source_annotations_not_in_vocabulary += 1
+                    continue
+
+                # map the speaker ground truth label to our speaker hierarchy (e.g. only "anchor", "reporter" and "other")
+                hierarchical_groundtruth = speaker_hierarchy[speaker_groundtruth]
+                # encode ground truth as a number
+                groundtruth_numerical = config['groundtruth_numerical'][hierarchical_groundtruth]
+
+                # feature representation for speaker containing one feature vector for each window size
+                segment_features = []
+
+                # create one feature representation for each window length
+                for window_length in config['window_lengths']:
+                    window_features = []
+
+                    # round to the nearest extracted frame
+                    speaker_start_fps = round(speaker_start * config['fps']) / config['fps']
+                    speaker_end_fps = round(speaker_end * config['fps']) / config['fps']
+
+                    # store all possible windows within the speaker segment for the given window_length
+                    windows = []
+                    window_start = speaker_start_fps
+                    while window_start <= speaker_end_fps:
+                        window_end = window_start + window_length
+                        # if window overshoots speaker segment, cut the window short
+                        if window_end > speaker_end_fps:
+                            window_end = speaker_end_fps
+                        windows.append((window_start, window_end))
+                        # shift by window size
+                        window_start += window_length 
+
+
+                    window_features = []
+                    # aggregate features within a single window
+                    for window in windows:
+                        window_start = window[0]
+                        window_end = window[1]
+
+                        """ START FEATURES """
+                        feature_dict = {}
+
+                        # CLIP
+                        clip_features = process_clip_data(clip_data, window_start, window_end)
+                        feature_dict['clip'] = clip_features
+
+                        # Shot Density
+                        avg_shotdensity = process_density_data(sd_data, window_start, window_end)
+                        feature_dict['shot_density'] = avg_shotdensity
+                                
+                        # Length of speech
+                        los = speaker_end - speaker_start
+                        feature_dict['los'] = los
+
+                        # Sentiment
+                        avg_sentiments = process_sentiment_data(sentiment_data, window_start, window_end)
+                        feature_dict['sentiments'] = avg_sentiments
+                        """ END FEATURES """
+
+                        window_features.append(feature_dict)
+
+
+                    clip_features = []
+                    shotdensities = []
+                    sentiments = []
+                    # collect same features across all windows of the same size to process (aggregate) them afterwards
+                    for vector in window_features:
+                        clip_features.append(vector['clip'])
+                        shotdensities.append(vector['shot_density'])
+                        sentiments.append(vector['sentiments'])
+                    
+                    # CLIP: avg clip probabilities across all windows of the same size
+                    num_clip_domains = len(clip_features[0])
+                    num_windows = len(windows)
+                    for i in range(num_clip_domains):
+                        domain_vectors = []
+                        for j in range(num_windows):
+                            domain_vectors.append(clip_features[j][i])
+                        domain_vectors = np.array(domain_vectors)
+                        # element wise avg of clip vectors across all windows of the same size
+                        avgs = np.mean(domain_vectors, axis=0)
+                        segment_features.extend(avgs.tolist())
+                    
+                    # SHOT_DENSITY: avg shot density across all windows of the same size
+                    avg_shotdensity = sum(shotdensities) / len(shotdensities)
+                    segment_features.append(avg_shotdensity)
+                    
+                    # LOS: length of speech stays the same independently of window size
+                    los = window_features[0]['los']
+                    segment_features.append(los)
+
+                    # SENTIMENTS: take 80% quantile across all collected sentiment probabilities of the same window size
+                    probs_pos, probs_neg, probs_neu = zip(*sentiments)
+                    quantile_pos = np.quantile(probs_pos, 0.8)
+                    quantile_neg = np.quantile(probs_neg, 0.8)
+                    quantile_neu = np.quantile(probs_neu, 0.8)
+                    segment_features.extend([quantile_pos, quantile_neg, quantile_neu])
+
+                # add numerical ground truth label at the end of the feature vector
+                segment_features.append(groundtruth_numerical)
+
+                # add sample
+                feature_vectors.append(segment_features)
+
+                # annotation statistics
+                total_annotated_duration += speaker_end - speaker_start
+                source_annotated_duration += speaker_end - speaker_start
+                total_annotated_speaker_turns +=1
+                source_annotated_speaker_turns += 1
+                annotation_count_for_speaker[speaker_groundtruth] += 1
+                source_annotation_count_for_speaker[speaker_groundtruth] += 1
+
+        # convert feature vectors list to a 2-dim numpy array with the shape (samples, feature_amount)
+        feature_vectors = np.vstack(feature_vectors)
+
+
+        out_dir = f'{config["trainingdata_dir"]}/speaker/window_based/hierarchy_{hierarchy_level}'
+        os.makedirs(out_dir, exist_ok=True)
+        
+        # store feature samples as pkl
+        with open(f'{out_dir}/{abbrev}_{str(source_annotated_speaker_turns)}_samples_trainingdata.pkl', 'wb') as pkl:
+            pickle.dump(feature_vectors, pkl, protocol=pickle.HIGHEST_PROTOCOL)
+
+        # store annotation statistics about the news source dataset
+        annotated_duration_formatted = time.strftime('%H:%M:%S', time.gmtime(source_annotated_duration))
+        with open(f'{out_dir}/{abbrev}_{str(source_annotated_speaker_turns)}_samples_statistics.txt', 'w') as txt:
+                txt.write(f'{source_annotated_speaker_turns} annotated speaker turns with a total duration of {annotated_duration_formatted}\n')
+                txt.write(f'{source_annotations_not_in_vocabulary} speaker turns were dismissed because their label is not our defined vocabulary (e.g. "", "expert, medicine")\n\n')
+                txt.write(f'Annotation counts for each speaker role:\n')
+                for speaker in source_annotation_count_for_speaker.keys():
+                    txt.write(f'\t{speaker}: {source_annotation_count_for_speaker[speaker]}\n')
+        
+    # store annotation statistics about the whole dataset as txt along the trainingdata
+    total_annotated_duration_formatted = time.strftime('%H:%M:%S', time.gmtime(total_annotated_duration))
+    with open(f'{out_dir}/all_{str(total_annotated_speaker_turns)}_samples_statistics.txt', 'w') as txt:
+            txt.write(f'{total_annotated_speaker_turns} annotated speaker turns with a total duration of {total_annotated_duration_formatted}\n')
+            txt.write(f'{total_annotations_not_in_vocabulary} speaker turns were dismissed because their label is not our defined vocabulary (e.g. "", "expert, medicine")\n\n')
+            txt.write(f'Annotation counts for each speaker role:\n')
+            for speaker in annotation_count_for_speaker.keys():
+                txt.write(f'\t{speaker}: {annotation_count_for_speaker[speaker]}\n')
+            print(f"Statistics about the annotations can be found in {txt.name}")
+              
+
+    # annotation files statistics stdout
+    print()
+    print(f'{total_annotated_speaker_turns} annotated speaker turns with a total duration of {total_annotated_duration_formatted}')
+    print(f'{total_annotations_not_in_vocabulary} speaker turns were dismissed because their label is not our defined vocabulary (e.g. "", "expert, medicine")')
+                    
+
+
+
 if __name__ == '__main__':
-    create_train_data()
+    parser = argparse.ArgumentParser(description='Utility methods')
+    parser.add_argument('--seg', action='store_true', help="Create training data based on speaker segments")
+    parser.add_argument('--sw', action='store_true', help="Create training data based on sliding windows")
+    parser.add_argument('--hierarchy', action='store', type=int, choices=[0, 1], default=0, help="Speaker mapping hierarchy level")
+
+    args = parser.parse_args()
+
+    hierarchy_level = args.hierarchy
+    speaker_hierarchy = config[f'speaker_hierarchy_mapping_{hierarchy_level}']
+
+    if args.seg:
+        data_speaker_segments()
+    
+    if args.sw:
+        data_speaker_windows()

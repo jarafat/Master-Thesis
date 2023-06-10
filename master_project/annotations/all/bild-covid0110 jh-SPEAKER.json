@@ -51,16 +51,6 @@
                 "start": 88.19,
                 "end": 136.337,
                 "label": "celeb"
-            },
-            {
-                "start": 136.393,
-                "end": 145.06,
-                "label": "anchor"
-            },
-            {
-                "start": 145.06,
-                "end": 214.43,
-                "label": "anchor"
             }
         ]
     },
@@ -765,16 +755,6 @@
                 "start": 88.19,
                 "end": 136.337,
                 "label": "M2"
-            },
-            {
-                "start": 136.393,
-                "end": 145.06,
-                "label": null
-            },
-            {
-                "start": 145.06,
-                "end": 214.43,
-                "label": null
             }
         ]
     }

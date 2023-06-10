@@ -1,1 +1,514 @@
-{"video_fn": "20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU.mp4", "default": {"name": "default", "segments": []}, "speaker": {"name": "speaker", "segments": [{"start": 0.0, "end": 20.0, "label": "anchor"}, {"start": 20.0, "end": 21.24, "label": "politician-other"}, {"start": 21.24, "end": 38.55, "label": "anchor"}, {"start": 38.55, "end": 85.39, "label": "politician-other"}, {"start": 85.4, "end": 90.39, "label": "LOW_CONFIDENCE"}, {"start": 204.47, "end": 211.03, "label": "anchor"}, {"start": 211.03, "end": 232.84, "label": "politician-other"}, {"start": 232.84, "end": 242.47, "label": "anchor"}, {"start": 242.47, "end": 290.73, "label": "politician-other"}, {"start": 290.73, "end": 299.713, "label": "anchor"}, {"start": 299.713, "end": 302.15, "label": "anchor"}, {"start": 302.198, "end": 309.377, "label": "politician-other"}, {"start": 309.547, "end": 317.765, "label": "anchor"}, {"start": 317.856, "end": 331.15, "label": "politician-other"}, {"start": 331.15, "end": 337.09, "label": "anchor"}, {"start": 337.09, "end": 338.666, "label": "anchor"}]}, "faces": {"name": "faces", "segments": [{"start": 0.0, "end": 20.0, "label": "anchor"}, {"start": 20.0, "end": 21.24, "label": "politician-other"}, {"start": 21.24, "end": 38.55, "label": "anchor"}, {"start": 38.55, "end": 87.91, "label": "politician-other"}, {"start": 87.91, "end": 91.529, "label": "anchor"}, {"start": 91.529, "end": 149.67, "label": "politician-other"}, {"start": 149.67, "end": 167.12, "label": "anchor"}, {"start": 167.12, "end": 204.47, "label": "politician-other"}, {"start": 204.47, "end": 211.03, "label": "anchor"}, {"start": 211.03, "end": 232.84, "label": "politician-other"}, {"start": 232.84, "end": 242.47, "label": "anchor"}, {"start": 242.47, "end": 290.73, "label": "politician-other"}, {"start": 290.73, "end": 299.713, "label": "anchor"}, {"start": 299.713, "end": 302.15, "label": "anchor"}, {"start": 302.198, "end": 309.377, "label": "politician-other"}, {"start": 309.547, "end": 317.765, "label": "anchor"}, {"start": 317.856, "end": 331.15, "label": "politician-other"}, {"start": 331.15, "end": 337.09, "label": "anchor"}, {"start": 337.09, "end": 338.666, "label": "politician-other"}]}, "asr-de: korona": {"name": "asr-de: korona", "segments": [{"start": 0.01, "end": 87.91, "label": "corona-news "}]}, "captions: talking": {"name": "captions: talking", "segments": [{"start": 0.0, "end": 18.266, "label": "talking-head"}, {"start": 20.0, "end": 338.666, "label": "interview"}]}, "captions: walking": {"name": "captions: walking", "segments": []}, "captions: holding": {"name": "captions: holding", "segments": []}, "Freiheit": {"name": "Freiheit", "segments": []}, "uncertainty/blaming": {"name": "uncertainty/blaming", "segments": []}, "fight/conflict": {"name": "fight/conflict", "segments": []}, "shots": {"name": "shots", "segments": [{"start": 0.0, "end": 18.53, "label": "0"}, {"start": 18.53, "end": 77.89, "label": "1"}, {"start": 77.89, "end": 87.91, "label": "2"}, {"start": 87.91, "end": 182.266, "label": "3"}, {"start": 182.3, "end": 187.066, "label": "4"}, {"start": 187.1, "end": 190.666, "label": "5"}, {"start": 190.7, "end": 193.1, "label": "6"}, {"start": 193.133, "end": 198.466, "label": "7"}, {"start": 198.5, "end": 200.9, "label": "8"}, {"start": 200.933, "end": 338.633, "label": "9"}]}, "places 365": {"name": "places 365", "segments": [{"start": 0.0, "end": 18.51, "label": "studio"}, {"start": 18.51, "end": 77.9, "label": "/t/television_studio"}, {"start": 77.9, "end": 87.9, "label": "lab"}, {"start": 87.9, "end": 182.266, "label": "/t/television_studio"}, {"start": 182.3, "end": 187.066, "label": "/f/fastfood_restaurant"}, {"start": 187.1, "end": 190.666, "label": "/t/television_studio"}, {"start": 190.7, "end": 193.1, "label": "/t/television_studio"}, {"start": 193.133, "end": 198.466, "label": "/t/television_studio"}, {"start": 198.5, "end": 200.9, "label": "/t/television_studio"}, {"start": 200.933, "end": 338.633, "label": "/t/television_studio"}]}, "shot size": {"name": "shot size", "segments": [{"start": 0.0, "end": 18.5, "label": "Full Shot"}, {"start": 18.5, "end": 77.9, "label": "Close-Up"}, {"start": 77.9, "end": 87.91, "label": "Close-Up"}, {"start": 87.91, "end": 182.266, "label": "Close-Up"}, {"start": 182.3, "end": 187.066, "label": "Medium Shot"}, {"start": 187.1, "end": 190.666, "label": "Medium Shot"}, {"start": 190.7, "end": 193.1, "label": "Medium Shot"}, {"start": 193.133, "end": 198.466, "label": "Medium Shot"}, {"start": 198.5, "end": 200.9, "label": "Medium Shot"}, {"start": 200.933, "end": 338.633, "label": "Close-Up"}]}, "analytical": {"name": "analytical", "segments": []}, "trust": {"name": "trust", "segments": []}, "emotion": {"name": "emotion", "segments": [{"start": 5.53, "end": 5.9, "label": "sorge-befuerchten-panik-angst"}]}, "music-noise": {"name": "music-noise", "segments": []}, "speaker-gender": {"name": "speaker-gender", "segments": [{"start": 0.0, "end": 20.0, "label": "M1"}, {"start": 20.0, "end": 21.24, "label": "M2"}, {"start": 21.24, "end": 38.55, "label": "M1"}, {"start": 38.55, "end": 85.39, "label": "M2"}, {"start": 85.4, "end": 90.39, "label": "W1"}, {"start": 204.47, "end": 211.03, "label": "M1"}, {"start": 211.03, "end": 232.84, "label": "M2"}, {"start": 232.84, "end": 242.47, "label": "W1"}, {"start": 242.47, "end": 290.73, "label": "M2"}, {"start": 290.73, "end": 299.713, "label": "M1"}, {"start": 299.713, "end": 302.15, "label": "W1"}, {"start": 302.198, "end": 309.377, "label": "M2"}, {"start": 309.547, "end": 317.765, "label": "M1"}, {"start": 317.856, "end": 331.15, "label": "M2"}, {"start": 331.15, "end": 337.09, "label": "M1"}, {"start": 337.09, "end": 338.666, "label": "M1"}]}}
+{
+    "video_fn": "20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU.mp4",
+    "default": {
+        "name": "default",
+        "segments": []
+    },
+    "speaker": {
+        "name": "speaker",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 20.0,
+                "label": "anchor"
+            },
+            {
+                "start": 20.0,
+                "end": 21.24,
+                "label": "politician-other"
+            },
+            {
+                "start": 21.24,
+                "end": 38.55,
+                "label": "anchor"
+            },
+            {
+                "start": 38.55,
+                "end": 85.39,
+                "label": "politician-other"
+            },
+            {
+                "start": 85.4,
+                "end": 90.39,
+                "label": "LOW_CONFIDENCE"
+            },
+            {
+                "start": 204.47,
+                "end": 211.03,
+                "label": "anchor"
+            },
+            {
+                "start": 211.03,
+                "end": 232.84,
+                "label": "politician-other"
+            },
+            {
+                "start": 232.84,
+                "end": 242.47,
+                "label": "anchor"
+            },
+            {
+                "start": 242.47,
+                "end": 290.73,
+                "label": "politician-other"
+            },
+            {
+                "start": 290.73,
+                "end": 299.713,
+                "label": "anchor"
+            },
+            {
+                "start": 299.713,
+                "end": 302.15,
+                "label": "anchor"
+            },
+            {
+                "start": 302.198,
+                "end": 309.377,
+                "label": "politician-other"
+            },
+            {
+                "start": 309.547,
+                "end": 317.765,
+                "label": "anchor"
+            },
+            {
+                "start": 317.856,
+                "end": 331.15,
+                "label": "politician-other"
+            },
+            {
+                "start": 331.15,
+                "end": 337.09,
+                "label": "anchor"
+            },
+            {
+                "start": 337.09,
+                "end": 338.666,
+                "label": "anchor"
+            }
+        ]
+    },
+    "faces": {
+        "name": "faces",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 20.0,
+                "label": "anchor"
+            },
+            {
+                "start": 20.0,
+                "end": 21.24,
+                "label": "politician-other"
+            },
+            {
+                "start": 21.24,
+                "end": 38.55,
+                "label": "anchor"
+            },
+            {
+                "start": 38.55,
+                "end": 87.91,
+                "label": "politician-other"
+            },
+            {
+                "start": 87.91,
+                "end": 91.529,
+                "label": "anchor"
+            },
+            {
+                "start": 91.529,
+                "end": 149.67,
+                "label": "politician-other"
+            },
+            {
+                "start": 149.67,
+                "end": 167.12,
+                "label": "anchor"
+            },
+            {
+                "start": 167.12,
+                "end": 204.47,
+                "label": "politician-other"
+            },
+            {
+                "start": 204.47,
+                "end": 211.03,
+                "label": "anchor"
+            },
+            {
+                "start": 211.03,
+                "end": 232.84,
+                "label": "politician-other"
+            },
+            {
+                "start": 232.84,
+                "end": 242.47,
+                "label": "anchor"
+            },
+            {
+                "start": 242.47,
+                "end": 290.73,
+                "label": "politician-other"
+            },
+            {
+                "start": 290.73,
+                "end": 299.713,
+                "label": "anchor"
+            },
+            {
+                "start": 299.713,
+                "end": 302.15,
+                "label": "anchor"
+            },
+            {
+                "start": 302.198,
+                "end": 309.377,
+                "label": "politician-other"
+            },
+            {
+                "start": 309.547,
+                "end": 317.765,
+                "label": "anchor"
+            },
+            {
+                "start": 317.856,
+                "end": 331.15,
+                "label": "politician-other"
+            },
+            {
+                "start": 331.15,
+                "end": 337.09,
+                "label": "anchor"
+            },
+            {
+                "start": 337.09,
+                "end": 338.666,
+                "label": "politician-other"
+            }
+        ]
+    },
+    "asr-de: korona": {
+        "name": "asr-de: korona",
+        "segments": [
+            {
+                "start": 0.01,
+                "end": 87.91,
+                "label": "corona-news "
+            },
+            {
+                "start": 204.47,
+                "end": 338.666,
+                "label": "corona-news"
+            }
+        ]
+    },
+    "captions: talking": {
+        "name": "captions: talking",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 18.266,
+                "label": "talking-head"
+            },
+            {
+                "start": 20.0,
+                "end": 338.666,
+                "label": "interview"
+            }
+        ]
+    },
+    "captions: walking": {
+        "name": "captions: walking",
+        "segments": []
+    },
+    "captions: holding": {
+        "name": "captions: holding",
+        "segments": []
+    },
+    "Freiheit": {
+        "name": "Freiheit",
+        "segments": []
+    },
+    "uncertainty/blaming": {
+        "name": "uncertainty/blaming",
+        "segments": []
+    },
+    "fight/conflict": {
+        "name": "fight/conflict",
+        "segments": []
+    },
+    "shots": {
+        "name": "shots",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 18.53,
+                "label": "0"
+            },
+            {
+                "start": 18.53,
+                "end": 77.89,
+                "label": "1"
+            },
+            {
+                "start": 77.89,
+                "end": 87.91,
+                "label": "2"
+            },
+            {
+                "start": 87.91,
+                "end": 182.266,
+                "label": "3"
+            },
+            {
+                "start": 182.3,
+                "end": 187.066,
+                "label": "4"
+            },
+            {
+                "start": 187.1,
+                "end": 190.666,
+                "label": "5"
+            },
+            {
+                "start": 190.7,
+                "end": 193.1,
+                "label": "6"
+            },
+            {
+                "start": 193.133,
+                "end": 198.466,
+                "label": "7"
+            },
+            {
+                "start": 198.5,
+                "end": 200.9,
+                "label": "8"
+            },
+            {
+                "start": 200.933,
+                "end": 338.633,
+                "label": "9"
+            }
+        ]
+    },
+    "places 365": {
+        "name": "places 365",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 18.51,
+                "label": "studio"
+            },
+            {
+                "start": 18.51,
+                "end": 77.9,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 77.9,
+                "end": 87.9,
+                "label": "lab"
+            },
+            {
+                "start": 87.9,
+                "end": 182.266,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 182.3,
+                "end": 187.066,
+                "label": "/f/fastfood_restaurant"
+            },
+            {
+                "start": 187.1,
+                "end": 190.666,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 190.7,
+                "end": 193.1,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 193.133,
+                "end": 198.466,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 198.5,
+                "end": 200.9,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 200.933,
+                "end": 338.633,
+                "label": "/t/television_studio"
+            }
+        ]
+    },
+    "shot size": {
+        "name": "shot size",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 18.5,
+                "label": "Full Shot"
+            },
+            {
+                "start": 18.5,
+                "end": 77.9,
+                "label": "Close-Up"
+            },
+            {
+                "start": 77.9,
+                "end": 87.91,
+                "label": "Close-Up"
+            },
+            {
+                "start": 87.91,
+                "end": 182.266,
+                "label": "Close-Up"
+            },
+            {
+                "start": 182.3,
+                "end": 187.066,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 187.1,
+                "end": 190.666,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 190.7,
+                "end": 193.1,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 193.133,
+                "end": 198.466,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 198.5,
+                "end": 200.9,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 200.933,
+                "end": 338.633,
+                "label": "Close-Up"
+            }
+        ]
+    },
+    "analytical": {
+        "name": "analytical",
+        "segments": []
+    },
+    "trust": {
+        "name": "trust",
+        "segments": []
+    },
+    "emotion": {
+        "name": "emotion",
+        "segments": [
+            {
+                "start": 5.53,
+                "end": 5.9,
+                "label": "sorge-befuerchten-panik-angst"
+            }
+        ]
+    },
+    "music-noise": {
+        "name": "music-noise",
+        "segments": []
+    },
+    "speaker-gender": {
+        "name": "speaker-gender",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 20.0,
+                "label": "M1"
+            },
+            {
+                "start": 20.0,
+                "end": 21.24,
+                "label": "M2"
+            },
+            {
+                "start": 21.24,
+                "end": 38.55,
+                "label": "M1"
+            },
+            {
+                "start": 38.55,
+                "end": 85.39,
+                "label": "M2"
+            },
+            {
+                "start": 85.4,
+                "end": 90.39,
+                "label": "W1"
+            },
+            {
+                "start": 204.47,
+                "end": 211.03,
+                "label": "M1"
+            },
+            {
+                "start": 211.03,
+                "end": 232.84,
+                "label": "M2"
+            },
+            {
+                "start": 232.84,
+                "end": 242.47,
+                "label": "W1"
+            },
+            {
+                "start": 242.47,
+                "end": 290.73,
+                "label": "M2"
+            },
+            {
+                "start": 290.73,
+                "end": 299.713,
+                "label": "M1"
+            },
+            {
+                "start": 299.713,
+                "end": 302.15,
+                "label": "W1"
+            },
+            {
+                "start": 302.198,
+                "end": 309.377,
+                "label": "M2"
+            },
+            {
+                "start": 309.547,
+                "end": 317.765,
+                "label": "M1"
+            },
+            {
+                "start": 317.856,
+                "end": 331.15,
+                "label": "M2"
+            },
+            {
+                "start": 331.15,
+                "end": 337.09,
+                "label": "M1"
+            },
+            {
+                "start": 337.09,
+                "end": 338.666,
+                "label": "M1"
+            }
+        ]
+    }
+}

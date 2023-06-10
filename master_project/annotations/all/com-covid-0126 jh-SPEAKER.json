@@ -1,1 +1,2640 @@
-{"video_fn": "compacttv_2022_01_26_wzQkoDUGMSA.mp4", "default": {"name": "default", "segments": []}, "speaker": {"name": "speaker", "segments": [{"start": 94.033, "end": 120.44, "label": "anchor"}, {"start": 120.44, "end": 126.25, "label": "reporter"}, {"start": 126.25, "end": 145.39, "label": "LOW_CONFIDENCE"}, {"start": 145.39, "end": 156.55, "label": "reporter"}, {"start": 156.55, "end": 195.86, "label": "reporter"}, {"start": 195.86, "end": 240.266, "label": "anchor"}, {"start": 659.72, "end": 695.04, "label": "anchor"}, {"start": 695.04, "end": 705.058, "label": "reporter"}, {"start": 705.092, "end": 720.857, "label": "expert-other"}, {"start": 720.886, "end": 748.44, "label": "reporter"}, {"start": 748.45, "end": 765.17, "label": "expert-other"}, {"start": 765.18, "end": 768.8, "label": "reporter"}]}, "asr-de: korona": {"name": "asr-de: korona", "segments": [{"start": 94.06, "end": 240.17, "label": "corona-news "}, {"start": 617.133, "end": 617.533, "label": "\"korona\""}, {"start": 659.56, "end": 768.76, "label": "corona-news"}]}, "captions: holding": {"name": "captions: holding", "segments": [{"start": 85.866, "end": 86.566, "label": "\"people holding umbrellas and flags\""}, {"start": 90.2, "end": 90.566, "label": "\"a person holding an umbrella with the words do it????????\""}, {"start": 120.44, "end": 139.49, "label": "holding-signs"}, {"start": 175.22, "end": 183.17, "label": "holding-signs"}, {"start": 207.17, "end": 211.533, "label": "holding-signs"}, {"start": 572.566, "end": 572.766, "label": "\"a person wearing a helmet and holding a tablet\""}, {"start": 599.9, "end": 600.233, "label": "\"a person holding a piece of paper\""}, {"start": 853.033, "end": 853.3, "label": "\"a man in a suit and tie holding a piece of paper\""}, {"start": 937.633, "end": 939.433, "label": "\"a person in white gloves holding a sy\""}, {"start": 948.766, "end": 949.566, "label": "\"a woman in a lab coat holding a sy\""}, {"start": 949.566, "end": 950.666, "label": "\"a woman in a lab coat and gloves holding a sy, a woman in a lab coat holding a sy\""}, {"start": 989.2, "end": 991.566, "label": "\"a crowd of people holding a flag\""}, {"start": 1088.4, "end": 1088.8, "label": "\"a man in a suit and tie holding an object in front of a tv screen\""}, {"start": 1091.466, "end": 1092.166, "label": "\"a man in a suit holding a toy\""}, {"start": 1092.166, "end": 1093.633, "label": "\"a man in a suit and tie holding an object in front of a tv screen\""}, {"start": 1093.633, "end": 1094.866, "label": "\"a man in a suit and tie holding a camera\""}]}, "captions: walking": {"name": "captions: walking", "segments": [{"start": 74.1, "end": 74.366, "label": "\"a person walking down a hallway\""}, {"start": 120.46, "end": 195.86, "label": "demo    "}, {"start": 207.16, "end": 222.53, "label": "demo "}, {"start": 595.333, "end": 595.433, "label": "\"police officers walking down a street\""}, {"start": 595.433, "end": 596.033, "label": "\"police officers walking down a street, police officers walking through a crowd\""}, {"start": 596.033, "end": 596.1, "label": "\"police officers walking through a crowd\""}, {"start": 651.5, "end": 652.8, "label": "\"a man walking down the street\""}, {"start": 735.31, "end": 738.066, "label": "walking"}, {"start": 740.066, "end": 748.46, "label": "walking "}, {"start": 986.033, "end": 989.166, "label": "\"a group of people walking through a building\""}]}, "captions: talking": {"name": "captions: talking", "segments": [{"start": 94.033, "end": 120.45, "label": "talking-head"}, {"start": 120.45, "end": 195.85, "label": "interview"}, {"start": 195.85, "end": 207.16, "label": "talking-head"}, {"start": 207.16, "end": 222.53, "label": "voiceover"}, {"start": 222.566, "end": 240.266, "label": "talking-head"}, {"start": 480.2, "end": 481.5, "label": "\"a man in a suit talking\""}, {"start": 659.72, "end": 695.04, "label": "talking-head"}, {"start": 695.04, "end": 705.058, "label": "voiceover"}, {"start": 705.092, "end": 720.857, "label": "speech"}, {"start": 720.886, "end": 748.45, "label": "voiceover"}, {"start": 748.45, "end": 765.16, "label": "speech"}, {"start": 765.16, "end": 768.8, "label": "voiceover"}, {"start": 1083.7, "end": 1083.966, "label": "\"a man in a suit talking to a television screen\""}, {"start": 1361.7, "end": 1363.8, "label": "\"a man in a suit and tie talking to another man in a suit\""}, {"start": 1474.2, "end": 1474.5, "label": "\"a man in a suit talking to a television screen\""}]}, "faces": {"name": "faces", "segments": [{"start": 3.1, "end": 4.066, "label": "\"\""}, {"start": 4.066, "end": 4.766, "label": "\"\""}, {"start": 4.766, "end": 5.866, "label": "\"\""}, {"start": 5.866, "end": 6.466, "label": "\"\""}, {"start": 6.466, "end": 6.566, "label": "\"\""}, {"start": 11.233, "end": 11.5, "label": "\"anchor\""}, {"start": 11.5, "end": 14.1, "label": "\"anchor\""}, {"start": 14.1, "end": 14.2, "label": "\"anchor\""}, {"start": 20.5, "end": 58.9, "label": "\"anchor\""}, {"start": 94.033, "end": 120.44, "label": "anchor"}, {"start": 120.44, "end": 126.25, "label": "reporter"}, {"start": 126.25, "end": 136.39, "label": "politician-right"}, {"start": 136.409, "end": 139.5, "label": "layperson-x-covid"}, {"start": 139.5, "end": 143.19, "label": "police-frwr"}, {"start": 143.19, "end": 145.39, "label": "layperson-x-covid"}, {"start": 145.39, "end": 152.51, "label": "reporter"}, {"start": 152.51, "end": 163.33, "label": "police-frwr"}, {"start": 163.33, "end": 171.7, "label": "reporter and polician, AfD"}, {"start": 171.7, "end": 175.22, "label": "protesters"}, {"start": 183.3, "end": 185.36, "label": "protester and policemen"}, {"start": 185.36, "end": 195.85, "label": "reporter and politician, AfD"}, {"start": 195.85, "end": 207.17, "label": "anchor"}, {"start": 207.17, "end": 222.55, "label": "layperson-x-covid"}, {"start": 222.566, "end": 240.266, "label": "anchor"}, {"start": 240.266, "end": 280.033, "label": "\"anchor\""}, {"start": 280.033, "end": 281.633, "label": "\"anchor\""}, {"start": 281.633, "end": 389.4, "label": "\"\""}, {"start": 389.4, "end": 411.033, "label": "\"anchor\""}, {"start": 411.033, "end": 556.433, "label": "\"\""}, {"start": 566.0, "end": 568.8, "label": "\"\""}, {"start": 573.166, "end": 574.3, "label": "\"\""}, {"start": 591.833, "end": 593.8, "label": "\"\""}, {"start": 600.633, "end": 609.566, "label": "\"\""}, {"start": 609.6, "end": 633.1, "label": "\"anchor\""}, {"start": 633.1, "end": 644.433, "label": "\"\""}, {"start": 653.066, "end": 659.72, "label": "\"\""}, {"start": 659.72, "end": 695.04, "label": "anchor"}, {"start": 703.13, "end": 721.8, "label": "expert-other"}, {"start": 721.8, "end": 724.066, "label": "reporter"}, {"start": 735.3, "end": 748.45, "label": "layperson"}, {"start": 748.45, "end": 765.16, "label": "expert-other"}, {"start": 768.833, "end": 797.433, "label": "\"anchor\""}, {"start": 797.433, "end": 797.466, "label": "\"anchor\""}, {"start": 797.466, "end": 800.466, "label": "\"Merten, anchor\""}, {"start": 800.466, "end": 803.433, "label": "\"Merten, anchor\""}, {"start": 803.433, "end": 929.933, "label": "\"Merten\""}, {"start": 929.966, "end": 935.933, "label": "\"anchor\""}, {"start": 940.033, "end": 943.066, "label": "\"\""}, {"start": 951.2, "end": 955.4, "label": "\"\""}, {"start": 971.833, "end": 974.666, "label": "\"\""}, {"start": 974.666, "end": 976.666, "label": "\"\""}, {"start": 976.666, "end": 976.7, "label": "\"\""}, {"start": 976.7, "end": 979.3, "label": "\"\""}, {"start": 979.3, "end": 981.3, "label": "\"\""}, {"start": 981.3, "end": 983.0, "label": "\"\""}, {"start": 983.0, "end": 983.033, "label": "\"\""}, {"start": 983.033, "end": 986.033, "label": "\"\""}, {"start": 986.033, "end": 987.5, "label": "\"\""}, {"start": 987.5, "end": 989.166, "label": "\"\""}, {"start": 989.2, "end": 990.5, "label": "\"\""}, {"start": 990.5, "end": 991.6, "label": "\"\""}, {"start": 993.966, "end": 995.8, "label": "\"\""}, {"start": 1010.8, "end": 1016.933, "label": "\"\""}, {"start": 1027.833, "end": 1040.233, "label": "\"anchor\""}, {"start": 1043.433, "end": 1081.3, "label": "\"Merten\""}, {"start": 1081.3, "end": 1083.966, "label": "\"Merten\""}, {"start": 1083.966, "end": 1141.266, "label": "\"\""}, {"start": 1141.266, "end": 1208.266, "label": "\"Merten\""}, {"start": 1208.266, "end": 1218.7, "label": "\"Merten\""}, {"start": 1218.7, "end": 1263.5, "label": "\"\""}, {"start": 1263.5, "end": 1321.266, "label": "\"Merten\""}, {"start": 1321.266, "end": 1361.7, "label": "\"\""}, {"start": 1361.7, "end": 1373.5, "label": "\"Merten\""}, {"start": 1373.5, "end": 1433.966, "label": "\"\""}, {"start": 1433.966, "end": 1467.2, "label": "\"Merten\""}, {"start": 1467.2, "end": 1474.5, "label": "\"Merten\""}, {"start": 1474.5, "end": 1476.8, "label": "\"Merten\""}, {"start": 1478.9, "end": 1479.866, "label": "\"\""}, {"start": 1479.866, "end": 1480.6, "label": "\"\""}, {"start": 1480.6, "end": 1481.766, "label": "\"\""}, {"start": 1481.766, "end": 1482.3, "label": "\"\""}, {"start": 1482.3, "end": 1482.433, "label": "\"\""}, {"start": 1487.066, "end": 1487.366, "label": "\"anchor\""}, {"start": 1487.366, "end": 1489.966, "label": "\"anchor\""}, {"start": 1489.966, "end": 1490.066, "label": "\"anchor\""}]}, "Freiheit": {"name": "Freiheit", "segments": [{"start": 120.42, "end": 136.39, "label": "frei-frieden-liebe"}]}, "uncertainty/blaming": {"name": "uncertainty/blaming", "segments": [{"start": 188.26, "end": 189.1, "label": "diktatur-zwang"}, {"start": 191.22, "end": 191.87, "label": "diktatur-zwang"}]}, "fight/conflict": {"name": "fight/conflict", "segments": [{"start": 152.51, "end": 163.32, "label": "physical-conflict"}, {"start": 183.19, "end": 185.37, "label": "physical-conflict"}, {"start": 234.14, "end": 234.72, "label": "gewalt-konflikt-auseinanderstz"}]}, "analytical": {"name": "analytical", "segments": [{"start": 724.08, "end": 729.44, "label": "[citation: education as a driver for migration]"}]}, "shots": {"name": "shots", "segments": [{"start": 0.0, "end": 6.566, "label": "0"}, {"start": 6.6, "end": 14.066, "label": "1"}, {"start": 14.1, "end": 20.8, "label": "2"}, {"start": 20.866, "end": 59.333, "label": "3"}, {"start": 59.4, "end": 66.2, "label": "4"}, {"start": 66.266, "end": 72.9, "label": "5"}, {"start": 72.966, "end": 74.933, "label": "6"}, {"start": 74.966, "end": 77.633, "label": "7"}, {"start": 77.666, "end": 78.9, "label": "8"}, {"start": 78.933, "end": 85.766, "label": "9"}, {"start": 85.8, "end": 94.166, "label": "10"}, {"start": 94.2, "end": 120.47, "label": "11"}, {"start": 120.47, "end": 136.4, "label": "12"}, {"start": 136.41, "end": 139.49, "label": "13"}, {"start": 139.49, "end": 143.19, "label": "14"}, {"start": 143.19, "end": 145.38, "label": "15"}, {"start": 145.38, "end": 152.53, "label": "16"}, {"start": 152.53, "end": 163.35, "label": "17"}, {"start": 163.35, "end": 171.71, "label": "18"}, {"start": 171.71, "end": 175.29, "label": "19"}, {"start": 175.29, "end": 178.933, "label": "20"}, {"start": 178.966, "end": 183.21, "label": "21"}, {"start": 183.21, "end": 185.37, "label": "22"}, {"start": 185.37, "end": 187.76, "label": "23"}, {"start": 187.76, "end": 195.85, "label": "24"}, {"start": 195.85, "end": 207.16, "label": "25"}, {"start": 207.16, "end": 211.533, "label": "26"}, {"start": 211.566, "end": 214.966, "label": "27"}, {"start": 215.0, "end": 218.8, "label": "28"}, {"start": 218.833, "end": 222.533, "label": "29"}, {"start": 222.566, "end": 240.433, "label": "30"}, {"start": 240.466, "end": 280.0, "label": "31"}, {"start": 280.033, "end": 281.6, "label": "32"}, {"start": 281.633, "end": 389.366, "label": "33"}, {"start": 389.4, "end": 411.0, "label": "34"}, {"start": 411.033, "end": 556.433, "label": "35"}, {"start": 556.466, "end": 557.7, "label": "36"}, {"start": 557.766, "end": 563.533, "label": "37"}, {"start": 563.566, "end": 566.066, "label": "38"}, {"start": 566.1, "end": 568.966, "label": "39"}, {"start": 569.033, "end": 571.7, "label": "40"}, {"start": 571.766, "end": 574.533, "label": "41"}, {"start": 574.566, "end": 578.433, "label": "42"}, {"start": 578.5, "end": 579.966, "label": "43"}, {"start": 580.0, "end": 585.733, "label": "44"}, {"start": 585.8, "end": 588.466, "label": "45"}, {"start": 588.5, "end": 596.533, "label": "46"}, {"start": 596.566, "end": 609.533, "label": "47"}, {"start": 609.6, "end": 633.066, "label": "48"}, {"start": 633.1, "end": 640.566, "label": "49"}, {"start": 640.6, "end": 644.433, "label": "50"}, {"start": 644.466, "end": 647.333, "label": "51"}, {"start": 647.366, "end": 650.166, "label": "52"}, {"start": 650.2, "end": 653.033, "label": "53"}, {"start": 653.066, "end": 659.75, "label": "54"}, {"start": 659.75, "end": 695.03, "label": "55"}, {"start": 695.03, "end": 697.566, "label": "56"}, {"start": 697.6, "end": 700.333, "label": "57"}, {"start": 700.366, "end": 703.14, "label": "58"}, {"start": 703.14, "end": 706.4, "label": "59"}, {"start": 706.433, "end": 718.8, "label": "60"}, {"start": 718.833, "end": 721.766, "label": "61"}, {"start": 721.8, "end": 724.07, "label": "62"}, {"start": 724.09, "end": 729.43, "label": "64"}, {"start": 729.43, "end": 732.266, "label": "66"}, {"start": 732.3, "end": 735.3, "label": "67"}, {"start": 735.3, "end": 738.066, "label": "68"}, {"start": 738.1, "end": 740.033, "label": "69"}, {"start": 740.066, "end": 745.366, "label": "70"}, {"start": 745.4, "end": 748.47, "label": "71"}, {"start": 748.47, "end": 765.16, "label": "72"}, {"start": 765.16, "end": 767.133, "label": "73"}, {"start": 767.166, "end": 768.8, "label": "74"}, {"start": 768.833, "end": 797.433, "label": "75"}, {"start": 797.466, "end": 800.433, "label": "76"}, {"start": 800.466, "end": 803.433, "label": "77"}, {"start": 803.466, "end": 929.933, "label": "78"}, {"start": 929.966, "end": 936.466, "label": "79"}, {"start": 936.5, "end": 939.433, "label": "80"}, {"start": 939.466, "end": 943.666, "label": "81"}, {"start": 943.7, "end": 947.166, "label": "82"}, {"start": 947.2, "end": 948.733, "label": "83"}, {"start": 948.766, "end": 951.333, "label": "84"}, {"start": 951.4, "end": 955.366, "label": "85"}, {"start": 955.4, "end": 957.233, "label": "86"}, {"start": 957.266, "end": 960.066, "label": "87"}, {"start": 960.1, "end": 963.0, "label": "88"}, {"start": 963.033, "end": 967.933, "label": "89"}, {"start": 967.966, "end": 971.933, "label": "90"}, {"start": 972.0, "end": 974.633, "label": "91"}, {"start": 974.666, "end": 976.666, "label": "92"}, {"start": 976.7, "end": 979.266, "label": "93"}, {"start": 979.3, "end": 983.0, "label": "94"}, {"start": 983.033, "end": 986.0, "label": "95"}, {"start": 986.033, "end": 989.166, "label": "96"}, {"start": 989.2, "end": 992.3, "label": "97"}, {"start": 992.366, "end": 993.933, "label": "98"}, {"start": 993.966, "end": 995.766, "label": "99"}, {"start": 995.8, "end": 997.133, "label": "100"}, {"start": 997.166, "end": 999.666, "label": "101"}, {"start": 999.7, "end": 1001.866, "label": "102"}, {"start": 1001.9, "end": 1007.066, "label": "103"}, {"start": 1007.1, "end": 1010.766, "label": "104"}, {"start": 1010.8, "end": 1013.766, "label": "105"}, {"start": 1013.8, "end": 1016.933, "label": "106"}, {"start": 1016.966, "end": 1021.2, "label": "107"}, {"start": 1021.233, "end": 1028.0, "label": "108"}, {"start": 1028.033, "end": 1039.9, "label": "109"}, {"start": 1040.0, "end": 1042.066, "label": "110"}, {"start": 1042.099, "end": 1042.533, "label": "111"}, {"start": 1042.566, "end": 1042.733, "label": "112"}, {"start": 1042.766, "end": 1043.833, "label": "113"}, {"start": 1043.9, "end": 1081.266, "label": "114"}, {"start": 1081.3, "end": 1083.933, "label": "115"}, {"start": 1083.966, "end": 1141.233, "label": "116"}, {"start": 1141.266, "end": 1208.233, "label": "117"}, {"start": 1208.266, "end": 1218.666, "label": "118"}, {"start": 1218.7, "end": 1263.466, "label": "119"}, {"start": 1263.5, "end": 1321.233, "label": "120"}, {"start": 1321.266, "end": 1361.666, "label": "121"}, {"start": 1361.7, "end": 1373.466, "label": "122"}, {"start": 1373.5, "end": 1433.933, "label": "123"}, {"start": 1433.966, "end": 1467.166, "label": "124"}, {"start": 1467.2, "end": 1474.466, "label": "125"}, {"start": 1474.5, "end": 1502.966, "label": "126"}]}, "places 365": {"name": "places 365", "segments": [{"start": 0.0, "end": 6.566, "label": "/h/home_theater"}, {"start": 6.6, "end": 14.066, "label": "/h/home_theater"}, {"start": 14.1, "end": 20.8, "label": "/h/home_theater"}, {"start": 20.866, "end": 59.333, "label": "/t/television_studio"}, {"start": 59.4, "end": 66.2, "label": "/s/subway_station/platform"}, {"start": 66.266, "end": 72.9, "label": "/h/home_theater"}, {"start": 72.966, "end": 74.933, "label": "/h/home_theater"}, {"start": 74.966, "end": 77.633, "label": "/h/home_theater"}, {"start": 77.666, "end": 78.9, "label": "/h/home_theater"}, {"start": 78.933, "end": 85.766, "label": "/h/home_theater"}, {"start": 85.8, "end": 94.166, "label": "/h/home_theater"}, {"start": 94.2, "end": 120.46, "label": "/h/home_theater"}, {"start": 120.46, "end": 152.52, "label": "street"}, {"start": 152.52, "end": 195.86, "label": "street"}, {"start": 195.86, "end": 207.18, "label": "studio"}, {"start": 207.18, "end": 222.533, "label": "street"}, {"start": 222.566, "end": 240.433, "label": "studio"}, {"start": 240.466, "end": 280.0, "label": "/h/home_theater"}, {"start": 280.033, "end": 281.6, "label": "/t/television_studio"}, {"start": 281.633, "end": 389.366, "label": "/t/television_studio"}, {"start": 389.4, "end": 411.0, "label": "/t/television_studio"}, {"start": 411.033, "end": 556.433, "label": "/c/conference_center"}, {"start": 556.466, "end": 557.7, "label": "/s/sky"}, {"start": 557.766, "end": 563.533, "label": "/m/movie_theater/indoor"}, {"start": 563.566, "end": 566.066, "label": "/p/pharmacy"}, {"start": 566.1, "end": 568.966, "label": "/h/hotel_room"}, {"start": 569.033, "end": 571.7, "label": "/w/wind_farm"}, {"start": 571.766, "end": 574.533, "label": "/s/stage/indoor"}, {"start": 574.566, "end": 578.433, "label": "/s/stage/indoor"}, {"start": 578.5, "end": 579.966, "label": "/j/jail_cell"}, {"start": 580.0, "end": 585.733, "label": "/m/movie_theater/indoor"}, {"start": 585.8, "end": 588.466, "label": "/m/movie_theater/indoor"}, {"start": 588.5, "end": 596.533, "label": "/s/stage/indoor"}, {"start": 596.566, "end": 609.533, "label": "/h/home_theater"}, {"start": 609.6, "end": 633.066, "label": "/h/home_theater"}, {"start": 633.1, "end": 640.566, "label": "/t/television_studio"}, {"start": 640.6, "end": 644.433, "label": "/t/television_studio"}, {"start": 644.466, "end": 647.333, "label": "/o/office_building"}, {"start": 647.366, "end": 650.166, "label": "/h/home_theater"}, {"start": 650.2, "end": 653.033, "label": "/p/plaza"}, {"start": 653.066, "end": 659.74, "label": "/s/subway_station/platform"}, {"start": 659.74, "end": 695.06, "label": "/h/home_theater"}, {"start": 695.06, "end": 703.14, "label": "school"}, {"start": 703.14, "end": 724.05, "label": "press-conf-room"}, {"start": 729.44, "end": 748.47, "label": "outdoor-manmade"}, {"start": 748.47, "end": 765.17, "label": "press-conf-room"}, {"start": 765.17, "end": 768.8, "label": "outdoor-manmade"}, {"start": 768.833, "end": 797.433, "label": "/h/home_theater"}, {"start": 797.466, "end": 800.433, "label": "/c/conference_center"}, {"start": 800.466, "end": 803.433, "label": "/t/television_studio"}, {"start": 803.466, "end": 929.933, "label": "/c/conference_center"}, {"start": 929.966, "end": 936.466, "label": "/t/television_studio"}, {"start": 936.5, "end": 939.433, "label": "/h/home_theater"}, {"start": 939.466, "end": 943.666, "label": "/o/operating_room"}, {"start": 943.7, "end": 947.166, "label": "/h/hospital_room"}, {"start": 947.2, "end": 948.733, "label": "/d/drugstore"}, {"start": 948.766, "end": 951.333, "label": "/m/martial_arts_gym"}, {"start": 951.4, "end": 955.366, "label": "/a/archive"}, {"start": 955.4, "end": 957.233, "label": "/s/subway_station/platform"}, {"start": 957.266, "end": 960.066, "label": "/s/skyscraper"}, {"start": 960.1, "end": 963.0, "label": "/h/home_theater"}, {"start": 963.033, "end": 967.933, "label": "/h/hangar/outdoor"}, {"start": 967.966, "end": 971.933, "label": "/h/hangar/outdoor"}, {"start": 972.0, "end": 974.633, "label": "/t/television_studio"}, {"start": 974.666, "end": 976.666, "label": "/t/television_studio"}, {"start": 976.7, "end": 979.266, "label": "/h/home_theater"}, {"start": 979.3, "end": 983.0, "label": "/h/home_theater"}, {"start": 983.033, "end": 986.0, "label": "/t/television_studio"}, {"start": 986.033, "end": 989.166, "label": "/r/racecourse"}, {"start": 989.2, "end": 992.3, "label": "/m/movie_theater/indoor"}, {"start": 992.366, "end": 993.933, "label": "/a/auto_showroom"}, {"start": 993.966, "end": 995.766, "label": "/m/mosque/outdoor"}, {"start": 995.8, "end": 997.133, "label": "/s/skyscraper"}, {"start": 997.166, "end": 999.666, "label": "/t/temple/asia"}, {"start": 999.7, "end": 1001.866, "label": "/h/home_theater"}, {"start": 1001.9, "end": 1007.066, "label": "/h/home_theater"}, {"start": 1007.1, "end": 1010.766, "label": "/a/army_base"}, {"start": 1010.8, "end": 1013.766, "label": "/h/home_theater"}, {"start": 1013.8, "end": 1016.933, "label": "/h/home_theater"}, {"start": 1016.966, "end": 1021.2, "label": "/h/home_theater"}, {"start": 1021.233, "end": 1028.0, "label": "/h/home_theater"}, {"start": 1028.033, "end": 1039.9, "label": "/h/home_theater"}, {"start": 1040.0, "end": 1042.066, "label": "/m/movie_theater/indoor"}, {"start": 1042.099, "end": 1042.533, "label": "/o/office_cubicles"}, {"start": 1042.566, "end": 1042.733, "label": "/o/office_cubicles"}, {"start": 1042.766, "end": 1043.833, "label": "/h/home_theater"}, {"start": 1043.9, "end": 1081.266, "label": "/c/conference_center"}, {"start": 1081.3, "end": 1083.933, "label": "/h/home_theater"}, {"start": 1083.966, "end": 1141.233, "label": "/h/home_theater"}, {"start": 1141.266, "end": 1208.233, "label": "/c/conference_center"}, {"start": 1208.266, "end": 1218.666, "label": "/h/home_theater"}, {"start": 1218.7, "end": 1263.466, "label": "/h/home_theater"}, {"start": 1263.5, "end": 1321.233, "label": "/c/conference_center"}, {"start": 1321.266, "end": 1361.666, "label": "/h/home_theater"}, {"start": 1361.7, "end": 1373.466, "label": "/h/home_theater"}, {"start": 1373.5, "end": 1433.933, "label": "/h/home_theater"}, {"start": 1433.966, "end": 1467.166, "label": "/c/conference_center"}, {"start": 1467.2, "end": 1474.466, "label": "/h/home_theater"}, {"start": 1474.5, "end": 1502.966, "label": "/h/home_theater"}]}, "shot size": {"name": "shot size", "segments": [{"start": 0.0, "end": 6.566, "label": "Full Shot"}, {"start": 6.6, "end": 14.066, "label": "Full Shot"}, {"start": 14.1, "end": 20.8, "label": "Full Shot"}, {"start": 20.866, "end": 59.333, "label": "Full Shot"}, {"start": 59.4, "end": 66.2, "label": "Extreme Close-Up"}, {"start": 66.266, "end": 72.9, "label": "Extreme Close-Up"}, {"start": 72.966, "end": 74.933, "label": "Extreme Close-Up"}, {"start": 74.966, "end": 77.633, "label": "Extreme Close-Up"}, {"start": 77.666, "end": 78.9, "label": "Extreme Close-Up"}, {"start": 78.933, "end": 85.766, "label": "Extreme Close-Up"}, {"start": 85.8, "end": 94.166, "label": "Extreme Close-Up"}, {"start": 94.2, "end": 120.45, "label": "Full Shot"}, {"start": 120.45, "end": 136.38, "label": "Medium Shot"}, {"start": 136.38, "end": 139.47, "label": "Full Shot"}, {"start": 139.47, "end": 143.19, "label": "Full Shot"}, {"start": 143.19, "end": 145.39, "label": "Full Shot"}, {"start": 145.39, "end": 152.51, "label": "Medium Shot"}, {"start": 152.51, "end": 163.36, "label": "Full Shot"}, {"start": 163.36, "end": 171.7, "label": "Medium Shot"}, {"start": 171.7, "end": 175.25, "label": "Full Shot"}, {"start": 175.25, "end": 178.933, "label": "Full Shot"}, {"start": 178.966, "end": 183.19, "label": "Full Shot"}, {"start": 183.19, "end": 185.35, "label": "Full Shot"}, {"start": 185.35, "end": 187.77, "label": "Full Shot"}, {"start": 187.77, "end": 195.85, "label": "Medium Shot"}, {"start": 195.85, "end": 207.17, "label": "Full Shot"}, {"start": 207.17, "end": 211.533, "label": "Full Shot"}, {"start": 211.566, "end": 214.966, "label": "Full Shot"}, {"start": 215.0, "end": 218.8, "label": "Full Shot"}, {"start": 218.833, "end": 222.533, "label": "Long Shot"}, {"start": 222.566, "end": 240.433, "label": "Full Shot"}, {"start": 240.466, "end": 280.0, "label": "Full Shot"}, {"start": 280.033, "end": 281.6, "label": "Medium Shot"}, {"start": 281.633, "end": 389.366, "label": "Medium Shot"}, {"start": 389.4, "end": 411.0, "label": "Full Shot"}, {"start": 411.033, "end": 556.433, "label": "Medium Shot"}, {"start": 556.466, "end": 557.7, "label": "Full Shot"}, {"start": 557.766, "end": 563.533, "label": "Extreme Close-Up"}, {"start": 563.566, "end": 566.066, "label": "Full Shot"}, {"start": 566.1, "end": 568.966, "label": "Extreme Close-Up"}, {"start": 569.033, "end": 571.7, "label": "Full Shot"}, {"start": 571.766, "end": 574.533, "label": "Full Shot"}, {"start": 574.566, "end": 578.433, "label": "Extreme Close-Up"}, {"start": 578.5, "end": 579.966, "label": "Extreme Close-Up"}, {"start": 580.0, "end": 585.733, "label": "Extreme Close-Up"}, {"start": 585.8, "end": 588.466, "label": "Full Shot"}, {"start": 588.5, "end": 596.533, "label": "Extreme Close-Up"}, {"start": 596.566, "end": 609.533, "label": "Extreme Close-Up"}, {"start": 609.6, "end": 633.066, "label": "Full Shot"}, {"start": 633.1, "end": 640.566, "label": "Close-Up"}, {"start": 640.6, "end": 644.433, "label": "Close-Up"}, {"start": 644.466, "end": 647.333, "label": "Full Shot"}, {"start": 647.366, "end": 650.166, "label": "Extreme Close-Up"}, {"start": 650.2, "end": 653.033, "label": "Full Shot"}, {"start": 653.066, "end": 659.73, "label": "Close-Up"}, {"start": 659.73, "end": 695.02, "label": "Extreme Close-Up"}, {"start": 695.02, "end": 697.566, "label": "Full Shot"}, {"start": 697.6, "end": 700.333, "label": "Full Shot"}, {"start": 700.366, "end": 703.13, "label": "Long Shot"}, {"start": 703.13, "end": 706.4, "label": "Medium Shot"}, {"start": 706.433, "end": 718.8, "label": "Medium Shot"}, {"start": 718.833, "end": 721.766, "label": "Medium Shot"}, {"start": 721.8, "end": 724.07, "label": "Full Shot"}, {"start": 724.07, "end": 729.42, "label": "Full Shot"}, {"start": 729.42, "end": 732.266, "label": "Full Shot"}, {"start": 732.3, "end": 735.31, "label": "Full Shot"}, {"start": 735.31, "end": 738.066, "label": "Full Shot"}, {"start": 738.1, "end": 740.033, "label": "Full Shot"}, {"start": 740.066, "end": 745.366, "label": "Full Shot"}, {"start": 745.4, "end": 748.46, "label": "Full Shot"}, {"start": 748.46, "end": 765.16, "label": "Medium Shot"}, {"start": 765.16, "end": 767.133, "label": "Long Shot"}, {"start": 767.166, "end": 768.8, "label": "Medium Shot"}, {"start": 768.833, "end": 797.433, "label": "Full Shot"}, {"start": 797.466, "end": 800.433, "label": "Medium Shot"}, {"start": 800.466, "end": 803.433, "label": "Full Shot"}, {"start": 803.466, "end": 929.933, "label": "Medium Shot"}, {"start": 929.966, "end": 936.466, "label": "Full Shot"}, {"start": 936.5, "end": 939.433, "label": "Extreme Close-Up"}, {"start": 939.466, "end": 943.666, "label": "Full Shot"}, {"start": 943.7, "end": 947.166, "label": "Extreme Close-Up"}, {"start": 947.2, "end": 948.733, "label": "Full Shot"}, {"start": 948.766, "end": 951.333, "label": "Full Shot"}, {"start": 951.4, "end": 955.366, "label": "Medium Shot"}, {"start": 955.4, "end": 957.233, "label": "Full Shot"}, {"start": 957.266, "end": 960.066, "label": "Full Shot"}, {"start": 960.1, "end": 963.0, "label": "Full Shot"}, {"start": 963.033, "end": 967.933, "label": "Full Shot"}, {"start": 967.966, "end": 971.933, "label": "Full Shot"}, {"start": 972.0, "end": 974.633, "label": "Close-Up"}, {"start": 974.666, "end": 976.666, "label": "Full Shot"}, {"start": 976.7, "end": 979.266, "label": "Close-Up"}, {"start": 979.3, "end": 983.0, "label": "Full Shot"}, {"start": 983.033, "end": 986.0, "label": "Medium Shot"}, {"start": 986.033, "end": 989.166, "label": "Full Shot"}, {"start": 989.2, "end": 992.3, "label": "Full Shot"}, {"start": 992.366, "end": 993.933, "label": "Full Shot"}, {"start": 993.966, "end": 995.766, "label": "Full Shot"}, {"start": 995.8, "end": 997.133, "label": "Full Shot"}, {"start": 997.166, "end": 999.666, "label": "Full Shot"}, {"start": 999.7, "end": 1001.866, "label": "Extreme Close-Up"}, {"start": 1001.9, "end": 1007.066, "label": "Full Shot"}, {"start": 1007.1, "end": 1010.766, "label": "Full Shot"}, {"start": 1010.8, "end": 1013.766, "label": "Close-Up"}, {"start": 1013.8, "end": 1016.933, "label": "Medium Shot"}, {"start": 1016.966, "end": 1021.2, "label": "Long Shot"}, {"start": 1021.233, "end": 1028.0, "label": "Full Shot"}, {"start": 1028.033, "end": 1039.9, "label": "Full Shot"}, {"start": 1040.0, "end": 1042.066, "label": "Full Shot"}, {"start": 1042.099, "end": 1042.533, "label": "Medium Shot"}, {"start": 1042.566, "end": 1042.733, "label": "Medium Shot"}, {"start": 1042.766, "end": 1043.833, "label": "Full Shot"}, {"start": 1043.9, "end": 1081.266, "label": "Medium Shot"}, {"start": 1081.3, "end": 1083.933, "label": "Medium Shot"}, {"start": 1083.966, "end": 1141.233, "label": "Full Shot"}, {"start": 1141.266, "end": 1208.233, "label": "Medium Shot"}, {"start": 1208.266, "end": 1218.666, "label": "Medium Shot"}, {"start": 1218.7, "end": 1263.466, "label": "Full Shot"}, {"start": 1263.5, "end": 1321.233, "label": "Medium Shot"}, {"start": 1321.266, "end": 1361.666, "label": "Full Shot"}, {"start": 1361.7, "end": 1373.466, "label": "Medium Shot"}, {"start": 1373.5, "end": 1433.933, "label": "Full Shot"}, {"start": 1433.966, "end": 1467.166, "label": "Medium Shot"}, {"start": 1467.2, "end": 1474.466, "label": "Medium Shot"}, {"start": 1474.5, "end": 1502.966, "label": "Full Shot"}]}, "trust": {"name": "trust", "segments": []}, "emotion": {"name": "emotion", "segments": []}, "music-noise": {"name": "music-noise", "segments": [{"start": 120.44, "end": 195.85, "label": "noise"}]}, "speaker-gender": {"name": "speaker-gender", "segments": [{"start": 94.033, "end": 120.44, "label": "W1"}, {"start": 120.44, "end": 126.25, "label": "M1"}, {"start": 126.25, "end": 145.39, "label": "M2 "}, {"start": 145.39, "end": 156.55, "label": "M2"}, {"start": 156.55, "end": 195.86, "label": "M2"}, {"start": 195.86, "end": 240.266, "label": "W1  "}, {"start": 659.72, "end": 695.04, "label": "W1"}, {"start": 695.04, "end": 705.058, "label": "M3"}, {"start": 705.092, "end": 720.857, "label": "W2"}, {"start": 720.886, "end": 748.44, "label": "M3"}, {"start": 748.45, "end": 765.17, "label": "M4"}, {"start": 765.18, "end": 768.8, "label": "M3"}]}}
+{
+    "video_fn": "compacttv_2022_01_26_wzQkoDUGMSA.mp4",
+    "default": {
+        "name": "default",
+        "segments": []
+    },
+    "speaker": {
+        "name": "speaker",
+        "segments": [
+            {
+                "start": 94.033,
+                "end": 120.44,
+                "label": "anchor"
+            },
+            {
+                "start": 120.44,
+                "end": 126.25,
+                "label": "reporter"
+            },
+            {
+                "start": 126.25,
+                "end": 145.39,
+                "label": "LOW_CONFIDENCE"
+            },
+            {
+                "start": 145.39,
+                "end": 156.55,
+                "label": "reporter"
+            },
+            {
+                "start": 156.55,
+                "end": 195.86,
+                "label": "reporter"
+            },
+            {
+                "start": 195.86,
+                "end": 240.266,
+                "label": "anchor"
+            },
+            {
+                "start": 659.72,
+                "end": 695.04,
+                "label": "anchor"
+            },
+            {
+                "start": 695.04,
+                "end": 705.058,
+                "label": "reporter"
+            },
+            {
+                "start": 705.092,
+                "end": 720.857,
+                "label": "expert-other"
+            },
+            {
+                "start": 720.886,
+                "end": 748.44,
+                "label": "reporter"
+            },
+            {
+                "start": 748.45,
+                "end": 765.17,
+                "label": "expert-other"
+            },
+            {
+                "start": 765.18,
+                "end": 768.8,
+                "label": "reporter"
+            }
+        ]
+    },
+    "asr-de: korona": {
+        "name": "asr-de: korona",
+        "segments": [
+            {
+                "start": 94.06,
+                "end": 240.17,
+                "label": "corona-news "
+            },
+            {
+                "start": 617.133,
+                "end": 617.533,
+                "label": "\"korona\""
+            },
+            {
+                "start": 659.56,
+                "end": 768.76,
+                "label": "corona-news"
+            }
+        ]
+    },
+    "captions: holding": {
+        "name": "captions: holding",
+        "segments": [
+            {
+                "start": 85.866,
+                "end": 86.566,
+                "label": "\"people holding umbrellas and flags\""
+            },
+            {
+                "start": 90.2,
+                "end": 90.566,
+                "label": "\"a person holding an umbrella with the words do it????????\""
+            },
+            {
+                "start": 120.44,
+                "end": 139.49,
+                "label": "holding-signs"
+            },
+            {
+                "start": 175.22,
+                "end": 183.17,
+                "label": "holding-signs"
+            },
+            {
+                "start": 207.17,
+                "end": 211.533,
+                "label": "holding-signs"
+            },
+            {
+                "start": 572.566,
+                "end": 572.766,
+                "label": "\"a person wearing a helmet and holding a tablet\""
+            },
+            {
+                "start": 599.9,
+                "end": 600.233,
+                "label": "\"a person holding a piece of paper\""
+            },
+            {
+                "start": 853.033,
+                "end": 853.3,
+                "label": "\"a man in a suit and tie holding a piece of paper\""
+            },
+            {
+                "start": 937.633,
+                "end": 939.433,
+                "label": "\"a person in white gloves holding a sy\""
+            },
+            {
+                "start": 948.766,
+                "end": 949.566,
+                "label": "\"a woman in a lab coat holding a sy\""
+            },
+            {
+                "start": 949.566,
+                "end": 950.666,
+                "label": "\"a woman in a lab coat and gloves holding a sy, a woman in a lab coat holding a sy\""
+            },
+            {
+                "start": 989.2,
+                "end": 991.566,
+                "label": "\"a crowd of people holding a flag\""
+            },
+            {
+                "start": 1088.4,
+                "end": 1088.8,
+                "label": "\"a man in a suit and tie holding an object in front of a tv screen\""
+            },
+            {
+                "start": 1091.466,
+                "end": 1092.166,
+                "label": "\"a man in a suit holding a toy\""
+            },
+            {
+                "start": 1092.166,
+                "end": 1093.633,
+                "label": "\"a man in a suit and tie holding an object in front of a tv screen\""
+            },
+            {
+                "start": 1093.633,
+                "end": 1094.866,
+                "label": "\"a man in a suit and tie holding a camera\""
+            }
+        ]
+    },
+    "captions: walking": {
+        "name": "captions: walking",
+        "segments": [
+            {
+                "start": 74.1,
+                "end": 74.366,
+                "label": "\"a person walking down a hallway\""
+            },
+            {
+                "start": 120.46,
+                "end": 195.86,
+                "label": "demo    "
+            },
+            {
+                "start": 207.16,
+                "end": 222.53,
+                "label": "demo "
+            },
+            {
+                "start": 595.333,
+                "end": 595.433,
+                "label": "\"police officers walking down a street\""
+            },
+            {
+                "start": 595.433,
+                "end": 596.033,
+                "label": "\"police officers walking down a street, police officers walking through a crowd\""
+            },
+            {
+                "start": 596.033,
+                "end": 596.1,
+                "label": "\"police officers walking through a crowd\""
+            },
+            {
+                "start": 651.5,
+                "end": 652.8,
+                "label": "\"a man walking down the street\""
+            },
+            {
+                "start": 735.31,
+                "end": 738.066,
+                "label": "walking"
+            },
+            {
+                "start": 740.066,
+                "end": 748.46,
+                "label": "walking "
+            },
+            {
+                "start": 986.033,
+                "end": 989.166,
+                "label": "\"a group of people walking through a building\""
+            }
+        ]
+    },
+    "captions: talking": {
+        "name": "captions: talking",
+        "segments": [
+            {
+                "start": 94.033,
+                "end": 120.45,
+                "label": "talking-head"
+            },
+            {
+                "start": 120.45,
+                "end": 195.85,
+                "label": "interview"
+            },
+            {
+                "start": 195.85,
+                "end": 207.16,
+                "label": "talking-head"
+            },
+            {
+                "start": 207.16,
+                "end": 222.53,
+                "label": "voiceover"
+            },
+            {
+                "start": 222.566,
+                "end": 240.266,
+                "label": "talking-head"
+            },
+            {
+                "start": 480.2,
+                "end": 481.5,
+                "label": "\"a man in a suit talking\""
+            },
+            {
+                "start": 659.72,
+                "end": 695.04,
+                "label": "talking-head"
+            },
+            {
+                "start": 695.04,
+                "end": 705.058,
+                "label": "voiceover"
+            },
+            {
+                "start": 705.092,
+                "end": 720.857,
+                "label": "speech"
+            },
+            {
+                "start": 720.886,
+                "end": 748.45,
+                "label": "voiceover"
+            },
+            {
+                "start": 748.45,
+                "end": 765.16,
+                "label": "speech"
+            },
+            {
+                "start": 765.16,
+                "end": 768.8,
+                "label": "voiceover"
+            },
+            {
+                "start": 1083.7,
+                "end": 1083.966,
+                "label": "\"a man in a suit talking to a television screen\""
+            },
+            {
+                "start": 1361.7,
+                "end": 1363.8,
+                "label": "\"a man in a suit and tie talking to another man in a suit\""
+            },
+            {
+                "start": 1474.2,
+                "end": 1474.5,
+                "label": "\"a man in a suit talking to a television screen\""
+            }
+        ]
+    },
+    "faces": {
+        "name": "faces",
+        "segments": [
+            {
+                "start": 3.1,
+                "end": 4.066,
+                "label": "\"\""
+            },
+            {
+                "start": 4.066,
+                "end": 4.766,
+                "label": "\"\""
+            },
+            {
+                "start": 4.766,
+                "end": 5.866,
+                "label": "\"\""
+            },
+            {
+                "start": 5.866,
+                "end": 6.466,
+                "label": "\"\""
+            },
+            {
+                "start": 6.466,
+                "end": 6.566,
+                "label": "\"\""
+            },
+            {
+                "start": 11.233,
+                "end": 11.5,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 11.5,
+                "end": 14.1,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 14.1,
+                "end": 14.2,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 20.5,
+                "end": 58.9,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 94.033,
+                "end": 120.44,
+                "label": "anchor"
+            },
+            {
+                "start": 120.44,
+                "end": 126.25,
+                "label": "reporter"
+            },
+            {
+                "start": 126.25,
+                "end": 136.39,
+                "label": "politician-right"
+            },
+            {
+                "start": 136.409,
+                "end": 139.5,
+                "label": "layperson-x-covid"
+            },
+            {
+                "start": 139.5,
+                "end": 143.19,
+                "label": "police-frwr"
+            },
+            {
+                "start": 143.19,
+                "end": 145.39,
+                "label": "layperson-x-covid"
+            },
+            {
+                "start": 145.39,
+                "end": 152.51,
+                "label": "reporter"
+            },
+            {
+                "start": 152.51,
+                "end": 163.33,
+                "label": "police-frwr"
+            },
+            {
+                "start": 163.33,
+                "end": 171.7,
+                "label": "reporter and polician, AfD"
+            },
+            {
+                "start": 171.7,
+                "end": 175.22,
+                "label": "protesters"
+            },
+            {
+                "start": 183.3,
+                "end": 185.36,
+                "label": "protester and policemen"
+            },
+            {
+                "start": 185.36,
+                "end": 195.85,
+                "label": "reporter and politician, AfD"
+            },
+            {
+                "start": 195.85,
+                "end": 207.17,
+                "label": "anchor"
+            },
+            {
+                "start": 207.17,
+                "end": 222.55,
+                "label": "layperson-x-covid"
+            },
+            {
+                "start": 222.566,
+                "end": 240.266,
+                "label": "anchor"
+            },
+            {
+                "start": 240.266,
+                "end": 280.033,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 280.033,
+                "end": 281.633,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 281.633,
+                "end": 389.4,
+                "label": "\"\""
+            },
+            {
+                "start": 389.4,
+                "end": 411.033,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 411.033,
+                "end": 556.433,
+                "label": "\"\""
+            },
+            {
+                "start": 566.0,
+                "end": 568.8,
+                "label": "\"\""
+            },
+            {
+                "start": 573.166,
+                "end": 574.3,
+                "label": "\"\""
+            },
+            {
+                "start": 591.833,
+                "end": 593.8,
+                "label": "\"\""
+            },
+            {
+                "start": 600.633,
+                "end": 609.566,
+                "label": "\"\""
+            },
+            {
+                "start": 609.6,
+                "end": 633.1,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 633.1,
+                "end": 644.433,
+                "label": "\"\""
+            },
+            {
+                "start": 653.066,
+                "end": 659.72,
+                "label": "\"\""
+            },
+            {
+                "start": 659.72,
+                "end": 695.04,
+                "label": "anchor"
+            },
+            {
+                "start": 703.13,
+                "end": 721.8,
+                "label": "expert-other"
+            },
+            {
+                "start": 721.8,
+                "end": 724.066,
+                "label": "reporter"
+            },
+            {
+                "start": 735.3,
+                "end": 748.45,
+                "label": "layperson"
+            },
+            {
+                "start": 748.45,
+                "end": 765.16,
+                "label": "expert-other"
+            },
+            {
+                "start": 768.833,
+                "end": 797.433,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 797.433,
+                "end": 797.466,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 797.466,
+                "end": 800.466,
+                "label": "\"Merten, anchor\""
+            },
+            {
+                "start": 800.466,
+                "end": 803.433,
+                "label": "\"Merten, anchor\""
+            },
+            {
+                "start": 803.433,
+                "end": 929.933,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 929.966,
+                "end": 935.933,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 940.033,
+                "end": 943.066,
+                "label": "\"\""
+            },
+            {
+                "start": 951.2,
+                "end": 955.4,
+                "label": "\"\""
+            },
+            {
+                "start": 971.833,
+                "end": 974.666,
+                "label": "\"\""
+            },
+            {
+                "start": 974.666,
+                "end": 976.666,
+                "label": "\"\""
+            },
+            {
+                "start": 976.666,
+                "end": 976.7,
+                "label": "\"\""
+            },
+            {
+                "start": 976.7,
+                "end": 979.3,
+                "label": "\"\""
+            },
+            {
+                "start": 979.3,
+                "end": 981.3,
+                "label": "\"\""
+            },
+            {
+                "start": 981.3,
+                "end": 983.0,
+                "label": "\"\""
+            },
+            {
+                "start": 983.0,
+                "end": 983.033,
+                "label": "\"\""
+            },
+            {
+                "start": 983.033,
+                "end": 986.033,
+                "label": "\"\""
+            },
+            {
+                "start": 986.033,
+                "end": 987.5,
+                "label": "\"\""
+            },
+            {
+                "start": 987.5,
+                "end": 989.166,
+                "label": "\"\""
+            },
+            {
+                "start": 989.2,
+                "end": 990.5,
+                "label": "\"\""
+            },
+            {
+                "start": 990.5,
+                "end": 991.6,
+                "label": "\"\""
+            },
+            {
+                "start": 993.966,
+                "end": 995.8,
+                "label": "\"\""
+            },
+            {
+                "start": 1010.8,
+                "end": 1016.933,
+                "label": "\"\""
+            },
+            {
+                "start": 1027.833,
+                "end": 1040.233,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 1043.433,
+                "end": 1081.3,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 1081.3,
+                "end": 1083.966,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 1083.966,
+                "end": 1141.266,
+                "label": "\"\""
+            },
+            {
+                "start": 1141.266,
+                "end": 1208.266,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 1208.266,
+                "end": 1218.7,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 1218.7,
+                "end": 1263.5,
+                "label": "\"\""
+            },
+            {
+                "start": 1263.5,
+                "end": 1321.266,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 1321.266,
+                "end": 1361.7,
+                "label": "\"\""
+            },
+            {
+                "start": 1361.7,
+                "end": 1373.5,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 1373.5,
+                "end": 1433.966,
+                "label": "\"\""
+            },
+            {
+                "start": 1433.966,
+                "end": 1467.2,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 1467.2,
+                "end": 1474.5,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 1474.5,
+                "end": 1476.8,
+                "label": "\"Merten\""
+            },
+            {
+                "start": 1478.9,
+                "end": 1479.866,
+                "label": "\"\""
+            },
+            {
+                "start": 1479.866,
+                "end": 1480.6,
+                "label": "\"\""
+            },
+            {
+                "start": 1480.6,
+                "end": 1481.766,
+                "label": "\"\""
+            },
+            {
+                "start": 1481.766,
+                "end": 1482.3,
+                "label": "\"\""
+            },
+            {
+                "start": 1482.3,
+                "end": 1482.433,
+                "label": "\"\""
+            },
+            {
+                "start": 1487.066,
+                "end": 1487.366,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 1487.366,
+                "end": 1489.966,
+                "label": "\"anchor\""
+            },
+            {
+                "start": 1489.966,
+                "end": 1490.066,
+                "label": "\"anchor\""
+            }
+        ]
+    },
+    "Freiheit": {
+        "name": "Freiheit",
+        "segments": [
+            {
+                "start": 120.42,
+                "end": 136.39,
+                "label": "frei-frieden-liebe"
+            }
+        ]
+    },
+    "uncertainty/blaming": {
+        "name": "uncertainty/blaming",
+        "segments": [
+            {
+                "start": 188.26,
+                "end": 189.1,
+                "label": "diktatur-zwang"
+            },
+            {
+                "start": 191.22,
+                "end": 191.87,
+                "label": "diktatur-zwang"
+            }
+        ]
+    },
+    "fight/conflict": {
+        "name": "fight/conflict",
+        "segments": [
+            {
+                "start": 152.51,
+                "end": 163.32,
+                "label": "physical-conflict"
+            },
+            {
+                "start": 183.19,
+                "end": 185.37,
+                "label": "physical-conflict"
+            },
+            {
+                "start": 234.14,
+                "end": 234.72,
+                "label": "gewalt-konflikt-auseinanderstz"
+            }
+        ]
+    },
+    "analytical": {
+        "name": "analytical",
+        "segments": [
+            {
+                "start": 724.08,
+                "end": 729.44,
+                "label": "[citation: education as a driver for migration]"
+            }
+        ]
+    },
+    "shots": {
+        "name": "shots",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 6.566,
+                "label": "0"
+            },
+            {
+                "start": 6.6,
+                "end": 14.066,
+                "label": "1"
+            },
+            {
+                "start": 14.1,
+                "end": 20.8,
+                "label": "2"
+            },
+            {
+                "start": 20.866,
+                "end": 59.333,
+                "label": "3"
+            },
+            {
+                "start": 59.4,
+                "end": 66.2,
+                "label": "4"
+            },
+            {
+                "start": 66.266,
+                "end": 72.9,
+                "label": "5"
+            },
+            {
+                "start": 72.966,
+                "end": 74.933,
+                "label": "6"
+            },
+            {
+                "start": 74.966,
+                "end": 77.633,
+                "label": "7"
+            },
+            {
+                "start": 77.666,
+                "end": 78.9,
+                "label": "8"
+            },
+            {
+                "start": 78.933,
+                "end": 85.766,
+                "label": "9"
+            },
+            {
+                "start": 85.8,
+                "end": 94.166,
+                "label": "10"
+            },
+            {
+                "start": 94.2,
+                "end": 120.47,
+                "label": "11"
+            },
+            {
+                "start": 120.47,
+                "end": 136.4,
+                "label": "12"
+            },
+            {
+                "start": 136.41,
+                "end": 139.49,
+                "label": "13"
+            },
+            {
+                "start": 139.49,
+                "end": 143.19,
+                "label": "14"
+            },
+            {
+                "start": 143.19,
+                "end": 145.38,
+                "label": "15"
+            },
+            {
+                "start": 145.38,
+                "end": 152.53,
+                "label": "16"
+            },
+            {
+                "start": 152.53,
+                "end": 163.35,
+                "label": "17"
+            },
+            {
+                "start": 163.35,
+                "end": 171.71,
+                "label": "18"
+            },
+            {
+                "start": 171.71,
+                "end": 175.29,
+                "label": "19"
+            },
+            {
+                "start": 175.29,
+                "end": 178.933,
+                "label": "20"
+            },
+            {
+                "start": 178.966,
+                "end": 183.21,
+                "label": "21"
+            },
+            {
+                "start": 183.21,
+                "end": 185.37,
+                "label": "22"
+            },
+            {
+                "start": 185.37,
+                "end": 187.76,
+                "label": "23"
+            },
+            {
+                "start": 187.76,
+                "end": 195.85,
+                "label": "24"
+            },
+            {
+                "start": 195.85,
+                "end": 207.16,
+                "label": "25"
+            },
+            {
+                "start": 207.16,
+                "end": 211.533,
+                "label": "26"
+            },
+            {
+                "start": 211.566,
+                "end": 214.966,
+                "label": "27"
+            },
+            {
+                "start": 215.0,
+                "end": 218.8,
+                "label": "28"
+            },
+            {
+                "start": 218.833,
+                "end": 222.533,
+                "label": "29"
+            },
+            {
+                "start": 222.566,
+                "end": 240.433,
+                "label": "30"
+            },
+            {
+                "start": 240.466,
+                "end": 280.0,
+                "label": "31"
+            },
+            {
+                "start": 280.033,
+                "end": 281.6,
+                "label": "32"
+            },
+            {
+                "start": 281.633,
+                "end": 389.366,
+                "label": "33"
+            },
+            {
+                "start": 389.4,
+                "end": 411.0,
+                "label": "34"
+            },
+            {
+                "start": 411.033,
+                "end": 556.433,
+                "label": "35"
+            },
+            {
+                "start": 556.466,
+                "end": 557.7,
+                "label": "36"
+            },
+            {
+                "start": 557.766,
+                "end": 563.533,
+                "label": "37"
+            },
+            {
+                "start": 563.566,
+                "end": 566.066,
+                "label": "38"
+            },
+            {
+                "start": 566.1,
+                "end": 568.966,
+                "label": "39"
+            },
+            {
+                "start": 569.033,
+                "end": 571.7,
+                "label": "40"
+            },
+            {
+                "start": 571.766,
+                "end": 574.533,
+                "label": "41"
+            },
+            {
+                "start": 574.566,
+                "end": 578.433,
+                "label": "42"
+            },
+            {
+                "start": 578.5,
+                "end": 579.966,
+                "label": "43"
+            },
+            {
+                "start": 580.0,
+                "end": 585.733,
+                "label": "44"
+            },
+            {
+                "start": 585.8,
+                "end": 588.466,
+                "label": "45"
+            },
+            {
+                "start": 588.5,
+                "end": 596.533,
+                "label": "46"
+            },
+            {
+                "start": 596.566,
+                "end": 609.533,
+                "label": "47"
+            },
+            {
+                "start": 609.6,
+                "end": 633.066,
+                "label": "48"
+            },
+            {
+                "start": 633.1,
+                "end": 640.566,
+                "label": "49"
+            },
+            {
+                "start": 640.6,
+                "end": 644.433,
+                "label": "50"
+            },
+            {
+                "start": 644.466,
+                "end": 647.333,
+                "label": "51"
+            },
+            {
+                "start": 647.366,
+                "end": 650.166,
+                "label": "52"
+            },
+            {
+                "start": 650.2,
+                "end": 653.033,
+                "label": "53"
+            },
+            {
+                "start": 653.066,
+                "end": 659.75,
+                "label": "54"
+            },
+            {
+                "start": 659.75,
+                "end": 695.03,
+                "label": "55"
+            },
+            {
+                "start": 695.03,
+                "end": 697.566,
+                "label": "56"
+            },
+            {
+                "start": 697.6,
+                "end": 700.333,
+                "label": "57"
+            },
+            {
+                "start": 700.366,
+                "end": 703.14,
+                "label": "58"
+            },
+            {
+                "start": 703.14,
+                "end": 706.4,
+                "label": "59"
+            },
+            {
+                "start": 706.433,
+                "end": 718.8,
+                "label": "60"
+            },
+            {
+                "start": 718.833,
+                "end": 721.766,
+                "label": "61"
+            },
+            {
+                "start": 721.8,
+                "end": 724.07,
+                "label": "62"
+            },
+            {
+                "start": 724.09,
+                "end": 729.43,
+                "label": "64"
+            },
+            {
+                "start": 729.43,
+                "end": 732.266,
+                "label": "66"
+            },
+            {
+                "start": 732.3,
+                "end": 735.3,
+                "label": "67"
+            },
+            {
+                "start": 735.3,
+                "end": 738.066,
+                "label": "68"
+            },
+            {
+                "start": 738.1,
+                "end": 740.033,
+                "label": "69"
+            },
+            {
+                "start": 740.066,
+                "end": 745.366,
+                "label": "70"
+            },
+            {
+                "start": 745.4,
+                "end": 748.47,
+                "label": "71"
+            },
+            {
+                "start": 748.47,
+                "end": 765.16,
+                "label": "72"
+            },
+            {
+                "start": 765.16,
+                "end": 767.133,
+                "label": "73"
+            },
+            {
+                "start": 767.166,
+                "end": 768.8,
+                "label": "74"
+            },
+            {
+                "start": 768.833,
+                "end": 797.433,
+                "label": "75"
+            },
+            {
+                "start": 797.466,
+                "end": 800.433,
+                "label": "76"
+            },
+            {
+                "start": 800.466,
+                "end": 803.433,
+                "label": "77"
+            },
+            {
+                "start": 803.466,
+                "end": 929.933,
+                "label": "78"
+            },
+            {
+                "start": 929.966,
+                "end": 936.466,
+                "label": "79"
+            },
+            {
+                "start": 936.5,
+                "end": 939.433,
+                "label": "80"
+            },
+            {
+                "start": 939.466,
+                "end": 943.666,
+                "label": "81"
+            },
+            {
+                "start": 943.7,
+                "end": 947.166,
+                "label": "82"
+            },
+            {
+                "start": 947.2,
+                "end": 948.733,
+                "label": "83"
+            },
+            {
+                "start": 948.766,
+                "end": 951.333,
+                "label": "84"
+            },
+            {
+                "start": 951.4,
+                "end": 955.366,
+                "label": "85"
+            },
+            {
+                "start": 955.4,
+                "end": 957.233,
+                "label": "86"
+            },
+            {
+                "start": 957.266,
+                "end": 960.066,
+                "label": "87"
+            },
+            {
+                "start": 960.1,
+                "end": 963.0,
+                "label": "88"
+            },
+            {
+                "start": 963.033,
+                "end": 967.933,
+                "label": "89"
+            },
+            {
+                "start": 967.966,
+                "end": 971.933,
+                "label": "90"
+            },
+            {
+                "start": 972.0,
+                "end": 974.633,
+                "label": "91"
+            },
+            {
+                "start": 974.666,
+                "end": 976.666,
+                "label": "92"
+            },
+            {
+                "start": 976.7,
+                "end": 979.266,
+                "label": "93"
+            },
+            {
+                "start": 979.3,
+                "end": 983.0,
+                "label": "94"
+            },
+            {
+                "start": 983.033,
+                "end": 986.0,
+                "label": "95"
+            },
+            {
+                "start": 986.033,
+                "end": 989.166,
+                "label": "96"
+            },
+            {
+                "start": 989.2,
+                "end": 992.3,
+                "label": "97"
+            },
+            {
+                "start": 992.366,
+                "end": 993.933,
+                "label": "98"
+            },
+            {
+                "start": 993.966,
+                "end": 995.766,
+                "label": "99"
+            },
+            {
+                "start": 995.8,
+                "end": 997.133,
+                "label": "100"
+            },
+            {
+                "start": 997.166,
+                "end": 999.666,
+                "label": "101"
+            },
+            {
+                "start": 999.7,
+                "end": 1001.866,
+                "label": "102"
+            },
+            {
+                "start": 1001.9,
+                "end": 1007.066,
+                "label": "103"
+            },
+            {
+                "start": 1007.1,
+                "end": 1010.766,
+                "label": "104"
+            },
+            {
+                "start": 1010.8,
+                "end": 1013.766,
+                "label": "105"
+            },
+            {
+                "start": 1013.8,
+                "end": 1016.933,
+                "label": "106"
+            },
+            {
+                "start": 1016.966,
+                "end": 1021.2,
+                "label": "107"
+            },
+            {
+                "start": 1021.233,
+                "end": 1028.0,
+                "label": "108"
+            },
+            {
+                "start": 1028.033,
+                "end": 1039.9,
+                "label": "109"
+            },
+            {
+                "start": 1040.0,
+                "end": 1042.066,
+                "label": "110"
+            },
+            {
+                "start": 1042.099,
+                "end": 1042.533,
+                "label": "111"
+            },
+            {
+                "start": 1042.566,
+                "end": 1042.733,
+                "label": "112"
+            },
+            {
+                "start": 1042.766,
+                "end": 1043.833,
+                "label": "113"
+            },
+            {
+                "start": 1043.9,
+                "end": 1081.266,
+                "label": "114"
+            },
+            {
+                "start": 1081.3,
+                "end": 1083.933,
+                "label": "115"
+            },
+            {
+                "start": 1083.966,
+                "end": 1141.233,
+                "label": "116"
+            },
+            {
+                "start": 1141.266,
+                "end": 1208.233,
+                "label": "117"
+            },
+            {
+                "start": 1208.266,
+                "end": 1218.666,
+                "label": "118"
+            },
+            {
+                "start": 1218.7,
+                "end": 1263.466,
+                "label": "119"
+            },
+            {
+                "start": 1263.5,
+                "end": 1321.233,
+                "label": "120"
+            },
+            {
+                "start": 1321.266,
+                "end": 1361.666,
+                "label": "121"
+            },
+            {
+                "start": 1361.7,
+                "end": 1373.466,
+                "label": "122"
+            },
+            {
+                "start": 1373.5,
+                "end": 1433.933,
+                "label": "123"
+            },
+            {
+                "start": 1433.966,
+                "end": 1467.166,
+                "label": "124"
+            },
+            {
+                "start": 1467.2,
+                "end": 1474.466,
+                "label": "125"
+            },
+            {
+                "start": 1474.5,
+                "end": 1502.966,
+                "label": "126"
+            }
+        ]
+    },
+    "places 365": {
+        "name": "places 365",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 6.566,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 6.6,
+                "end": 14.066,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 14.1,
+                "end": 20.8,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 20.866,
+                "end": 59.333,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 59.4,
+                "end": 66.2,
+                "label": "/s/subway_station/platform"
+            },
+            {
+                "start": 66.266,
+                "end": 72.9,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 72.966,
+                "end": 74.933,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 74.966,
+                "end": 77.633,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 77.666,
+                "end": 78.9,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 78.933,
+                "end": 85.766,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 85.8,
+                "end": 94.166,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 94.2,
+                "end": 120.46,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 120.46,
+                "end": 152.52,
+                "label": "street"
+            },
+            {
+                "start": 152.52,
+                "end": 195.86,
+                "label": "street"
+            },
+            {
+                "start": 195.86,
+                "end": 207.18,
+                "label": "studio"
+            },
+            {
+                "start": 207.18,
+                "end": 222.533,
+                "label": "street"
+            },
+            {
+                "start": 222.566,
+                "end": 240.433,
+                "label": "studio"
+            },
+            {
+                "start": 240.466,
+                "end": 280.0,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 280.033,
+                "end": 281.6,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 281.633,
+                "end": 389.366,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 389.4,
+                "end": 411.0,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 411.033,
+                "end": 556.433,
+                "label": "/c/conference_center"
+            },
+            {
+                "start": 556.466,
+                "end": 557.7,
+                "label": "/s/sky"
+            },
+            {
+                "start": 557.766,
+                "end": 563.533,
+                "label": "/m/movie_theater/indoor"
+            },
+            {
+                "start": 563.566,
+                "end": 566.066,
+                "label": "/p/pharmacy"
+            },
+            {
+                "start": 566.1,
+                "end": 568.966,
+                "label": "/h/hotel_room"
+            },
+            {
+                "start": 569.033,
+                "end": 571.7,
+                "label": "/w/wind_farm"
+            },
+            {
+                "start": 571.766,
+                "end": 574.533,
+                "label": "/s/stage/indoor"
+            },
+            {
+                "start": 574.566,
+                "end": 578.433,
+                "label": "/s/stage/indoor"
+            },
+            {
+                "start": 578.5,
+                "end": 579.966,
+                "label": "/j/jail_cell"
+            },
+            {
+                "start": 580.0,
+                "end": 585.733,
+                "label": "/m/movie_theater/indoor"
+            },
+            {
+                "start": 585.8,
+                "end": 588.466,
+                "label": "/m/movie_theater/indoor"
+            },
+            {
+                "start": 588.5,
+                "end": 596.533,
+                "label": "/s/stage/indoor"
+            },
+            {
+                "start": 596.566,
+                "end": 609.533,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 609.6,
+                "end": 633.066,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 633.1,
+                "end": 640.566,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 640.6,
+                "end": 644.433,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 644.466,
+                "end": 647.333,
+                "label": "/o/office_building"
+            },
+            {
+                "start": 647.366,
+                "end": 650.166,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 650.2,
+                "end": 653.033,
+                "label": "/p/plaza"
+            },
+            {
+                "start": 653.066,
+                "end": 659.74,
+                "label": "/s/subway_station/platform"
+            },
+            {
+                "start": 659.74,
+                "end": 695.06,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 695.06,
+                "end": 703.14,
+                "label": "school"
+            },
+            {
+                "start": 703.14,
+                "end": 724.05,
+                "label": "press-conf-room"
+            },
+            {
+                "start": 729.44,
+                "end": 748.47,
+                "label": "outdoor-manmade"
+            },
+            {
+                "start": 748.47,
+                "end": 765.17,
+                "label": "press-conf-room"
+            },
+            {
+                "start": 765.17,
+                "end": 768.8,
+                "label": "outdoor-manmade"
+            },
+            {
+                "start": 768.833,
+                "end": 797.433,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 797.466,
+                "end": 800.433,
+                "label": "/c/conference_center"
+            },
+            {
+                "start": 800.466,
+                "end": 803.433,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 803.466,
+                "end": 929.933,
+                "label": "/c/conference_center"
+            },
+            {
+                "start": 929.966,
+                "end": 936.466,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 936.5,
+                "end": 939.433,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 939.466,
+                "end": 943.666,
+                "label": "/o/operating_room"
+            },
+            {
+                "start": 943.7,
+                "end": 947.166,
+                "label": "/h/hospital_room"
+            },
+            {
+                "start": 947.2,
+                "end": 948.733,
+                "label": "/d/drugstore"
+            },
+            {
+                "start": 948.766,
+                "end": 951.333,
+                "label": "/m/martial_arts_gym"
+            },
+            {
+                "start": 951.4,
+                "end": 955.366,
+                "label": "/a/archive"
+            },
+            {
+                "start": 955.4,
+                "end": 957.233,
+                "label": "/s/subway_station/platform"
+            },
+            {
+                "start": 957.266,
+                "end": 960.066,
+                "label": "/s/skyscraper"
+            },
+            {
+                "start": 960.1,
+                "end": 963.0,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 963.033,
+                "end": 967.933,
+                "label": "/h/hangar/outdoor"
+            },
+            {
+                "start": 967.966,
+                "end": 971.933,
+                "label": "/h/hangar/outdoor"
+            },
+            {
+                "start": 972.0,
+                "end": 974.633,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 974.666,
+                "end": 976.666,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 976.7,
+                "end": 979.266,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 979.3,
+                "end": 983.0,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 983.033,
+                "end": 986.0,
+                "label": "/t/television_studio"
+            },
+            {
+                "start": 986.033,
+                "end": 989.166,
+                "label": "/r/racecourse"
+            },
+            {
+                "start": 989.2,
+                "end": 992.3,
+                "label": "/m/movie_theater/indoor"
+            },
+            {
+                "start": 992.366,
+                "end": 993.933,
+                "label": "/a/auto_showroom"
+            },
+            {
+                "start": 993.966,
+                "end": 995.766,
+                "label": "/m/mosque/outdoor"
+            },
+            {
+                "start": 995.8,
+                "end": 997.133,
+                "label": "/s/skyscraper"
+            },
+            {
+                "start": 997.166,
+                "end": 999.666,
+                "label": "/t/temple/asia"
+            },
+            {
+                "start": 999.7,
+                "end": 1001.866,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1001.9,
+                "end": 1007.066,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1007.1,
+                "end": 1010.766,
+                "label": "/a/army_base"
+            },
+            {
+                "start": 1010.8,
+                "end": 1013.766,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1013.8,
+                "end": 1016.933,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1016.966,
+                "end": 1021.2,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1021.233,
+                "end": 1028.0,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1028.033,
+                "end": 1039.9,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1040.0,
+                "end": 1042.066,
+                "label": "/m/movie_theater/indoor"
+            },
+            {
+                "start": 1042.099,
+                "end": 1042.533,
+                "label": "/o/office_cubicles"
+            },
+            {
+                "start": 1042.566,
+                "end": 1042.733,
+                "label": "/o/office_cubicles"
+            },
+            {
+                "start": 1042.766,
+                "end": 1043.833,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1043.9,
+                "end": 1081.266,
+                "label": "/c/conference_center"
+            },
+            {
+                "start": 1081.3,
+                "end": 1083.933,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1083.966,
+                "end": 1141.233,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1141.266,
+                "end": 1208.233,
+                "label": "/c/conference_center"
+            },
+            {
+                "start": 1208.266,
+                "end": 1218.666,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1218.7,
+                "end": 1263.466,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1263.5,
+                "end": 1321.233,
+                "label": "/c/conference_center"
+            },
+            {
+                "start": 1321.266,
+                "end": 1361.666,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1361.7,
+                "end": 1373.466,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1373.5,
+                "end": 1433.933,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1433.966,
+                "end": 1467.166,
+                "label": "/c/conference_center"
+            },
+            {
+                "start": 1467.2,
+                "end": 1474.466,
+                "label": "/h/home_theater"
+            },
+            {
+                "start": 1474.5,
+                "end": 1502.966,
+                "label": "/h/home_theater"
+            }
+        ]
+    },
+    "shot size": {
+        "name": "shot size",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 6.566,
+                "label": "Full Shot"
+            },
+            {
+                "start": 6.6,
+                "end": 14.066,
+                "label": "Full Shot"
+            },
+            {
+                "start": 14.1,
+                "end": 20.8,
+                "label": "Full Shot"
+            },
+            {
+                "start": 20.866,
+                "end": 59.333,
+                "label": "Full Shot"
+            },
+            {
+                "start": 59.4,
+                "end": 66.2,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 66.266,
+                "end": 72.9,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 72.966,
+                "end": 74.933,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 74.966,
+                "end": 77.633,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 77.666,
+                "end": 78.9,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 78.933,
+                "end": 85.766,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 85.8,
+                "end": 94.166,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 94.2,
+                "end": 120.45,
+                "label": "Full Shot"
+            },
+            {
+                "start": 120.45,
+                "end": 136.38,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 136.38,
+                "end": 139.47,
+                "label": "Full Shot"
+            },
+            {
+                "start": 139.47,
+                "end": 143.19,
+                "label": "Full Shot"
+            },
+            {
+                "start": 143.19,
+                "end": 145.39,
+                "label": "Full Shot"
+            },
+            {
+                "start": 145.39,
+                "end": 152.51,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 152.51,
+                "end": 163.36,
+                "label": "Full Shot"
+            },
+            {
+                "start": 163.36,
+                "end": 171.7,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 171.7,
+                "end": 175.25,
+                "label": "Full Shot"
+            },
+            {
+                "start": 175.25,
+                "end": 178.933,
+                "label": "Full Shot"
+            },
+            {
+                "start": 178.966,
+                "end": 183.19,
+                "label": "Full Shot"
+            },
+            {
+                "start": 183.19,
+                "end": 185.35,
+                "label": "Full Shot"
+            },
+            {
+                "start": 185.35,
+                "end": 187.77,
+                "label": "Full Shot"
+            },
+            {
+                "start": 187.77,
+                "end": 195.85,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 195.85,
+                "end": 207.17,
+                "label": "Full Shot"
+            },
+            {
+                "start": 207.17,
+                "end": 211.533,
+                "label": "Full Shot"
+            },
+            {
+                "start": 211.566,
+                "end": 214.966,
+                "label": "Full Shot"
+            },
+            {
+                "start": 215.0,
+                "end": 218.8,
+                "label": "Full Shot"
+            },
+            {
+                "start": 218.833,
+                "end": 222.533,
+                "label": "Long Shot"
+            },
+            {
+                "start": 222.566,
+                "end": 240.433,
+                "label": "Full Shot"
+            },
+            {
+                "start": 240.466,
+                "end": 280.0,
+                "label": "Full Shot"
+            },
+            {
+                "start": 280.033,
+                "end": 281.6,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 281.633,
+                "end": 389.366,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 389.4,
+                "end": 411.0,
+                "label": "Full Shot"
+            },
+            {
+                "start": 411.033,
+                "end": 556.433,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 556.466,
+                "end": 557.7,
+                "label": "Full Shot"
+            },
+            {
+                "start": 557.766,
+                "end": 563.533,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 563.566,
+                "end": 566.066,
+                "label": "Full Shot"
+            },
+            {
+                "start": 566.1,
+                "end": 568.966,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 569.033,
+                "end": 571.7,
+                "label": "Full Shot"
+            },
+            {
+                "start": 571.766,
+                "end": 574.533,
+                "label": "Full Shot"
+            },
+            {
+                "start": 574.566,
+                "end": 578.433,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 578.5,
+                "end": 579.966,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 580.0,
+                "end": 585.733,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 585.8,
+                "end": 588.466,
+                "label": "Full Shot"
+            },
+            {
+                "start": 588.5,
+                "end": 596.533,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 596.566,
+                "end": 609.533,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 609.6,
+                "end": 633.066,
+                "label": "Full Shot"
+            },
+            {
+                "start": 633.1,
+                "end": 640.566,
+                "label": "Close-Up"
+            },
+            {
+                "start": 640.6,
+                "end": 644.433,
+                "label": "Close-Up"
+            },
+            {
+                "start": 644.466,
+                "end": 647.333,
+                "label": "Full Shot"
+            },
+            {
+                "start": 647.366,
+                "end": 650.166,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 650.2,
+                "end": 653.033,
+                "label": "Full Shot"
+            },
+            {
+                "start": 653.066,
+                "end": 659.73,
+                "label": "Close-Up"
+            },
+            {
+                "start": 659.73,
+                "end": 695.02,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 695.02,
+                "end": 697.566,
+                "label": "Full Shot"
+            },
+            {
+                "start": 697.6,
+                "end": 700.333,
+                "label": "Full Shot"
+            },
+            {
+                "start": 700.366,
+                "end": 703.13,
+                "label": "Long Shot"
+            },
+            {
+                "start": 703.13,
+                "end": 706.4,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 706.433,
+                "end": 718.8,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 718.833,
+                "end": 721.766,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 721.8,
+                "end": 724.07,
+                "label": "Full Shot"
+            },
+            {
+                "start": 724.07,
+                "end": 729.42,
+                "label": "Full Shot"
+            },
+            {
+                "start": 729.42,
+                "end": 732.266,
+                "label": "Full Shot"
+            },
+            {
+                "start": 732.3,
+                "end": 735.31,
+                "label": "Full Shot"
+            },
+            {
+                "start": 735.31,
+                "end": 738.066,
+                "label": "Full Shot"
+            },
+            {
+                "start": 738.1,
+                "end": 740.033,
+                "label": "Full Shot"
+            },
+            {
+                "start": 740.066,
+                "end": 745.366,
+                "label": "Full Shot"
+            },
+            {
+                "start": 745.4,
+                "end": 748.46,
+                "label": "Full Shot"
+            },
+            {
+                "start": 748.46,
+                "end": 765.16,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 765.16,
+                "end": 767.133,
+                "label": "Long Shot"
+            },
+            {
+                "start": 767.166,
+                "end": 768.8,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 768.833,
+                "end": 797.433,
+                "label": "Full Shot"
+            },
+            {
+                "start": 797.466,
+                "end": 800.433,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 800.466,
+                "end": 803.433,
+                "label": "Full Shot"
+            },
+            {
+                "start": 803.466,
+                "end": 929.933,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 929.966,
+                "end": 936.466,
+                "label": "Full Shot"
+            },
+            {
+                "start": 936.5,
+                "end": 939.433,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 939.466,
+                "end": 943.666,
+                "label": "Full Shot"
+            },
+            {
+                "start": 943.7,
+                "end": 947.166,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 947.2,
+                "end": 948.733,
+                "label": "Full Shot"
+            },
+            {
+                "start": 948.766,
+                "end": 951.333,
+                "label": "Full Shot"
+            },
+            {
+                "start": 951.4,
+                "end": 955.366,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 955.4,
+                "end": 957.233,
+                "label": "Full Shot"
+            },
+            {
+                "start": 957.266,
+                "end": 960.066,
+                "label": "Full Shot"
+            },
+            {
+                "start": 960.1,
+                "end": 963.0,
+                "label": "Full Shot"
+            },
+            {
+                "start": 963.033,
+                "end": 967.933,
+                "label": "Full Shot"
+            },
+            {
+                "start": 967.966,
+                "end": 971.933,
+                "label": "Full Shot"
+            },
+            {
+                "start": 972.0,
+                "end": 974.633,
+                "label": "Close-Up"
+            },
+            {
+                "start": 974.666,
+                "end": 976.666,
+                "label": "Full Shot"
+            },
+            {
+                "start": 976.7,
+                "end": 979.266,
+                "label": "Close-Up"
+            },
+            {
+                "start": 979.3,
+                "end": 983.0,
+                "label": "Full Shot"
+            },
+            {
+                "start": 983.033,
+                "end": 986.0,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 986.033,
+                "end": 989.166,
+                "label": "Full Shot"
+            },
+            {
+                "start": 989.2,
+                "end": 992.3,
+                "label": "Full Shot"
+            },
+            {
+                "start": 992.366,
+                "end": 993.933,
+                "label": "Full Shot"
+            },
+            {
+                "start": 993.966,
+                "end": 995.766,
+                "label": "Full Shot"
+            },
+            {
+                "start": 995.8,
+                "end": 997.133,
+                "label": "Full Shot"
+            },
+            {
+                "start": 997.166,
+                "end": 999.666,
+                "label": "Full Shot"
+            },
+            {
+                "start": 999.7,
+                "end": 1001.866,
+                "label": "Extreme Close-Up"
+            },
+            {
+                "start": 1001.9,
+                "end": 1007.066,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1007.1,
+                "end": 1010.766,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1010.8,
+                "end": 1013.766,
+                "label": "Close-Up"
+            },
+            {
+                "start": 1013.8,
+                "end": 1016.933,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1016.966,
+                "end": 1021.2,
+                "label": "Long Shot"
+            },
+            {
+                "start": 1021.233,
+                "end": 1028.0,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1028.033,
+                "end": 1039.9,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1040.0,
+                "end": 1042.066,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1042.099,
+                "end": 1042.533,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1042.566,
+                "end": 1042.733,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1042.766,
+                "end": 1043.833,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1043.9,
+                "end": 1081.266,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1081.3,
+                "end": 1083.933,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1083.966,
+                "end": 1141.233,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1141.266,
+                "end": 1208.233,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1208.266,
+                "end": 1218.666,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1218.7,
+                "end": 1263.466,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1263.5,
+                "end": 1321.233,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1321.266,
+                "end": 1361.666,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1361.7,
+                "end": 1373.466,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1373.5,
+                "end": 1433.933,
+                "label": "Full Shot"
+            },
+            {
+                "start": 1433.966,
+                "end": 1467.166,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1467.2,
+                "end": 1474.466,
+                "label": "Medium Shot"
+            },
+            {
+                "start": 1474.5,
+                "end": 1502.966,
+                "label": "Full Shot"
+            }
+        ]
+    },
+    "trust": {
+        "name": "trust",
+        "segments": []
+    },
+    "emotion": {
+        "name": "emotion",
+        "segments": []
+    },
+    "music-noise": {
+        "name": "music-noise",
+        "segments": [
+            {
+                "start": 120.44,
+                "end": 195.85,
+                "label": "noise"
+            }
+        ]
+    },
+    "speaker-gender": {
+        "name": "speaker-gender",
+        "segments": [
+            {
+                "start": 94.033,
+                "end": 120.44,
+                "label": "W1"
+            },
+            {
+                "start": 120.44,
+                "end": 126.25,
+                "label": "M1"
+            },
+            {
+                "start": 126.25,
+                "end": 145.39,
+                "label": "M2 "
+            },
+            {
+                "start": 145.39,
+                "end": 156.55,
+                "label": "M2"
+            },
+            {
+                "start": 156.55,
+                "end": 195.86,
+                "label": "M2"
+            },
+            {
+                "start": 195.86,
+                "end": 240.266,
+                "label": "W1  "
+            },
+            {
+                "start": 659.72,
+                "end": 695.04,
+                "label": "W1"
+            },
+            {
+                "start": 695.04,
+                "end": 705.058,
+                "label": "M3"
+            },
+            {
+                "start": 705.092,
+                "end": 720.857,
+                "label": "W2"
+            },
+            {
+                "start": 720.886,
+                "end": 748.44,
+                "label": "M3"
+            },
+            {
+                "start": 748.45,
+                "end": 765.17,
+                "label": "M4"
+            },
+            {
+                "start": 765.18,
+                "end": 768.8,
+                "label": "M3"
+            }
+        ]
+    }
+}

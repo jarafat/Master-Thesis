@@ -8,28 +8,52 @@ import pickle
 from PIL import Image
 import time
 import datetime
+import yaml
 
-# TODO: store fps in .pkl files
+with open('/nfs/home/arafatj/master_project/src/config.yaml', 'r') as file:
+    config = yaml.safe_load(file)
 
-config = {
-    "fps": 2,
-    "tmp_dir": "/nfs/home/arafatj/tmp/",
-    "spk_diarization_script" : "/nfs/home/arafatj/master_project/whisper-diarization-main/diarize.py",
-    "CLIP_queries": "/nfs/home/arafatj/master_project/models/CLIP/CLIP_queries.json",
-    "places365_architecture": "resnet50",
-    "places365_model": "/nfs/home/arafatj/master_project/models/Places365/{architecture}_places365.pth.tar",
-    "places365_categories": "/nfs/home/arafatj/master_project/models/Places365/categories_places365.txt"
-}
+
+def asr(video_path, whisper_model, output_dir):
+    """
+    ASR with OpenAi's Whisper
+    github: https://github.com/openai/whisper
+    """
+    import whisper
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
+    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/asr_large-v2.pkl"
+
+    if os.path.exists(pkl_file):
+        print(f"[ASR] Found pkl: {pkl_file} , skip Whisper ASR", flush=True)
+        return
+
+    # extract transcript
+    model = whisper.load_model(whisper_model)
+    model.to(device)
+    result = model.transcribe(video_path, language='de')
+
+    # store in pkl
+    with open(pkl_file, 'wb') as pkl:
+        pickle.dump(result, pkl, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f'[ASR] Successfully applied Whisper ASR! Result: {pkl.name}', flush=True)
+
 
 
 def speaker_diarization(video_path, whisper_model, output_dir):
+    """
+    Speaker diarization with the use of OpenAI's Whisper ASR
+    github: https://github.com/MahmoudAshraf97/whisper-diarization
+    """
     # ASR & Speaker Diarization
     from moviepy.editor import VideoFileClip
     import tempfile
     import subprocess
 
     os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
-    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/speaker_diarization.pkl"
+    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/speaker_diarization_large-v2.pkl"
 
     if os.path.exists(pkl_file):
         print(f"[Speaker Diarization] Found pkl: {pkl_file} , skip Whisper Speaker Diarization", flush=True)
@@ -45,15 +69,22 @@ def speaker_diarization(video_path, whisper_model, output_dir):
     subprocess.run(f"conda run -n speaker_diarization \
                    python {config['spk_diarization_script']} -a {audio_file.name} --whisper-model {whisper_model} --no-stem --output {pkl_file}",
                    shell=True,
-                   stdout=subprocess.DEVNULL)
+                   stdout=subprocess.DEVNULL,
+                   stderr=subprocess.DEVNULL)
     
     # file will only be there if the diarization was successful
     if os.path.exists(pkl_file):
         print(f"[Speaker Diarization] Successfully applied Whisper Speaker Diarization! Result: {pkl_file}", flush=True)
+    else:
+         print(f"[Speaker Diarization] ERROR: Whisper Speaker Diarization failed!", flush=True)
 
 
 
 def shot_boundary_detection(video_path, output_dir):
+    """
+    Shot Boundary Detection with TransNetV2
+    github: https://github.com/soCzech/TransNetV2
+    """
     # suppress tensorflow warnings
     os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
     from transnetv2 import TransNetV2
@@ -139,12 +170,16 @@ def shot_density(video_path, output_dir):
     """
     # VISUALIZATION
     plt.plot(output_data["time"], output_data["y"])
-    plt.savefig(f'/nfs/home/arafatj/master_project/graphs/shot_density/{os.path.basename(pkl_file.replace(".pkl", ".png"))}')
+    plt.savefig(f'/nfs/home/arafatj/master_project/graphics/shot_density/{os.path.basename(pkl_file.replace(".pkl", ".png"))}')
     """
 
 
 
 def places(video_path, output_dir, noprint):
+    """
+    Places365 model
+    github: https://github.com/CSAILVision/places365
+    """
     # Places
     from torch.autograd import Variable as V
     import torchvision.models as models
@@ -233,7 +268,7 @@ def predict_CLIP_queries(video_path, output_dir, noprint):
     import json
 
     os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
-    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/clip.pkl"
+    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/clip_v2.pkl"
 
     np.set_printoptions(suppress=True) # do not print floats in scientific notation (e^...)
 
@@ -256,7 +291,6 @@ def predict_CLIP_queries(video_path, output_dir, noprint):
     for domain in queries.keys():
         result_matrices[domain] = []
     
-
     if noprint:
         print('[CLIP] Processing video frames...', flush=True)
     for i, frame in enumerate(video_decoder):
@@ -316,23 +350,123 @@ def predict_CLIP_queries(video_path, output_dir, noprint):
         pickle.dump(result_matrices, pkl, protocol=pickle.HIGHEST_PROTOCOL)
         print(f"[CLIP] Successfully applied CLIP! Result: {pkl.name}", flush=True)
 
-        
+
+
+def sentiment_analysis(video_path, output_dir):
+    """
+    Predict sentiments based on ASR transcript
+    github: https://huggingface.co/mdraw/german-news-sentiment-bert
+    """
+    from germansentiment import SentimentModel
+
+    os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
+    sentiment_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/sentiment_large-v2.pkl"
+    asr_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/asr_large-v2.pkl"
+
+    if os.path.exists(sentiment_pkl):
+        print(f"[SENTIMENT] Found pkl: {sentiment_pkl} , skip Sentiment Analysis", flush=True)
+        return
+    elif not os.path.exists(asr_pkl):
+        print("[SENTIMENT] Please provide a pkl containing an ASR transcript (--asr) before approaching Sentiment Analysis", flush=True)
+        return
+    
+    with open(asr_pkl, 'rb') as pkl:
+        asr_data = pickle.load(pkl)
+    
+    # store all sentences in one array
+    texts = []
+    for segment in asr_data['segments']:
+        texts.append(segment['text'].strip())
+
+    model = SentimentModel('mdraw/german-news-sentiment-bert')
+    preds, probs = model.predict_sentiment(texts, output_probabilities=True)
+    
+    sentiments = []
+    for i, segment in enumerate(asr_data['segments']):
+        segment_data = {}
+        segment_data['start'] = segment['start']
+        segment_data['end'] = segment['end']
+        segment_data['text'] = segment['text'].strip()
+        segment_data['sentiment'] = preds[i]
+        segment_data['sentiment_probs'] = probs[i]
+        sentiments.append(segment_data)
+    
+    # store in pkl
+    with open(sentiment_pkl, 'wb') as pkl:
+        pickle.dump(sentiments, pkl, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f'[Sentiment] Successfully applied Sentiment Analysis! Result: {pkl.name}', flush=True)
+
+    
+
+def topic_modeling(video_path, output_dir):
+    """
+    Topic modeling with BERTopic
+    github: https://github.com/MaartenGr/BERTopic/
+
+    Topic modeling feature:
+    First let topic model collect topic info about all video using the asr scripts.
+    The feature will have counts on how many topics a speaker talked about. These counts
+    can be calculated by checking if a speaker segment contains a word in the top_n_words
+    that was extracted by topic modeling.
+    """
+    # suppress tensorflow warnings
+    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+    from bertopic import BERTopic
+    
+    os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
+    topic_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/topics.pkl"
+    asr_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/asr.pkl"
+    diarization_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/speaker_diarization.pkl"
+
+    if os.path.exists(topic_pkl):
+        print(f"[TOPIC] Found pkl: {topic_pkl} , skip Topic Modeling", flush=True)
+        return
+    elif not os.path.exists(asr_pkl):
+        print("[TOPIC] Please provide a pkl containing an ASR transcript (--asr) before approaching Topic Modeling", flush=True)
+        return
+
+    with open(asr_pkl, 'rb') as pkl:
+        asr_data = pickle.load(pkl)
+
+    with open(asr_pkl, 'rb') as pkl:
+        asr_data = pickle.load(pkl)
+
+    with open(diarization_pkl, 'rb') as pkl:
+        diarization_data = pickle.load(pkl)
+
+    topic_model = BERTopic(language="multilingual")
+    stopwords = set([word.strip() for word in open(config['stopwords']).readlines()])
+
+    all_texts = []
+    for segment in diarization_data:
+        text = segment['text']
+        text = " ".join([word.strip(".,?!") for word in text.split() if word.strip(".,?!").lower() not in stopwords])
+        all_texts.append(text)
+    
+    topic_model.fit_transform(all_texts)
+    print(topic_model.get_topic_freq())
+
+    
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Feature extraction methods')
     parser.add_argument('--video', action='store', type=os.path.abspath, required=True, help="Path to the video (.mp4) to be processed")
     parser.add_argument('--output', action='store', type=os.path.abspath, help="Path to the directory where results will be stored. \
-                        a subdirectory for the corresponding video will be added automatically, so only the path to the main OUTPUT/ directory is required",
+                        A subdirectory for the corresponding video will be added automatically, so only the path to the main OUTPUT/ directory is required",
                         default="/nfs/home/arafatj/master_project/OUTPUT/") #TODO: REMOVE "DEFAULT="" AND SET "REQUIRED=TRUE" for generic usage
     parser.add_argument('--noprint', action='store_true', help="Disables progression printing by video processors such as CLIP. \
                         Mainly relevant for sbatch processing, so the output log won't be flooded caused by sbatch ignoring the carriage return")
 
+    parser.add_argument('--asr', action='store_true', help="ASR")
     parser.add_argument('--diarize', action='store_true', help="Speaker Diarization")
     parser.add_argument('--places', action='store_true', help="Place Recognition")
     parser.add_argument('--clip', action='store_true', help="CLIP")
     parser.add_argument('--sbd', action='store_true', help="Shot Boundary Detection")
     parser.add_argument('--sd', action='store_true', help="Shot Density")
-    
+    parser.add_argument('--sentiment', action='store_true', help="Sentiment Analysis")
+    parser.add_argument('--topic', action='store_true', help="Topic Modeling")
+
+
     args = parser.parse_args()
 
     start_time = time.time()
@@ -344,45 +478,46 @@ if __name__ == '__main__':
 
     # change current working directory to the scripts directory (Windows)
     os.chdir(os.path.dirname(os.path.realpath(__file__)))
+
+    if not output_dir:
+        print('ERROR: Please provide the path to a directory where .pkl files will be stored and/or read ("--output-dir")', flush=True)
+        quit()
     
+    if args.asr:
+        # Whisper ASR
+        asr(video_path, "large-v2", output_dir)
+
     if args.diarize:
-        # Whisper
-        if not output_dir:
-            print('ERROR: Please provide the path to a directory where .pkl files will be stored and/or read ("--output-dir")', flush=True)
-            quit()
-        speaker_diarization(video_path, "base", output_dir)
+        # Whisper Speaker Diarization
+        speaker_diarization(video_path, "large-v2", output_dir)
 
     if args.places:
         # Places365
-        if not output_dir:
-            print('ERROR: Please provide the path to a directory where .pkl files will be stored and/or read ("--output-dir")', flush=True)
-            quit()
         places(video_path, output_dir, args.noprint)
 
     if args.clip:
         # Clip
-        if not output_dir:
-            print('ERROR: Please provide the path to a directory where .pkl files will be stored and/or read ("--output-dir")', flush=True)
-            quit()
         predict_CLIP_queries(video_path, output_dir, args.noprint)
 
+    if args.sentiment:
+        # Sentiment Analysis
+        sentiment_analysis(video_path, output_dir)
+
+    if args.topic:
+        # Sentiment Analysis
+        topic_modeling(video_path, output_dir)
+
     if args.sbd:
-        # TransNet V2
-        if not output_dir:
-            print('ERROR: Please provide the path to a directory where .pkl files will be stored and/or read ("--output-dir")', flush=True)
-            quit()
+        # TransNet V2 (Keep this at the end because of heavy memory usage in TransNet code)
         shot_boundary_detection(video_path, output_dir)
 
     if args.sd:
         # Shot Density
-        if not output_dir:
-            print('ERROR: Please provide the path to a directory where .pkl files will be stored and/or read ("--output-dir")', flush=True)
-            quit()
         shot_density(video_path, output_dir)
 
     # processing time
     end_time = time.time()
     duration = end_time - start_time
     td = datetime.timedelta(seconds=duration)
-    duration_formatted = str(td)
+    duration_formatted = str(td).split('.')[0]
     print(f'Processing time: {duration_formatted}')
