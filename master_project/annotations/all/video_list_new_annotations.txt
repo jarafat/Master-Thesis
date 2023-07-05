@@ -1,0 +1,4 @@
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230101-2021-5900.webl.h264.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230104-2024-3400.webl.h264.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230107-2020-5800.webl.h264.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230110-2021-4400.webl.h264.mp4

@@ -28,6 +28,10 @@
 /nfs/data/fakenarratives/CompactTV/videos/compacttv_2022_01_26_wzQkoDUGMSA.mp4
 /nfs/data/fakenarratives/CompactTV/videos/compacttv_2022_01_27_WU7Ga9cXvc4.mp4
 /nfs/data/fakenarratives/CompactTV/videos/compacttv_2022_01_31_QFNlmMBLwK0.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230101-2021-5900.webl.h264.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230104-2024-3400.webl.h264.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230107-2020-5800.webl.h264.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230110-2021-4400.webl.h264.mp4
 /nfs/data/fakenarratives/tagesschau/videos/2022/TV-20220102-2021-1800.webl.h264.mp4
 /nfs/data/fakenarratives/tagesschau/videos/2022/TV-20220103-2020-2800.webl.h264.mp4
 /nfs/data/fakenarratives/tagesschau/videos/2022/TV-20220104-2020-5700.webl.h264.mp4

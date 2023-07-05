@@ -14,6 +14,7 @@ with open('/nfs/home/arafatj/master_project/src/config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
 
+
 def asr(video_path, whisper_model, output_dir):
     """
     ASR with OpenAi's Whisper
@@ -268,7 +269,7 @@ def predict_CLIP_queries(video_path, output_dir, noprint):
     import json
 
     os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
-    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/clip_v2.pkl"
+    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/clip.pkl"
 
     np.set_printoptions(suppress=True) # do not print floats in scientific notation (e^...)
 
@@ -325,8 +326,6 @@ def predict_CLIP_queries(video_path, output_dir, noprint):
                 text = clip.tokenize(queries[domain][label]).to(device)
 
                 with torch.no_grad():
-                    image_features = model.encode_image(image)
-                    text_features = model.encode_text(text)
                     logits_per_image, logits_per_text = model(image, text)
 
                 # create a list of tuples that contains (query, class/label, similarity_score) for each query defined in the json
@@ -349,6 +348,82 @@ def predict_CLIP_queries(video_path, output_dir, noprint):
     with open(pkl_file, 'wb') as pkl:
         pickle.dump(result_matrices, pkl, protocol=pickle.HIGHEST_PROTOCOL)
         print(f"[CLIP] Successfully applied CLIP! Result: {pkl.name}", flush=True)
+
+
+
+def clip_image_embeddings(video_path, output_dir, noprint):
+    """
+    Create image embeddings of every frame using CLIPs image encoder.
+    These are later used to calculate similarities between frames.
+    """
+    import clip
+
+    os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
+    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/image_embedding.pkl"
+
+    if os.path.exists(pkl_file):
+        """ Cosine similarity between two tensors (frames)
+        with open(pkl_file, 'rb') as pkl:
+            data = pickle.load(pkl)
+            from sklearn.metrics.pairwise import cosine_similarity
+            print(cosine_similarity(data[1].cpu().reshape(1, -1), data[2].cpu().reshape(1, -1)))
+            print(cosine_similarity(data[0].cpu().reshape(1, -1), data[200].cpu().reshape(1, -1)))
+        """
+        print(f"[IMAGE EMBEDDINGS] Found pkl: {pkl_file} , skip Image Embedding extraction", flush=True)
+        return
+    
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model, preprocess = clip.load('ViT-B/32', device=device)
+
+    video_decoder = VideoDecoder(video_path, fps=config["fps"])
+    duration = video_decoder.duration()
+    
+    if noprint:
+        print('[IMAGE EMBEDDINGS] Processing video frames...', flush=True)
+    
+    embeddings = []
+    for i, frame in enumerate(video_decoder):
+        if not noprint:
+            print(f'[IMAGE EMBEDDINGS] Processing video frames: {i}/{int(duration * config["fps"])}', end="\r", flush=True)
+
+        image = preprocess(Image.fromarray(np.uint8(frame.get('frame')))).unsqueeze(0).to(device)
+
+        with torch.no_grad():
+            image_features = model.encode_image(image)
+
+        embeddings.append(image_features)
+        
+    if not noprint:
+        # remove carriage return
+        print("", flush=True)
+
+    # store result list as pkl
+    with open(pkl_file, 'wb') as pkl:
+        pickle.dump(embeddings, pkl, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f"[IMAGE EMBEDDINGS] Successfully extracted Image Embeddings! Result: {pkl.name}", flush=True)
+
+
+
+def scene_detection(video_path, output_dir):
+    """
+    Detect scenes with PySceneDetect and store them in a pkl.
+    Scenes are stored with their corresponding start and end time.
+    """
+    from scenedetect import detect, ContentDetector
+    
+    os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
+    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/scenes.pkl"
+
+    if os.path.exists(pkl_file):
+        print(f"[SCENES] Found pkl: {pkl_file} , skip Scene Detection", flush=True)
+        return
+
+    scene_list = detect(video_path, ContentDetector())
+      
+    # store result scenes as pkl
+    with open(pkl_file, 'wb') as pkl:
+        pickle.dump(scene_list, pkl, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f"[SCENES] Successfully applied Scene Detection! Result: {pkl.name}", flush=True)
 
 
 
@@ -416,20 +491,14 @@ def topic_modeling(video_path, output_dir):
     os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
     topic_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/topics.pkl"
     asr_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/asr.pkl"
-    diarization_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/speaker_diarization.pkl"
+    diarization_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/speaker_diarization_large-v2.pkl"
 
     if os.path.exists(topic_pkl):
         print(f"[TOPIC] Found pkl: {topic_pkl} , skip Topic Modeling", flush=True)
         return
-    elif not os.path.exists(asr_pkl):
+    elif not os.path.exists(diarization_pkl):
         print("[TOPIC] Please provide a pkl containing an ASR transcript (--asr) before approaching Topic Modeling", flush=True)
         return
-
-    with open(asr_pkl, 'rb') as pkl:
-        asr_data = pickle.load(pkl)
-
-    with open(asr_pkl, 'rb') as pkl:
-        asr_data = pickle.load(pkl)
 
     with open(diarization_pkl, 'rb') as pkl:
         diarization_data = pickle.load(pkl)
@@ -446,7 +515,162 @@ def topic_modeling(video_path, output_dir):
     topic_model.fit_transform(all_texts)
     print(topic_model.get_topic_freq())
 
+
+
+def pos_tagger(video_path, output_dir):
+    """
+    POS-tagger for speaker segments
+    """
+    # suppress tensorflow warnings
+    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+    import spacy
+    nlp = spacy.load("de_core_news_lg")
+
+    os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
+    tags_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/pos_tags.pkl"
+    diarization_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/speaker_diarization_large-v2.pkl"
+
+    if os.path.exists(tags_pkl):
+        print(f"[POS TAGGER] Found pkl: {tags_pkl} , skip POS Tagging", flush=True)
+        return
+    elif not os.path.exists(diarization_pkl):
+        print("[POS TAGGER] Please provide a pkl containing Speaker Diariazation data (--diarize) before approaching POS Tagging", flush=True)
+        return
+
+    with open(diarization_pkl, 'rb') as pkl:
+        diarization_data = pickle.load(pkl)
+
+    pos_dict = config['pos_dict']
+
+    # SPEAKER DIARIZATION BASED
+    all_pos = []
+    for segment in diarization_data:
+        seg_pos = []
+        pos_vector = np.zeros(14)
+
+        text = nlp(segment['text'])
+        for token in text:
+            seg_pos.append((token.text, token.pos_, token.tag_))
+            if token.pos_ in pos_dict:
+                pos_vector[pos_dict[token.pos_]] += 1
+            else:
+                pos_vector[pos_dict['X']] += 1
+
+        all_pos.append({"start_time": segment['start_time'], "end_time": segment['end_time'], "vector": pos_vector})
     
+    # store result as pkl
+    with open(tags_pkl, 'wb') as pkl:
+        pickle.dump(all_pos, pkl, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f"[POS TAGGER] Successfully applied POS Tagging! Result: {pkl.name}", flush=True)
+    
+
+
+def ner_tagger(video_path, output_dir):
+    """
+    Named Entity recognition tagger for speaker segments
+
+    (This function has to be executed in the 'speaker_diarization' conda environment, since protobuf requirements to do not match)
+    """
+    from nlp_feature_code import feat_functions
+    import stanza
+    nlp = stanza.Pipeline(lang='de', processors='tokenize,ner,pos', download_method=None, logging_level='ERROR')
+
+    os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
+    tags_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/ner_tags.pkl"
+    asr_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/asr_large-v2.pkl"
+    diarization_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/speaker_diarization_large-v2.pkl"
+
+    if os.path.exists(tags_pkl):
+        print(f"[NER TAGGER] Found pkl: {tags_pkl} , skip NER Tagging", flush=True)
+        return
+    elif not os.path.exists(asr_pkl):
+        print("[NER TAGGER] Please provide a pkl containing ASR data (--asr) before approaching NER Tagging", flush=True)
+        return
+    elif not os.path.exists(diarization_pkl):
+        print("[NER TAGGER] Please provide a pkl containing Speaker Diariazation data (--diarize) before approaching NER Tagging", flush=True)
+        return
+    
+    with open(asr_pkl, 'rb') as pkl:
+        asr_data = pickle.load(pkl)
+
+    with open(diarization_pkl, 'rb') as pkl:
+        diarization_data = pickle.load(pkl)
+
+    proc_text = nlp(asr_data["text"])
+    proc_segments = [nlp(segment["text"]) for segment in diarization_data]
+
+    ## NER
+    ner_dict = {"EPER": 0, "LPER": 1, "LOC": 2, "ORG": 3, "EVENT": 4, "MISC": 5}
+    event_set = set()
+    with open('/nfs/home/arafatj/master_project/src/nlp_feature_code/eventKG.csv') as fr:
+        for line in fr:
+            event_set.add(line.strip())
+
+    ## Get NER Tags and Vectors
+    sen_nes, seg_nes = feat_functions.get_ner_outputs(proc_text, proc_segments, ner_dict, event_set)
+
+    all_ner = []
+    for i, seg in enumerate(seg_nes):
+        # get the diarization segment for the current ner_tagged segment
+        diarization_segment = diarization_data[i]
+        start = diarization_segment['start_time']
+        end = diarization_segment['end_time']
+        text = diarization_segment['text']
+        vector = seg['vector']
+        tags = seg['tags']
+        all_ner.append({"start_time": start, "end_time": end, "text": text, "vector": vector, "tags": tags})
+
+
+    # store result as pkl
+    with open(tags_pkl, 'wb') as pkl:
+        pickle.dump(all_ner, pkl, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f"[NER TAGGER] Successfully applied NER Tagging! Result: {pkl.name}", flush=True)
+
+
+
+def sentence_embeddings(video_path, output_dir):
+    """
+    Create text embeddings of every frame using CLIPs image encoder.
+    These are later used to calculate similarities between frames.
+    """
+    from sentence_transformers import SentenceTransformer
+    # suppress tensorflow warnings
+    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+    import spacy
+    nlp = spacy.load("de_core_news_lg")
+
+    os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
+    embeddings_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/sentence_embedding.pkl"
+    diarization_pkl = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/speaker_diarization_large-v2.pkl"
+
+    if os.path.exists(embeddings_pkl):
+        print(f"[SENTENCE EMBEDDINGS] Found pkl: {embeddings_pkl} , skip Sentence Encoding", flush=True)
+        return
+    elif not os.path.exists(diarization_pkl):
+        print("[SENTENCE EMBEDDINGS] Please provide a pkl containing Speaker Diariazation data (--diarize) before approaching Sentence Encoding", flush=True)
+        return
+    
+    with open(diarization_pkl, 'rb') as pkl:
+        diarization_data = pickle.load(pkl)
+
+    # load multilingual sentence embedding model
+    model = SentenceTransformer('distiluse-base-multilingual-cased-v1')
+
+    embeddings = []
+    for segment in diarization_data:
+        text = nlp(segment['text'])
+        # get sentences from text segment
+        sentences = [sent.text for sent in text.sents]
+        # convert sentences to their embeddigns (return a list where each entry is the embedding of a sentence)
+        sentence_embeddings = model.encode(sentences)
+        embeddings.append({"start_time": segment['start_time'], "end_time": segment['end_time'], "sentences": sentences,"sentence_embeddings": sentence_embeddings})
+    
+    # store result as pkl
+    with open(embeddings_pkl, 'wb') as pkl:
+        pickle.dump(embeddings, pkl, protocol=pickle.HIGHEST_PROTOCOL)
+        print(f"[SENTENCE EMBEDDINGS] Successfully extracted Sentence Embeddings! Result: {pkl.name}", flush=True)
+
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Feature extraction methods')
@@ -465,6 +689,12 @@ if __name__ == '__main__':
     parser.add_argument('--sd', action='store_true', help="Shot Density")
     parser.add_argument('--sentiment', action='store_true', help="Sentiment Analysis")
     parser.add_argument('--topic', action='store_true', help="Topic Modeling")
+    parser.add_argument('--scenes', action='store_true', help="Scene Detection")
+    parser.add_argument('--pos', action='store_true', help="POS Tagging")
+    parser.add_argument('--imgemb', action='store_true', help="Image Embeddings")
+    parser.add_argument('--sentemb', action='store_true', help="Sentence Embeddings")
+    parser.add_argument('--ner', action='store_true', help="Named Entity Recognition Tagger")
+
 
 
     args = parser.parse_args()
@@ -506,6 +736,26 @@ if __name__ == '__main__':
     if args.topic:
         # Sentiment Analysis
         topic_modeling(video_path, output_dir)
+
+    if args.scenes:
+        # Scene Detection
+        scene_detection(video_path, output_dir)
+
+    if args.pos:
+        # POS Tagging
+        pos_tagger(video_path, output_dir)
+
+    if args.ner:
+        # NER Tagging
+        ner_tagger(video_path, output_dir)
+    
+    if args.imgemb:
+        # Image Embeddings using CLIP
+        clip_image_embeddings(video_path, output_dir, args.noprint)
+
+    if args.sentemb:
+        # Sentence Embeddings
+        sentence_embeddings(video_path, output_dir)
 
     if args.sbd:
         # TransNet V2 (Keep this at the end because of heavy memory usage in TransNet code)

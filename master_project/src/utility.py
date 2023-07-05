@@ -6,6 +6,7 @@ import yaml
 with open('/nfs/home/arafatj/master_project/src/config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
+
 def get_annotated_videos():
     """
     Iterates over all annotations files and stores the absolute path of their associated video
@@ -32,6 +33,8 @@ def get_annotated_videos():
             video_path = config['CompactTV_videos'] + video_fn
         elif os.path.exists(config['Tagesschau_videos'] + video_fn):
             video_path = config['Tagesschau_videos'] + video_fn
+        elif os.path.exists(config['Tagesschau_videos2'] + video_fn):
+            video_path = config['Tagesschau_videos2'] + video_fn
             
         if video_path:
             annotated_videos.append(video_path)
@@ -126,24 +129,10 @@ def diarization_error_rate():
 
 
 
-def scene_detection():
-    from scenedetect import detect, ContentDetector
-    
-    scene_list = detect('/nfs/data/fakenarratives/tagesschau/videos/2022/TV-20220106-2021-1700.webl.h264.mp4', ContentDetector())
-
-    for i, scene in enumerate(scene_list):
-        print('    Scene %2d: Start %s / End %s' % (
-            i+1,
-            scene[0].get_timecode(),
-            scene[1].get_timecode()))
-
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Utility methods')
     parser.add_argument('--videolist', action='store_true', help="Extracts a list of videos that are annotated")
     parser.add_argument('--der', action='store_true', help="Calculate Diarization Error Rate")
-    parser.add_argument('--scenes', action='store_true', help="Get a list of scenes")
     args = parser.parse_args()
 
     if args.videolist:
@@ -151,6 +140,3 @@ if __name__ == '__main__':
 
     if args.der:
         diarization_error_rate()
-
-    if args.scenes:
-        scene_detection()

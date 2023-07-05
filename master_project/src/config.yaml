@@ -7,11 +7,28 @@ output_dir: "/nfs/home/arafatj/master_project/OUTPUT/"
 ###### features.py
 tmp_dir: "/nfs/home/arafatj/tmp/"
 spk_diarization_script: "/nfs/home/arafatj/master_project/whisper-diarization-main/diarize.py"
-CLIP_queries: "/nfs/home/arafatj/master_project/models/CLIP/CLIP_queries_v2.json"
+CLIP_queries: "/nfs/home/arafatj/master_project/models/CLIP/CLIP_queries.json"
 places365_architecture: resnet50
 places365_model: "/nfs/home/arafatj/master_project/models/Places365/{architecture}_places365.pth.tar"
 places365_categories: "/nfs/home/arafatj/master_project/models/Places365/categories_places365.txt"
 stopwords: "/nfs/home/arafatj/master_project/models/Topic_Modeling/stopwords.txt"
+pos_dict:
+  ADJ: 0
+  ADP: 1
+  ADV: 2
+  AUX: 3
+  CONJ: 4
+  CCONJ: 4
+  SCONJ: 4
+  DET: 5
+  INTJ: 6
+  NOUN: 7
+  NUM: 8  
+  PART: 9
+  PRON: 10
+  PROPN: 11
+  VERB: 12
+  X: 13
 ######
 
 ###### create_train_data.py
@@ -55,13 +72,50 @@ speaker_hierarchy_mapping_1:
   politician-right: politician
   celeb: other
 
-groundtruth_numerical:
+groundtruth_numerical_speaker:
   anchor: 0
   reporter: 1
   other: 2
   expert: 3
   layperson: 4
   politician: 5
+
+groundtruth_numerical_situations:
+  talking-head: 0
+  voiceover: 1
+  interview: 2
+  commenting: 3
+  speech: 4
+
+window_lengths:
+  - 5
+  - 10
+  - 20
+  - 40
+
+context_size: 1
+######
+
+###### training.py
+speaker_trainingdata_tagesschau_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/tag_412_samples_trainingdata.pkl"
+speaker_trainingdata_bildtv_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/bild_91_samples_trainingdata.pkl"
+speaker_trainingdata_compacttv_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/com_82_samples_trainingdata.pkl"
+
+speaker_trainingdata_tagesschau_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/tag_412_samples_trainingdata.pkl"
+speaker_trainingdata_bildtv_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/bild_91_samples_trainingdata.pkl"
+speaker_trainingdata_compacttv_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/com_82_samples_trainingdata.pkl"
+
+situations_trainingdata_tagesschau_seg: "/nfs/home/arafatj/master_project/trainingdata/situations/segment_based/tag_225_samples_trainingdata.pkl"
+situations_trainingdata_bildtv_seg: "/nfs/home/arafatj/master_project/trainingdata/situations/segment_based/bild_86_samples_trainingdata.pkl"
+situations_trainingdata_compacttv_seg: "/nfs/home/arafatj/master_project/trainingdata/situations/segment_based/com_77_samples_trainingdata.pkl"
+
+situations_trainingdata_tagesschau_window: "/nfs/home/arafatj/master_project/trainingdata/situations/window_based/tag_225_samples_trainingdata.pkl"
+situations_trainingdata_bildtv_window: "/nfs/home/arafatj/master_project/trainingdata/situations/window_based/bild_86_samples_trainingdata.pkl"
+situations_trainingdata_compacttv_window: "/nfs/home/arafatj/master_project/trainingdata/situations/window_based/com_77_samples_trainingdata.pkl"
+
+seed: 100
+
+k: 5
 
 labels_0:
   - anchor
@@ -71,32 +125,18 @@ labels_0:
 labels_1:
   - anchor
   - reporter
-  - other
   - expert
   - layperson
   - politician
 
-window_lengths:
-  - 5
-  - 10
-  - 20
-  - 40
+labels_situations:
+  - talking-head
+  - voiceover
+  - interview
+  - commenting
+  - speech
 
-delta_t: 2.5
-######
-
-###### training.py
-speaker_trainingdata_tagesschau_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/tag_233_samples_trainingdata.pkl"
-speaker_trainingdata_bildtv_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/bild_91_samples_trainingdata.pkl"
-speaker_trainingdata_compacttv_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/com_82_samples_trainingdata.pkl"
-
-speaker_trainingdata_tagesschau_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/tag_233_samples_trainingdata.pkl"
-speaker_trainingdata_bildtv_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/bild_91_samples_trainingdata.pkl"
-speaker_trainingdata_compacttv_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/com_82_samples_trainingdata.pkl"
-
-k: 5
-
-feature_names:
+feature_names_speaker:
   - clip_Anchor
   - clip_Reporter
   - clip_PoliceFrwr
@@ -125,10 +165,89 @@ feature_names:
   - PositiveSentProb
   - NegativeSentProb
   - NeutralSentProb
+  - NumberOfScenes
+  - pos_ADJ 
+  - pos_ADP 
+  - pos_ADV 
+  - pos_AUX 
+  - pos_CONJ
+  - pos_DET 
+  - pos_INTJ 
+  - pos_NOUN 
+  - pos_NUM   
+  - pos_PART 
+  - pos_PRON
+  - pos_PROPN
+  - pos_VERB
+  - pos_X
+  - ner_EPER
+  - ner_LPER
+  - ner_LOC
+  - ner_ORG
+  - ner_MISC
+  - speaker_before_img_sim
+  - speaker_after_img_sim
+  - speaker_before_sent_sim
+  - speaker_after_sent_sim
+
+feature_names_situations:
+  - clip_Anchor
+  - clip_Reporter
+  - clip_PoliceFrwr
+  - clip_DoctorNurse
+  - clip_Xcov
+  - clip_4cov
+  - clip_Layperson
+  - clip_ExpMedicine
+  - clip_ExpOth
+  - clip_Polit
+  - clip_PolitAmpel
+  - clip_PolitRight
+  - clip_PolitOther
+  - clip_Polit-n-de
+  - clip_Celeb
+  - clip_Talkinghead
+  - clip_Interview
+  - clip_Speech
+  - clip_Commenting
+  - clip_Voiceover
+  - clip_Studio
+  - clip_Indoor
+  - clip_Outdoor
+  - Avg_Shotdensity
+  - LengthOfSpeech
+  - PositiveSentProb
+  - NegativeSentProb
+  - NeutralSentProb
+  - NumberOfScenes
+  - pos_ADJ 
+  - pos_ADP 
+  - pos_ADV 
+  - pos_AUX 
+  - pos_CONJ
+  - pos_DET 
+  - pos_INTJ 
+  - pos_NOUN 
+  - pos_NUM   
+  - pos_PART 
+  - pos_PRON
+  - pos_PROPN
+  - pos_VERB
+  - pos_X
+  - ner_EPER
+  - ner_LPER
+  - ner_LOC
+  - ner_ORG
+  - ner_MISC
+  - speaker_before_img_sim
+  - speaker_after_img_sim
+  - speaker_before_sent_sim
+  - speaker_after_sent_sim
 ######
 
 ###### utility.py
 BildTV_videos: "/nfs/data/fakenarratives/BildTV/videos/"
 CompactTV_videos: "/nfs/data/fakenarratives/CompactTV/videos/"
 Tagesschau_videos: "/nfs/data/fakenarratives/tagesschau/videos/2022/"
+Tagesschau_videos2: "/nfs/data/fakenarratives/tagesschau/videos/2023/"
 ######

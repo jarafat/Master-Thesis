@@ -1,294 +1,265 @@
-Processing file 20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es.mp4: 1/49
+Processing file 20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es.mp4: 1/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es/clip_v2.pkl
-Processing time: 0:13:55
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:08
 
-Processing file 20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU.mp4: 2/49
+Processing file 20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU.mp4: 2/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU/clip_v2.pkl
-Processing time: 0:06:10
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file 20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI.mp4: 3/49
+Processing file 20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI.mp4: 3/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI/clip_v2.pkl
-Processing time: 0:21:25
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI/ner_tags.pkl
+Processing time: 0:00:38
 
-Processing file 20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk.mp4: 4/49
+Processing file 20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk.mp4: 4/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk/clip_v2.pkl
-Processing time: 0:21:22
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:06
 
-Processing file 20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E.mp4: 5/49
+Processing file 20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E.mp4: 5/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E/clip_v2.pkl
-Processing time: 0:07:42
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220106_Impfpflicht_wackelt_Man_muss_ständig_GSTg37aDd-E/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file 20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I.mp4: 6/49
+Processing file 20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I.mp4: 6/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I/clip_v2.pkl
-Processing time: 0:07:19
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/20220107_Wegen_Corona_und_Lockdowns_Dreimal_TNdDp97ha-I/ner_tags.pkl
+Processing time: 0:00:15
 
-Processing file 20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk.mp4: 7/49
+Processing file 20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk.mp4: 7/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk/clip_v2.pkl
-Processing time: 0:09:57
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220110_Das_RKI_und_die_Corona_1z9ROvAVZZk/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file 20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg.mp4: 8/49
+Processing file 20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg.mp4: 8/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg/clip_v2.pkl
-Processing time: 0:12:55
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/20220113_Corona_Geht_s_so_weiter_hn1Z-HBReWg/ner_tags.pkl
+Processing time: 0:00:22
 
-Processing file 20220113_New_York_pfeift_auf_die_Mfh22Av5-jI.mp4: 9/49
+Processing file 20220113_New_York_pfeift_auf_die_Mfh22Av5-jI.mp4: 9/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220113_New_York_pfeift_auf_die_Mfh22Av5-jI/clip_v2.pkl
-Processing time: 0:12:05
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/20220113_New_York_pfeift_auf_die_Mfh22Av5-jI/ner_tags.pkl
+Processing time: 0:00:19
 
-Processing file 20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU.mp4: 10/49
+Processing file 20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU.mp4: 10/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU/clip_v2.pkl
-Processing time: 0:09:59
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file 20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M.mp4: 11/49
+Processing file 20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M.mp4: 11/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M/clip_v2.pkl
-Processing time: 0:07:12
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file 20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA.mp4: 12/49
+Processing file 20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA.mp4: 12/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA/clip_v2.pkl
-Processing time: 0:20:18
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file 20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI.mp4: 13/49
+Processing file 20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI.mp4: 13/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI/clip_v2.pkl
-Processing time: 0:10:13
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI/ner_tags.pkl
+Processing time: 0:00:18
 
-Processing file 20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY.mp4: 14/49
+Processing file 20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY.mp4: 14/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY/clip_v2.pkl
-Processing time: 0:06:55
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file 20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic.mp4: 15/49
+Processing file 20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic.mp4: 15/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic/clip_v2.pkl
-Processing time: 0:06:26
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file 20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0.mp4: 16/49
+Processing file 20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0.mp4: 16/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0/clip_v2.pkl
-Processing time: 0:08:15
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0/ner_tags.pkl
+Processing time: 0:00:14
 
-Processing file 20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744.mp4: 17/49
+Processing file 20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744.mp4: 17/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744/clip_v2.pkl
-Processing time: 0:12:35
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file compacttv_2022_01_10_kX5DF1JDnqg.mp4: 18/49
+Processing file compacttv_2022_01_10_kX5DF1JDnqg.mp4: 18/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_10_kX5DF1JDnqg/clip_v2.pkl
-Processing time: 0:23:44
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_10_kX5DF1JDnqg/ner_tags.pkl
+Processing time: 0:00:50
 
-Processing file compacttv_2022_01_11__kAfWRM5wZQ.mp4: 19/49
+Processing file compacttv_2022_01_11__kAfWRM5wZQ.mp4: 19/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_11__kAfWRM5wZQ/clip_v2.pkl
-Processing time: 0:28:02
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_11__kAfWRM5wZQ/ner_tags.pkl
+Processing time: 0:00:59
 
-Processing file compacttv_2022_01_13_hLfcV8qf4fY.mp4: 20/49
+Processing file compacttv_2022_01_13_hLfcV8qf4fY.mp4: 20/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_13_hLfcV8qf4fY/clip_v2.pkl
-Processing time: 0:25:06
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_13_hLfcV8qf4fY/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file compacttv_2022_01_14_84f5Cfl1VPo.mp4: 21/49
+Processing file compacttv_2022_01_14_84f5Cfl1VPo.mp4: 21/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_14_84f5Cfl1VPo/clip_v2.pkl
-Processing time: 0:23:59
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_14_84f5Cfl1VPo/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file compacttv_2022_01_17_HU1GFKcRV70.mp4: 22/49
+Processing file compacttv_2022_01_17_HU1GFKcRV70.mp4: 22/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_17_HU1GFKcRV70/clip_v2.pkl
-Processing time: 0:22:28
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_17_HU1GFKcRV70/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file compacttv_2022_01_18_zwJZgvrfy4c.mp4: 23/49
+Processing file compacttv_2022_01_18_zwJZgvrfy4c.mp4: 23/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_18_zwJZgvrfy4c/clip_v2.pkl
-Processing time: 0:20:53
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_18_zwJZgvrfy4c/ner_tags.pkl
+Processing time: 0:00:46
 
-Processing file compacttv_2022_01_19__PFsywDqSYs.mp4: 24/49
+Processing file compacttv_2022_01_19__PFsywDqSYs.mp4: 24/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_19__PFsywDqSYs/clip_v2.pkl
-Processing time: 0:25:20
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_19__PFsywDqSYs/ner_tags.pkl
+Processing time: 0:00:45
 
-Processing file compacttv_2022_01_20_HEdDHMVfJxM.mp4: 25/49
+Processing file compacttv_2022_01_20_HEdDHMVfJxM.mp4: 25/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_20_HEdDHMVfJxM/clip_v2.pkl
-Processing time: 0:20:09
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_20_HEdDHMVfJxM/ner_tags.pkl
+Processing time: 0:00:32
 
-Processing file compacttv_2022_01_21_l8TwbvtsSkc.mp4: 26/49
+Processing file compacttv_2022_01_21_l8TwbvtsSkc.mp4: 26/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_21_l8TwbvtsSkc/clip_v2.pkl
-Processing time: 0:27:52
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_21_l8TwbvtsSkc/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file compacttv_2022_01_25_T5uY4pYjydI.mp4: 27/49
+Processing file compacttv_2022_01_25_T5uY4pYjydI.mp4: 27/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_25_T5uY4pYjydI/clip_v2.pkl
-Processing time: 0:28:46
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_25_T5uY4pYjydI/ner_tags.pkl
+Processing time: 0:00:54
 
-Processing file compacttv_2022_01_26_wzQkoDUGMSA.mp4: 28/49
+Processing file compacttv_2022_01_26_wzQkoDUGMSA.mp4: 28/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_26_wzQkoDUGMSA/clip_v2.pkl
-Processing time: 0:29:18
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_26_wzQkoDUGMSA/ner_tags.pkl
+Processing time: 0:00:50
 
-Processing file compacttv_2022_01_27_WU7Ga9cXvc4.mp4: 29/49
+Processing file compacttv_2022_01_27_WU7Ga9cXvc4.mp4: 29/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_27_WU7Ga9cXvc4/clip_v2.pkl
-Processing time: 0:28:33
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_27_WU7Ga9cXvc4/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file compacttv_2022_01_31_QFNlmMBLwK0.mp4: 30/49
+Processing file compacttv_2022_01_31_QFNlmMBLwK0.mp4: 30/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_31_QFNlmMBLwK0/clip_v2.pkl
-Processing time: 0:29:20
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/compacttv_2022_01_31_QFNlmMBLwK0/ner_tags.pkl
+Processing time: 0:00:49
 
-Processing file TV-20220102-2021-1800.webl.h264.mp4: 31/49
+Processing file TV-20230101-2021-5900.webl.h264.mp4: 31/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220102-2021-1800.webl.h264/clip_v2.pkl
-Processing time: 0:16:06
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20230101-2021-5900.webl.h264/ner_tags.pkl
+Processing time: 0:00:37
 
-Processing file TV-20220103-2020-2800.webl.h264.mp4: 32/49
+Processing file TV-20230104-2024-3400.webl.h264.mp4: 32/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220103-2020-2800.webl.h264/clip_v2.pkl
-Processing time: 0:16:08
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20230104-2024-3400.webl.h264/ner_tags.pkl
+Processing time: 0:00:41
 
-Processing file TV-20220104-2020-5700.webl.h264.mp4: 33/49
+Processing file TV-20230107-2020-5800.webl.h264.mp4: 33/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220104-2020-5700.webl.h264/clip_v2.pkl
-Processing time: 0:15:42
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20230107-2020-5800.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:07
 
-Processing file TV-20220106-2021-1700.webl.h264.mp4: 34/49
+Processing file TV-20230110-2021-4400.webl.h264.mp4: 34/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220106-2021-1700.webl.h264/clip_v2.pkl
-Processing time: 0:15:37
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20230110-2021-4400.webl.h264/ner_tags.pkl
+Processing time: 0:00:27
 
-Processing file TV-20220107-2024-3000.webl.h264.mp4: 35/49
+Processing file TV-20220102-2021-1800.webl.h264.mp4: 35/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220107-2024-3000.webl.h264/clip_v2.pkl
-Processing time: 0:16:01
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220102-2021-1800.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file TV-20220108-2023-3400.webl.h264.mp4: 36/49
+Processing file TV-20220103-2020-2800.webl.h264.mp4: 36/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220108-2023-3400.webl.h264/clip_v2.pkl
-Processing time: 0:16:05
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220103-2020-2800.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file TV-20220109-2025-2800.webl.h264.mp4: 37/49
+Processing file TV-20220104-2020-5700.webl.h264.mp4: 37/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220109-2025-2800.webl.h264/clip_v2.pkl
-Processing time: 0:16:21
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220104-2020-5700.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file TV-20220110-2020-5400.webl.h264.mp4: 38/49
+Processing file TV-20220106-2021-1700.webl.h264.mp4: 38/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220110-2020-5400.webl.h264/clip_v2.pkl
-Processing time: 0:15:43
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220106-2021-1700.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file TV-20220111-2050-1700.webl.h264.mp4: 39/49
+Processing file TV-20220107-2024-3000.webl.h264.mp4: 39/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220111-2050-1700.webl.h264/clip_v2.pkl
-Processing time: 0:15:50
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220107-2024-3000.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file TV-20220112-2020-3600.webl.h264.mp4: 40/49
+Processing file TV-20220108-2023-3400.webl.h264.mp4: 40/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220112-2020-3600.webl.h264/clip_v2.pkl
-Processing time: 0:15:23
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220108-2023-3400.webl.h264/ner_tags.pkl
+Processing time: 0:00:50
 
-Processing file TV-20220113-2142-2300.webl.h264.mp4: 41/49
+Processing file TV-20220109-2025-2800.webl.h264.mp4: 41/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220113-2142-2300.webl.h264/clip_v2.pkl
-Processing time: 0:16:13
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220109-2025-2800.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file TV-20220114-2036-2200.webl.h264.mp4: 42/49
+Processing file TV-20220110-2020-5400.webl.h264.mp4: 42/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220114-2036-2200.webl.h264/clip_v2.pkl
-Processing time: 0:15:55
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220110-2020-5400.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file TV-20220115-2022-0900.webl.h264.mp4: 43/49
+Processing file TV-20220111-2050-1700.webl.h264.mp4: 43/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220115-2022-0900.webl.h264/clip_v2.pkl
-Processing time: 0:14:51
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220111-2050-1700.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file TV-20220116-2023-3500.webl.h264.mp4: 44/49
+Processing file TV-20220112-2020-3600.webl.h264.mp4: 44/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220116-2023-3500.webl.h264/clip_v2.pkl
-Processing time: 0:15:39
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220112-2020-3600.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file TV-20220118-1805-1800.webl.h264.mp4: 45/49
+Processing file TV-20220113-2142-2300.webl.h264.mp4: 45/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220118-1805-1800.webl.h264/clip_v2.pkl
-Processing time: 0:15:40
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220113-2142-2300.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
 
-Processing file TV-20220119-2023-5600.webl.h264.mp4: 46/49
+Processing file TV-20220114-2036-2200.webl.h264.mp4: 46/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220119-2023-5600.webl.h264/clip_v2.pkl
-Processing time: 0:15:56
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220114-2036-2200.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file TV-20220121-2020-0300.webl.h264.mp4: 47/49
+Processing file TV-20220115-2022-0900.webl.h264.mp4: 47/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220121-2020-0300.webl.h264/clip_v2.pkl
-Processing time: 0:15:27
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220115-2022-0900.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file TV-20220122-2021-3600.webl.h264.mp4: 48/49
+Processing file TV-20220116-2023-3500.webl.h264.mp4: 48/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220122-2021-3600.webl.h264/clip_v2.pkl
-Processing time: 0:15:17
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220116-2023-3500.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
-Processing file TV-20220123-2024-3200.webl.h264.mp4: 49/49
+Processing file TV-20220118-1805-1800.webl.h264.mp4: 49/53
 DEVICE: cuda
-[CLIP] Processing video frames...
-[CLIP] Successfully applied CLIP! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220123-2024-3200.webl.h264/clip_v2.pkl
-Processing time: 0:16:00
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220118-1805-1800.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
+
+Processing file TV-20220119-2023-5600.webl.h264.mp4: 50/53
+DEVICE: cuda
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220119-2023-5600.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:04
+
+Processing file TV-20220121-2020-0300.webl.h264.mp4: 51/53
+DEVICE: cuda
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220121-2020-0300.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
+
+Processing file TV-20220122-2021-3600.webl.h264.mp4: 52/53
+DEVICE: cuda
+[NER TAGGER] Successfully applied NER Tagging! Result: /nfs/home/arafatj/master_project/OUTPUT/TV-20220122-2021-3600.webl.h264/ner_tags.pkl
+Processing time: 0:00:50
+
+Processing file TV-20220123-2024-3200.webl.h264.mp4: 53/53
+DEVICE: cuda
+[NER TAGGER] Found pkl: /nfs/home/arafatj/master_project/OUTPUT/TV-20220123-2024-3200.webl.h264/ner_tags.pkl , skip NER Tagging
+Processing time: 0:00:05
 
