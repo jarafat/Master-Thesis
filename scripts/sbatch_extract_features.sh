@@ -1,1 +1,1 @@
-sbatch -w devbox5 -J ex_feats -o output.log -c 12 --mem 32G --gres=gpu:1 /nfs/home/arafatj/master_project/src/extract_features.sh
+sbatch -w devbox5 -J ex_feats -o output.log -c 12 --mem 32G --gres=gpu:1 /nfs/home/arafatj/scripts/extract_features.sh

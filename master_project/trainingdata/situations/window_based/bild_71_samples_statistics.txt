@@ -1,0 +1,9 @@
+71 annotated news situations with a total duration of 00:28:39
+5 news situations were dismissed because their label is not our defined vocabulary (e.g. "", "expert, medicine")
+
+Annotation counts for each news situation:
+	talking-head: 21
+	voiceover: 13
+	interview: 28
+	commenting: 8
+	speech: 1

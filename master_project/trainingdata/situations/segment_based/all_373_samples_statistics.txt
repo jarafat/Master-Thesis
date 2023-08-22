@@ -1,0 +1,9 @@
+373 annotated speaker turns with a total duration of 02:03:05
+18 speaker turns were dismissed because their label is not our defined vocabulary (e.g. "", "expert, medicine")
+
+Annotation counts for each speaker role:
+	talking-head: 70
+	voiceover: 150
+	interview: 111
+	commenting: 8
+	speech: 34

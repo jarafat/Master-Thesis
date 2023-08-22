@@ -2,9 +2,7 @@ import logging
 import requests
 import urllib.parse
 from urllib.request import Request
-# from flair.data import Sentence
 import json
-import re
 import time
 
 

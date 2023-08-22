@@ -6,6 +6,8 @@ import time
 import numpy as np
 import yaml
 import argparse
+import datetime
+import math
 
 import torch
 import torch.nn.functional as F
@@ -194,7 +196,10 @@ def process_density_data(sd_data, segment_start, segment_end):
         sum_density = 0
         for data in relevant_frames:
             sum_density += data[1]
-        avg_shotdensity = sum_density / len(relevant_frames)
+        if len(relevant_frames) == 0:
+            avg_shotdensity = 0
+        else:
+            avg_shotdensity = sum_density / len(relevant_frames)
 
         return avg_shotdensity
 
@@ -263,6 +268,8 @@ def process_pos_data(pos_data, segment_start, segment_end):
             pos_vector = pos_seg['vector']
             # total amount of POS tags in the segment
             num_tags = np.sum(pos_vector)
+            if num_tags == 0:
+                continue
             # relative values of POS tags according to total POS tags
             relative_pos_vector = pos_vector / num_tags
             return relative_pos_vector.tolist()
@@ -284,7 +291,7 @@ def process_ner_data(ner_data, segment_start, segment_end):
         ovp = max(0, min(segment_end, ner_seg['end_time']) - max(segment_start, ner_seg['start_time'])) / (ner_seg['end_time'] - ner_seg['start_time'])
         if ovp > 0.7:
             ner_vector = ner_seg['vector']
-            # remove events, since it is not working
+            # remove events, since no events are in the dataset
             ner_vector = np.delete(ner_vector, 4)
             # if a named entity is recognized, a 1 indicates its presence, independently of how many of that named entity are mentioned
             ner_vector[ner_vector > 0] = 1
@@ -376,7 +383,11 @@ def process_imgemb_data(imgemb_data, segment_start, segment_end, spk_index, spea
         
         cos_sim = cosine_similary(imgembs_segment, speaker_before_embeddings)
         cos_sim_flat = cos_sim.flatten()
-        similarity_quantile = np.quantile(cos_sim_flat, 0.8)
+        if len(cos_sim_flat):
+            similarity_quantile = np.quantile(cos_sim_flat, 0.8)
+        else:
+            print('here')
+            similarity_quantile = 0
         speaker_before_img_similarity.append(similarity_quantile)
     
     # SPEAKER AFTER aggregation
@@ -388,7 +399,11 @@ def process_imgemb_data(imgemb_data, segment_start, segment_end, spk_index, spea
 
         cos_sim = cosine_similary(imgembs_segment, speaker_after_embeddings)
         cos_sim_flat = cos_sim.flatten()
-        similarity_quantile = np.quantile(cos_sim_flat, 0.8)
+        if len(cos_sim_flat):
+            similarity_quantile = np.quantile(cos_sim_flat, 0.8)
+        else:
+            print('here')
+            similarity_quantile = 0
         speaker_after_img_similarity.append(similarity_quantile)
 
     # the amount of image similarity features is determined by (2 * context_size). One similarity score for each speaker in the context.
@@ -564,7 +579,7 @@ def data_speaker_segments():
             for pkl_fn in os.listdir(output_path):
                 pkl_path = os.path.join(output_path, pkl_fn)
 
-                if 'clip.pkl' == pkl_fn:
+                if 'clip_v2.pkl' == pkl_fn:
                     with open(pkl_path, 'rb') as pkl:
                         clip_data = pickle.load(pkl)
                 elif 'places365.pkl' == pkl_fn:
@@ -662,6 +677,15 @@ def data_speaker_segments():
 
                 # add numerical ground truth label at the end of the feature vector
                 vector.append(groundtruth_numerical)
+
+                """
+                # get data samples for a certain class
+                if groundtruth_numerical == 4:
+                    print(annotation_fn, video_fn)
+                    print(speaker_start, speaker_end, speaker_groundtruth)
+                    print(vector)
+                    print()
+                """
 
                 # add sample
                 feature_vectors.append(vector)
@@ -763,7 +787,7 @@ def data_speaker_windows():
             for pkl_fn in os.listdir(output_path):
                 pkl_path = os.path.join(output_path, pkl_fn)
 
-                if 'clip.pkl' == pkl_fn:
+                if 'clip_v2.pkl' == pkl_fn:
                     with open(pkl_path, 'rb') as pkl:
                         clip_data = pickle.load(pkl)
                 elif 'places365.pkl' == pkl_fn:
@@ -1029,7 +1053,7 @@ def data_situations_segments():
             for pkl_fn in os.listdir(output_path):
                 pkl_path = os.path.join(output_path, pkl_fn)
 
-                if 'clip.pkl' == pkl_fn:
+                if 'clip_v2.pkl' == pkl_fn:
                     with open(pkl_path, 'rb') as pkl:
                         clip_data = pickle.load(pkl)
                 elif 'places365.pkl' == pkl_fn:
@@ -1131,6 +1155,15 @@ def data_situations_segments():
                 # add numerical ground truth label at the end of the feature vector
                 vector.append(groundtruth_numerical)
 
+                """
+                if groundtruth_numerical == 3:
+                    print(annotation_fn, video_fn)
+                    print(speaker_start, speaker_end, speaker_groundtruth)
+                    print(vector)
+                    print()
+                """
+                
+
                 # add sample
                 feature_vectors.append(vector)
 
@@ -1227,7 +1260,7 @@ def data_situations_windows():
             for pkl_fn in os.listdir(output_path):
                 pkl_path = os.path.join(output_path, pkl_fn)
 
-                if 'clip.pkl' == pkl_fn:
+                if 'clip_v2.pkl' == pkl_fn:
                     with open(pkl_path, 'rb') as pkl:
                         clip_data = pickle.load(pkl)
                 elif 'places365.pkl' == pkl_fn:
@@ -1278,7 +1311,7 @@ def data_situations_windows():
                     source_annotations_not_in_vocabulary += 1
                     continue
 
-               # encode ground truth as a number
+                # encode ground truth as a number
                 groundtruth_numerical = config['groundtruth_numerical_situations'][situation_groundtruth]
 
                 # feature representation for speaker containing one feature vector for each window size
@@ -1457,6 +1490,8 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
+    start_time = time.time()
+
     hierarchy_level = args.hierarchy
     speaker_hierarchy = config[f'speaker_hierarchy_mapping_{hierarchy_level}']
 
@@ -1471,3 +1506,10 @@ if __name__ == '__main__':
 
     if args.situations and args.sw:
         data_situations_windows()
+
+    # processing time
+    end_time = time.time()
+    duration = end_time - start_time
+    td = datetime.timedelta(seconds=duration)
+    duration_formatted = str(td).split('.')[0]
+    print(f'Processing time: {duration_formatted}')

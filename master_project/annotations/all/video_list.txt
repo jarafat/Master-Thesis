@@ -1,4 +1,8 @@
 /nfs/data/fakenarratives/BildTV/videos/20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es.mp4
+/nfs/data/fakenarratives/BildTV/videos/20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk.mp4
+/nfs/data/fakenarratives/BildTV/videos/20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA.mp4
+/nfs/data/fakenarratives/BildTV/videos/20220117_Ukraine_Konflikt_Annalena_Baerbock_ist_u3X1kayjCro.mp4
+/nfs/data/fakenarratives/BildTV/videos/20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY.mp4
 /nfs/data/fakenarratives/BildTV/videos/20220104_Das_Zahlenchaos_muss_so_schnell_HJYEKTUC0TU.mp4
 /nfs/data/fakenarratives/BildTV/videos/20220104_Schluss_mit_dem_Corona_Lockdown_1odqvo1zKzI.mp4
 /nfs/data/fakenarratives/BildTV/videos/20220105_Corona_Regeln_Unsere_Freiheit_gerät_0RM8KQi3Muk.mp4
@@ -9,12 +13,16 @@
 /nfs/data/fakenarratives/BildTV/videos/20220113_New_York_pfeift_auf_die_Mfh22Av5-jI.mp4
 /nfs/data/fakenarratives/BildTV/videos/20220113_Schießen_wir_mit_den_Corona_-cdf-dQVgpU.mp4
 /nfs/data/fakenarratives/BildTV/videos/20220114_Omikron_In_vier_Wochen_hatte_PIA-koNrP1M.mp4
-/nfs/data/fakenarratives/BildTV/videos/20220114_Ungeimpfter_darf_Raum_nicht_betreten_BZDHKarAQcA.mp4
 /nfs/data/fakenarratives/BildTV/videos/20220117_Genesenen_Status_nur_noch_3_FQAeEtDCKyI.mp4
-/nfs/data/fakenarratives/BildTV/videos/20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY.mp4
 /nfs/data/fakenarratives/BildTV/videos/20220118_Corona_Irrsinn_in_der_Bundesliga_W8ro_Fux7ic.mp4
 /nfs/data/fakenarratives/BildTV/videos/20220118_Corona_Zahlen_in_Deutschland_Diese_pDeXHOhVXz0.mp4
 /nfs/data/fakenarratives/BildTV/videos/20220120_Omikron_Welle_Diese_Impfpflicht_ist_pWZDF3rJ744.mp4
+/nfs/data/fakenarratives/CompactTV/videos/COMPACTTV-2023-01-25-bafb6afb.mp4
+/nfs/data/fakenarratives/CompactTV/videos/COMPACTTV-2023-01-26-0365ab29.mp4
+/nfs/data/fakenarratives/CompactTV/videos/COMPACTTV-2023-02-02-e1d6c7b5.mp4
+/nfs/data/fakenarratives/CompactTV/videos/COMPACTTV-2023-02-17-4cdf6691.mp4
+/nfs/data/fakenarratives/CompactTV/videos/COMPACTTV-2023-02-20-affc3668.mp4
+/nfs/data/fakenarratives/CompactTV/videos/COMPACTTV-2023-02-28-6ac03a05.mp4
 /nfs/data/fakenarratives/CompactTV/videos/compacttv_2022_01_10_kX5DF1JDnqg.mp4
 /nfs/data/fakenarratives/CompactTV/videos/compacttv_2022_01_11__kAfWRM5wZQ.mp4
 /nfs/data/fakenarratives/CompactTV/videos/compacttv_2022_01_13_hLfcV8qf4fY.mp4
@@ -32,6 +40,9 @@
 /nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230104-2024-3400.webl.h264.mp4
 /nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230107-2020-5800.webl.h264.mp4
 /nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230110-2021-4400.webl.h264.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230113-2023-1700.webl.h264.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230116-2021-1400.webl.h264.mp4
+/nfs/data/fakenarratives/tagesschau/videos/2023/TV-20230119-2021-3600.webl.h264.mp4
 /nfs/data/fakenarratives/tagesschau/videos/2022/TV-20220102-2021-1800.webl.h264.mp4
 /nfs/data/fakenarratives/tagesschau/videos/2022/TV-20220103-2020-2800.webl.h264.mp4
 /nfs/data/fakenarratives/tagesschau/videos/2022/TV-20220104-2020-5700.webl.h264.mp4

@@ -42,6 +42,10 @@ def training(args):
         # segment based news situation classification
         with open(config['situations_trainingdata_tagesschau_seg'], 'rb') as pkl:
             tagesschau_data = pickle.load(pkl)
+            # ariticial 'commenting' sample because only BildTV has commentings
+            commenting_dummy = np.zeros(53)
+            commenting_dummy[-1] = 3
+            tagesschau_data = np.vstack((tagesschau_data, commenting_dummy))   
         with open(config['situations_trainingdata_bildtv_seg'], 'rb') as pkl:
             bildtv_data = pickle.load(pkl)
         with open(config['situations_trainingdata_compacttv_seg'], 'rb') as pkl:
@@ -91,10 +95,10 @@ def training(args):
     # store utilized model as string for file naming later on
     model_s = ''
     if args.rf:
-        model = RandomForestClassifier(random_state=config['seed'])
+        model = RandomForestClassifier(random_state=config['seed'], n_estimators=110)
         model_s = 'rf'
     elif args.xgb:
-        model = XGBClassifier(random_state=config['seed'], tree_method="gpu_hist")
+        model = XGBClassifier(random_state=config['seed'], tree_method="gpu_hist", n_estimators=110)
         model_s = 'xgb'
     else:
         print('Please choose between Random Forest or XGBoost by using either --rf or --xgb')
@@ -111,10 +115,22 @@ def training(args):
     # single prediction on a train and test split (only print when requested)
     if args.traintest: # or args.confusion or args.importances
         # predict test set and measure accuracy
+        
         predictions = model.predict(test_features)
         accuracy = accuracy_score(test_groundtruth, predictions)
-        print(f'Single Split Accuracy: {"{:.2f}".format(accuracy)}')
-
+        print(f'Single Split Accuracy: {"{:.4f}".format(accuracy)}')
+        
+        """
+        # get test vector with certain ground truth value to extract some qualitative examples
+        np.set_printoptions(suppress=True)
+        for i, feature_vec in enumerate(test_features):
+            if test_groundtruth[i] == 3:
+                print(feature_vec)
+                print()
+        print('prediction: ', model.predict([[0.03799942553536419, 0.005991228985116251, 0.001511286966406795, 2.7630266360717417e-06, 6.326894765829909e-06, 4.885013595412602e-06, 0.0008562736312502666, 0.00044543594755369295, 0.0014630865577297907, 0.00012724985215612048, 0.21641812254400813, 0.39569485888761635, 0.11829699385984271, 0.22117284787636177, 9.215292114580128e-06, 0.012857456472428405, 0.5624888475034752, 0.0036847912352623454, 0.008948381885192265, 0.41202052273586687, 0.9982874101283503, 0.0004884887663031216, 0.0012241007575272199, 0.7722245797137727, 25.29, 0.22935129246131206, 0.21508056275908732, 0.5555681606961621, 4, 0.0379746835443038, 0.10126582278481013, 0.12658227848101267, 0.05063291139240506, 0.012658227848101266, 0.17721518987341772, 0.0, 0.20253164556962025, 0.0, 0.0, 0.06329113924050633, 0.0379746835443038, 0.06329113924050633, 0.12658227848101267, 1.0, 1.0, 1.0, 0.0, 1.0, 0.75, 0.72998046875, 0.6391387581825256, 0.4834901690483093]]))
+        # speaker misclassification ex: 0.04017149205319583, 0.4508280088504156, 0.0010132630556957641, 0.00010003007701016031, 0.0010307618495668672, 0.00109536349773407, 0.107949265340964, 0.013909763904909294, 0.16516335358222325, 0.0014063651416411935, 0.028134463102711987, 0.07907780134119094, 0.03497583265416324, 0.0723439773816305, 0.0028002465104994675, 0.36291042069594065, 0.42872194747130077, 0.00048466057536037017, 0.0005435606891599794, 0.20733939098815124, 0.560313614209493, 0.0029773110368599494, 0.43670908908049266, 0.8674701165471224, 7.491999999999962, 0.04235951416194439, 0.0553019642829895, 0.9023384749889374, 2, 0.02857142857142857, 0.11428571428571428, 0.17142857142857143, 0.02857142857142857, 0.08571428571428572, 0.08571428571428572, 0.0, 0.11428571428571428, 0.02857142857142857, 0.0, 0.05714285714285714, 0.02857142857142857, 0.11428571428571428, 0.14285714285714285, 0.0, 0.0, 1.0, 0.0, 0.0, 0.5537109375, 0.53427734375, 0.46963265538215637, 0.199191614985466
+        """
+        
     # path to output files
     out_basepath = ''
     if args.speaker:
@@ -141,11 +157,12 @@ def training(args):
         
         """
         # One test split
+        predictions = model.predict(test_features)
         cm = confusion_matrix(test_groundtruth, predictions)
         df_cm = pd.DataFrame(cm)
         print(df_cm)
         """
-
+        
         # convert to relative values (normalize)
         row_sums = df_cm.sum(axis=1)
         df_percentage = df_cm.div(row_sums, axis=0).round(2)
@@ -155,11 +172,11 @@ def training(args):
             df_percentage = df_percentage.drop(2)
             df_percentage = df_percentage.drop(2, axis=1)
 
-        plt.figure(figsize=(12,12))
-        sns.set(font_scale=1.4)
-        sns.heatmap(df_percentage, xticklabels=config[f'labels_{speaker_hierarchy_level}'], yticklabels=config[f'labels_{speaker_hierarchy_level}'], annot=True, annot_kws={'size':16}, cmap='binary')
-        plt.xlabel('Predicted Label')
-        plt.ylabel('True Label')
+        plt.figure(figsize=(13,13))
+        sns.set(font_scale=1.8)
+        sns.heatmap(df_percentage, xticklabels=config[f'labels_{speaker_hierarchy_level}'], yticklabels=config[f'labels_{speaker_hierarchy_level}'], annot=True, annot_kws={'size':25}, cmap='Purples', fmt='.2f')
+        plt.xlabel('Predicted Label', fontweight='bold')
+        plt.ylabel('True Label', fontweight='bold')
         #plt.tight_layout()
         plot_path = f'{out_basepath}/confusion_matrix_{model_s}.png'
         plt.savefig(plot_path)
@@ -169,11 +186,18 @@ def training(args):
     if args.importances:
         importances = model.feature_importances_
         indices = np.argsort(importances)
-        plt.figure(figsize=(20,20))
-        plt.title("Feature Importances")
+        plt.figure(figsize=(26,20))
+        plt.rcParams['font.size'] = 18
+        if args.speaker:
+            plt.title("Speaker Role Recognition - Feature Importances", fontweight='bold')
+        elif args.situations:
+            plt.title("News Situation Recognition - Feature Importances", fontweight='bold')
         plt.barh(range(len(indices)), importances[indices], align='center')
         plt.yticks(range(len(indices)), [config[f'feature_names_{classification_target}'][i] for i in indices])
-        plt.xlabel('Relative Importance')
+        if model_s == 'rf':
+            plt.xlabel('Mean Decrease in Impurity')
+        elif model_s == 'xgb':
+            plt.xlabel('Relative Information Gain')
         plot_path = f'{out_basepath}/feature_importances_{model_s}.png'
         plt.savefig(plot_path)
         print(f'Feature Importances: {plot_path}')
@@ -223,13 +247,40 @@ def training(args):
         elif args.speaker and args.hierarchy == 1:
             label_feature_corrs = label_feature_corrs.drop(['other'])
 
-        plt.figure(figsize=(20,20))
-        plt.rcParams['font.size'] = 14
-        cmap = sns.diverging_palette(15, 120, as_cmap=True)
-        sns.heatmap(label_feature_corrs, cmap=cmap, linewidths=0.5, square=True, cbar=False)
-        plt.xlabel('Feature')
-        plt.ylabel('Label')
+        """
+        # top feature correlations
+        label_feature_corrs_sorted = label_feature_corrs.apply(lambda row: sorted(row, key=lambda x: abs(x), reverse=True), axis=1)
+        print(label_feature_corrs_sorted)
+        label_feature_corrs_sorted.to_csv('/nfs/home/arafatj/master_project/graphics/training/top_correlations.csv')
+        """
 
+        # split dataframe, else heatmap is too wide
+        split_index = label_feature_corrs.columns.get_loc('LengthOfSpeech')
+        df1 = label_feature_corrs.iloc[:, :split_index + 1]
+        df2 = label_feature_corrs.iloc[:, split_index + 1:]
+
+        # split 1 plot
+        plt.figure(figsize=(30,10))
+        plt.rcParams['font.size'] = 22
+        cmap = sns.diverging_palette(15, 120, as_cmap=True)
+        sns.heatmap(df1, cmap=cmap, linewidths=0.5, square=True, cbar=False, annot=True, fmt=".2f")
+        plt.xlabel(' ')
+        plt.ylabel(' ')
+        plot_path = f'{out_basepath}/correlation_matrix_1.png'
+        plt.savefig(plot_path)
+        print(f'Correlation Matrix 1: {plot_path}')
+
+        # split 2 plot
+        plt.clf()
+        plt.figure(figsize=(30,13))
+        sns.heatmap(df2, cmap=cmap, linewidths=0.5, square=True, cbar=False, annot=True, fmt=".2f")
+        plot_path = f'{out_basepath}/correlation_matrix_2.png'
+        plt.xlabel(' ')
+        plt.ylabel(' ')
+        plt.savefig(plot_path)
+        print(f'Correlation Matrix 2: {plot_path}')
+
+        """
         # for correlation matrix between features amongst themselves (not correlation between label and features)
         #corr_matrix = features_with_labels.corr() 
         #sns.heatmap(corr_matrix, cmap='coolwarm', linewidths=0.5, square=True, cbar=False)
@@ -237,14 +288,15 @@ def training(args):
         plot_path = f'{out_basepath}/correlation_matrix.png'
         plt.savefig(plot_path)
         print(f'Correlation Matrix: {plot_path}')
+        """
         
     # hyperparameter tuning
     if args.tuning:
         # define the hyperparameter grid with range of values
         param_grid = {
-            'n_estimators': [50, 100, 200, 300, 400],
-            'max_depth': [None, 5, 10, 15, 20],
-            'min_samples_split': [2, 5, 10, 15],
+            'n_estimators': [50, 100, 110, 120, 130, 140, 150],
+            'max_depth': [None, 5, 10, 15, 20, 25, 30, 35],
+            'min_samples_split': [2, 4, 8, 16],
             'min_samples_leaf': [1, 2, 4, 8]
         }
 

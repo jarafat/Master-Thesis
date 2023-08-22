@@ -1,0 +1,2072 @@
+{
+    "video_fn": "20220103_Das_Land_ist_unvorbereitet_in_2JIfwsv28Es.mp4",
+    "speakers": {
+        "name": "speakers",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 5.42,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 5.9,
+                "end": 9.3,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 9.42,
+                "end": 15.78,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 15.88,
+                "end": 16.54,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 16.6,
+                "end": 17.44,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 18.18,
+                "end": 20.46,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 20.52,
+                "end": 22.08,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 22.92,
+                "end": 23.96,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 24.66,
+                "end": 28.88,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 28.88,
+                "end": 30.7,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 30.84,
+                "end": 32.08,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 32.52,
+                "end": 41.34,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 41.62,
+                "end": 44.26,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 44.4,
+                "end": 47.4,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 47.74,
+                "end": 51.82,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 51.94,
+                "end": 54.18,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 54.24,
+                "end": 56.8,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 56.9,
+                "end": 62.82,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 62.98,
+                "end": 65.48,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 65.62,
+                "end": 66.92,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 67.04,
+                "end": 68.66,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 69.06,
+                "end": 70.64,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 70.76,
+                "end": 78.52,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 78.82,
+                "end": 81.4,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 81.56,
+                "end": 87.3,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 87.3,
+                "end": 99.74,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 99.86,
+                "end": 102.02,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 102.86,
+                "end": 105.04,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 105.18,
+                "end": 106.58,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 106.98,
+                "end": 108.56,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 108.8,
+                "end": 111.38,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 111.72,
+                "end": 113.6,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 113.72,
+                "end": 119.12,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 119.12,
+                "end": 123.02,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 123.28,
+                "end": 125.08,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 125.44,
+                "end": 132.56,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 132.66,
+                "end": 135.6,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 135.9,
+                "end": 139.28,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 139.68,
+                "end": 146.38,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 146.68,
+                "end": 152.86,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 152.98,
+                "end": 155.8,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 156.24,
+                "end": 161.58,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 161.92,
+                "end": 164.62,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 165.2,
+                "end": 169.66,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 169.78,
+                "end": 175.98,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 176.24,
+                "end": 178.22,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 178.38,
+                "end": 193.52,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 193.66,
+                "end": 196.38,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 196.74,
+                "end": 204.9,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 204.9,
+                "end": 206.94,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 206.94,
+                "end": 213.68,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 213.94,
+                "end": 214.6,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 215.16,
+                "end": 219.5,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 219.8,
+                "end": 221.94,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 222.26,
+                "end": 225.96,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 225.96,
+                "end": 228.94,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 229.12,
+                "end": 231.46,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 231.54,
+                "end": 232.54,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 232.88,
+                "end": 242.86,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 243.12,
+                "end": 246.56,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 247.68,
+                "end": 257.32,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 257.42,
+                "end": 258.12,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 258.36,
+                "end": 260.7,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 260.779,
+                "end": 262.34,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 263.18,
+                "end": 265.22,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 265.5,
+                "end": 267.62,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 267.72,
+                "end": 275.66,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 276.0,
+                "end": 281.16,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 281.16,
+                "end": 281.64,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 282.14,
+                "end": 292.02,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 292.24,
+                "end": 296.32,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 296.44,
+                "end": 297.7,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 298.3,
+                "end": 301.18,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 301.58,
+                "end": 310.74,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 310.74,
+                "end": 311.92,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 312.42,
+                "end": 318.18,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 318.66,
+                "end": 320.7,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 321.1,
+                "end": 322.18,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 322.18,
+                "end": 327.7,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 327.92,
+                "end": 329.52,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 329.76,
+                "end": 331.78,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 332.12,
+                "end": 333.5,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 333.64,
+                "end": 336.7,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 336.78,
+                "end": 337.96,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 337.96,
+                "end": 345.74,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 345.8,
+                "end": 346.36,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 346.72,
+                "end": 348.218,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 348.32,
+                "end": 351.34,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 351.72,
+                "end": 353.44,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 354.6,
+                "end": 360.04,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 361.24,
+                "end": 362.54,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 362.7,
+                "end": 366.42,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 366.56,
+                "end": 367.78,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 368.18,
+                "end": 370.02,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 370.34,
+                "end": 373.12,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 373.62,
+                "end": 376.58,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 378.46,
+                "end": 380.58,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 380.8,
+                "end": 383.44,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 383.84,
+                "end": 387.52,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 387.84,
+                "end": 390.52,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 390.9,
+                "end": 394.14,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 394.14,
+                "end": 396.2,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 396.36,
+                "end": 401.3,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 401.52,
+                "end": 404.6,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 404.9,
+                "end": 407.56,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 407.72,
+                "end": 409.78,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 410.0,
+                "end": 411.92,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 412.18,
+                "end": 414.34,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 415.539,
+                "end": 421.72,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 421.72,
+                "end": 423.24,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 423.36,
+                "end": 425.04,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 425.18,
+                "end": 426.7,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 426.82,
+                "end": 427.9,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 428.26,
+                "end": 432.92,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 433.04,
+                "end": 435.8,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 435.84,
+                "end": 440.52,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 441.02,
+                "end": 442.905,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 442.938,
+                "end": 443.864,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 444.099,
+                "end": 447.06,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 447.24,
+                "end": 448.92,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 448.92,
+                "end": 453.04,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 453.38,
+                "end": 460.08,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 460.18,
+                "end": 464.84,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 464.92,
+                "end": 467.58,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 467.88,
+                "end": 470.14,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 470.46,
+                "end": 475.34,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 475.64,
+                "end": 476.56,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 476.56,
+                "end": 478.92,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 479.18,
+                "end": 481.78,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 481.9,
+                "end": 486.52,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 486.8,
+                "end": 490.82,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 491.12,
+                "end": 494.18,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 494.26,
+                "end": 495.4,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 495.5,
+                "end": 499.62,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 500.5,
+                "end": 510.12,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 510.5,
+                "end": 515.039,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 515.159,
+                "end": 517.94,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 518.039,
+                "end": 522.94,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 523.34,
+                "end": 529.84,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 529.98,
+                "end": 532.66,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 533.679,
+                "end": 539.64,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 539.74,
+                "end": 544.06,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 544.16,
+                "end": 547.8,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 548.22,
+                "end": 552.857,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 552.857,
+                "end": 554.58,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 554.64,
+                "end": 556.84,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 556.94,
+                "end": 558.66,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 558.92,
+                "end": 561.5,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 561.5,
+                "end": 565.76,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 565.82,
+                "end": 571.08,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 571.14,
+                "end": 573.6,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 574.04,
+                "end": 578.7,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 578.88,
+                "end": 579.38,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 579.58,
+                "end": 591.94,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 592.4,
+                "end": 595.82,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 596.32,
+                "end": 597.96,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 598.14,
+                "end": 600.78,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 600.8,
+                "end": 603.46,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 603.88,
+                "end": 611.84,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 612.3,
+                "end": 623.795,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 623.795,
+                "end": 626.867,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 626.904,
+                "end": 628.183,
+                "label": "SPEAKE_01"
+            },
+            {
+                "start": 628.183,
+                "end": 633.32,
+                "label": null
+            },
+            {
+                "start": 633.84,
+                "end": 635.24,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 635.34,
+                "end": 646.66,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 646.96,
+                "end": 649.88,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 649.98,
+                "end": 653.04,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 653.18,
+                "end": 656.18,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 656.24,
+                "end": 662.92,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 663.06,
+                "end": 674.7,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 675.9,
+                "end": 677.62,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 677.76,
+                "end": 679.48,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 679.62,
+                "end": 681.46,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 681.66,
+                "end": 687.38,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 687.44,
+                "end": 688.34,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 689.7,
+                "end": 690.32,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 690.8,
+                "end": 693.34,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 693.66,
+                "end": 697.68,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 697.92,
+                "end": 698.98,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 698.98,
+                "end": 700.82,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 700.96,
+                "end": 702.74,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 702.9,
+                "end": 705.22,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 705.68,
+                "end": 706.32,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 706.36,
+                "end": 710.46,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 710.66,
+                "end": 711.98,
+                "label": "SPEAKER_02"
+            }
+        ]
+    },
+    "transcript": {
+        "name": "transcript",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 5.42,
+                "label": " 57% der Deutschen sagen, sie vertrauen diesen Zahlen vom Robert-Koch-Institut nicht."
+            },
+            {
+                "start": 5.9,
+                "end": 9.3,
+                "label": " Das ist eine Alarmmeldung auch f\u00fcr die aktuelle Bundesregierung."
+            },
+            {
+                "start": 9.42,
+                "end": 15.78,
+                "label": " Dar\u00fcber wollen wir sprechen mit dem k\u00fcnftigen FDP-Generalsekret\u00e4r mit, Bijan Djiassaray, der bei uns ist heute fr\u00fch."
+            },
+            {
+                "start": 15.88,
+                "end": 16.54,
+                "label": " Sch\u00f6nen guten Tag."
+            },
+            {
+                "start": 16.6,
+                "end": 17.44,
+                "label": " Guten Tag, gr\u00fc\u00dfe Sie."
+            },
+            {
+                "start": 18.18,
+                "end": 20.46,
+                "label": " Die Mehrheit der Deutschen vertraut diesen Zahlen nicht."
+            },
+            {
+                "start": 20.52,
+                "end": 22.08,
+                "label": " Vertrauen Sie, ja oder nein?"
+            },
+            {
+                "start": 22.92,
+                "end": 23.96,
+                "label": " Ich vertraue."
+            },
+            {
+                "start": 24.66,
+                "end": 28.88,
+                "label": " Allerdings sage ich ganz offen, dass ich mich weniger mit den Zahlen besch\u00e4ftige."
+            },
+            {
+                "start": 28.88,
+                "end": 30.7,
+                "label": " Das sollten unsere Experten tun."
+            },
+            {
+                "start": 30.84,
+                "end": 32.08,
+                "label": " Daf\u00fcr haben wir ja auch Gremien."
+            },
+            {
+                "start": 32.52,
+                "end": 41.34,
+                "label": " Was f\u00fcr mich interessant ist, oder was f\u00fcr mich relevant ist, sind die politischen Schlussfolgerungen daraus, wie wir insgesamt mit der Situation umgehen und vor allem endlich aus dieser Situation herauskommen."
+            },
+            {
+                "start": 41.62,
+                "end": 44.26,
+                "label": " Lassen Sie uns \u00fcber diese Schlussfolgerungen gleich mal reden."
+            },
+            {
+                "start": 44.4,
+                "end": 47.4,
+                "label": " Aber Sie sagten ja auch ganz richtig, die orientieren sich ja an den Zahlen."
+            },
+            {
+                "start": 47.74,
+                "end": 51.82,
+                "label": " Also man orientiert sich ganz klar daran, was das Robert-Koch-Institut liefert."
+            },
+            {
+                "start": 51.94,
+                "end": 54.18,
+                "label": " Jetzt hakt es aber da nat\u00fcrlich auch \u00fcber die Feiertage."
+            },
+            {
+                "start": 54.24,
+                "end": 56.8,
+                "label": " Man testet sich weniger, es wird weniger gemeldet."
+            },
+            {
+                "start": 56.9,
+                "end": 62.82,
+                "label": " Letztendlich sind wir in einer Art Grauzone und wissen und k\u00f6nnen ja somit \u00fcberhaupt gar keine politischen Ma\u00dfnahmen besprechen."
+            },
+            {
+                "start": 62.98,
+                "end": 65.48,
+                "label": " Es wird sich alles jetzt heute an diesem Stichtag entscheiden."
+            },
+            {
+                "start": 65.62,
+                "end": 66.92,
+                "label": " Denn die Schulen, die testen jetzt."
+            },
+            {
+                "start": 67.04,
+                "end": 68.66,
+                "label": " Und da sehen wir dann die wahren Zahlen."
+            },
+            {
+                "start": 69.06,
+                "end": 70.64,
+                "label": " K\u00f6nnen Sie die Verunsicherung verstehen?"
+            },
+            {
+                "start": 70.76,
+                "end": 78.52,
+                "label": " Brauchen wir vielleicht irgendwelche neuen Werte oder anders gemessene Werte, damit sich die politischen Ma\u00dfnahmen der Zielgerichteter orientieren k\u00f6nnen?"
+            },
+            {
+                "start": 78.82,
+                "end": 81.4,
+                "label": " Also noch mal, entscheidend sind die politischen Schlussfolgerungen."
+            },
+            {
+                "start": 81.56,
+                "end": 87.3,
+                "label": " Werte haben wir aus meiner Sicht genug, Statistik haben wir genug, Zahlen haben wir genug betrachtet."
+            },
+            {
+                "start": 87.3,
+                "end": 99.74,
+                "label": " Aber dass beispielsweise \u00fcber das Wochenende oder \u00fcber Feiertage, dass wir da gewisse Schwankungen bei den Zahlen haben, Unsicherheiten haben, das liegt aus meiner Sicht in der Natur der Sache."
+            },
+            {
+                "start": 99.86,
+                "end": 102.02,
+                "label": " Das ist auch ein Ph\u00e4nomen, das wir schon seit L\u00e4ngerem kennen."
+            },
+            {
+                "start": 102.86,
+                "end": 105.04,
+                "label": " Ich pers\u00f6nlich komme selbstberuflich aus einer Verwaltung."
+            },
+            {
+                "start": 105.18,
+                "end": 106.58,
+                "label": " Ich wei\u00df, wie Verwaltungen arbeiten."
+            },
+            {
+                "start": 106.98,
+                "end": 108.56,
+                "label": " Ich wei\u00df, wie Gesundheits\u00e4mter arbeiten."
+            },
+            {
+                "start": 108.8,
+                "end": 111.38,
+                "label": " Ich wei\u00df, wie schwierig dort die Kapazit\u00e4ten sind."
+            },
+            {
+                "start": 111.72,
+                "end": 113.6,
+                "label": " Und nat\u00fcrlich auch das Thema Digitalisierung."
+            },
+            {
+                "start": 113.72,
+                "end": 119.12,
+                "label": " Das hei\u00dft, es fehlen nach wie vor Instrumente, um sehr zeitnah auch realit\u00e4tsnahe Daten zu finden."
+            },
+            {
+                "start": 119.12,
+                "end": 123.02,
+                "label": " Also das nehmen Sie so hin, da sagen Sie, das ist so in der Verwaltung, das m\u00fcssen wir halt so akzeptieren."
+            },
+            {
+                "start": 123.28,
+                "end": 125.08,
+                "label": " Nein, nein, das d\u00fcrfen wir auf keinen Fall akzeptieren."
+            },
+            {
+                "start": 125.44,
+                "end": 132.56,
+                "label": " Denn die Digitalisierung in den \u00f6ffentlichen \u00c4mtern, vor allem bei Gesundheits\u00e4mtern, das ist eine gro\u00dfe Herausforderung."
+            },
+            {
+                "start": 132.66,
+                "end": 135.6,
+                "label": " Aber dieses Thema h\u00e4tte eigentlich schon vorgestern erledigt sein m\u00fcssen."
+            },
+            {
+                "start": 135.9,
+                "end": 139.28,
+                "label": " Wir brauchen die Digitalisierung in der \u00f6ffentlichen Verwaltung."
+            },
+            {
+                "start": 139.68,
+                "end": 146.38,
+                "label": " Denn sonst, und das ist, glaube ich, auch in dieser pandemischen Situation ganz klar gezeigt worden, Digitalisierung kann Leben retten."
+            },
+            {
+                "start": 146.68,
+                "end": 152.86,
+                "label": " Immer wieder ist ja auch die Rede davon, dass man auch eine Art Register schaffen muss, diese Zahlen besser zusammenzufassen."
+            },
+            {
+                "start": 152.98,
+                "end": 155.8,
+                "label": " Dass man das eigentlich auch nicht nur dem RKI \u00fcberlassen kann."
+            },
+            {
+                "start": 156.24,
+                "end": 161.58,
+                "label": " Sind Sie daf\u00fcr, dass andere Beh\u00f6rden, das Ministerium, dass man da eine neue Form der Zahlenerschaffung schafft?"
+            },
+            {
+                "start": 161.92,
+                "end": 164.62,
+                "label": " Ich bin kein Freund dieser Diskussion."
+            },
+            {
+                "start": 165.2,
+                "end": 169.66,
+                "label": " Wissen Sie, letztendlich reden wir hier nur um Basisdaten."
+            },
+            {
+                "start": 169.78,
+                "end": 175.98,
+                "label": " Wir befassen uns eigentlich, wir reden auch jetzt gerade nur \u00fcber die Frage, wie man welche Zahlen zusammentr\u00e4gt."
+            },
+            {
+                "start": 176.24,
+                "end": 178.22,
+                "label": " Wichtig ist letztendlich die Schlussfolgerung."
+            },
+            {
+                "start": 178.38,
+                "end": 193.52,
+                "label": " Ich glaube, das Problem, was Sie auch vorhin angesprochen haben, auch in Ihrem Vorbericht, dass immer mehr Menschen in Deutschland wenig Vertrauen haben oder weniger Vertrauen haben zu diesen Zahlen, hat ja nichts in erster Linie mit den Zahlen zu tun, sondern insgesamt mit der Corona-Politik der letzten zwei Jahre."
+            },
+            {
+                "start": 193.66,
+                "end": 196.38,
+                "label": " Die Unsicherheit, was gilt heute, was gilt morgen."
+            },
+            {
+                "start": 196.74,
+                "end": 204.9,
+                "label": " Und beispielsweise, das ist auch normal, es werden auch \u00c4u\u00dferungen geben, Feststellungen der Politik, die dann kurz danach wieder von der Realit\u00e4t \u00fcberholt werden."
+            },
+            {
+                "start": 204.9,
+                "end": 205.58,
+                "label": " Ich verstehe es noch gar nicht."
+            },
+            {
+                "start": 207.48,
+                "end": 213.68,
+                "label": " Die Regierung verkn\u00fcpft ja, die Ministerpr\u00e4sidenten und die Bundesregierung verkn\u00fcpft ja die Zahlen mit der Politik."
+            },
+            {
+                "start": 213.94,
+                "end": 214.6,
+                "label": " Oder umgekehrt."
+            },
+            {
+                "start": 215.16,
+                "end": 219.5,
+                "label": " Wir sehen das ja ganz genau, z.B. bei der Hospitalisierungsinzidenz, da wird ein Wert angegeben."
+            },
+            {
+                "start": 219.8,
+                "end": 221.94,
+                "label": " Und wenn der Wert erreicht ist, dann folgt eine Ma\u00dfnahme."
+            },
+            {
+                "start": 222.26,
+                "end": 225.96,
+                "label": " Genauso vorher bei den Infektionen oder bei den Inzidenzwerten."
+            },
+            {
+                "start": 225.96,
+                "end": 228.94,
+                "label": " D.h. die Zahlen sind ja politisch total wichtig."
+            },
+            {
+                "start": 229.12,
+                "end": 231.46,
+                "label": " Und jetzt lernen wir eben immer mehr, die Zahlen stimmen nicht."
+            },
+            {
+                "start": 231.54,
+                "end": 232.54,
+                "label": " Das ist ja ein Riesenproblem."
+            },
+            {
+                "start": 232.88,
+                "end": 242.86,
+                "label": " Kann in dem Lichte \u00fcberhaupt eine Ministerpr\u00e4sidentenkonferenz mit der Bundesregierung am 7. Januar stattfinden, wenn da falsche Zahlen oder zumindest nicht realistische Zahlen auf den Tisch kommen?"
+            },
+            {
+                "start": 243.12,
+                "end": 246.56,
+                "label": " Das Bund-L\u00e4nder-Treffen, was Sie ansprechen, sollte auf jeden Fall stattfinden."
+            },
+            {
+                "start": 247.68,
+                "end": 257.32,
+                "label": " Man trifft sich auch nicht, um in erster Linie \u00fcber die Zahlen zu reden, sondern letztendlich, welche Schlussfolgerungen man ziehen wird aus den Daten, die man in der Vergangenheit bekommen hat."
+            },
+            {
+                "start": 257.42,
+                "end": 258.12,
+                "label": " Die nicht richtig sind?"
+            },
+            {
+                "start": 258.36,
+                "end": 260.7,
+                "label": " Nein, ich w\u00fcrde nicht sagen, dass diese Zahlen nicht richtig sind."
+            },
+            {
+                "start": 260.779,
+                "end": 262.34,
+                "label": " Diese Zahlen sind manchmal nicht genau."
+            },
+            {
+                "start": 263.18,
+                "end": 265.22,
+                "label": " Aber letztendlich sind sie eine Orientierung."
+            },
+            {
+                "start": 265.5,
+                "end": 267.62,
+                "label": " Es liegt 2- bis 3-mal h\u00f6her,"
+            },
+            {
+                "start": 267.72,
+                "end": 275.66,
+                "label": " sagt selbst Ihr Bundesgesundheitsminister Karl Lauterbach. Der sagt, die Zahlen, die das RKI auf dem Tisch legt, zur Omikron, die liegen in der Realit\u00e4t 2- bis 3-mal h\u00f6her."
+            },
+            {
+                "start": 276.0,
+                "end": 281.16,
+                "label": " Wenn Sie im Tank noch 10 l haben und es zeigt aber nur 1 l an, dann haben Sie gewaltiges Problem auf der Autobahn."
+            },
+            {
+                "start": 281.16,
+                "end": 281.64,
+                "label": " Absolut."
+            },
+            {
+                "start": 282.14,
+                "end": 292.02,
+                "label": " Mein Gesundheitsminister, den Sie angesprochen haben, auch eine interessante Beschreibung, unser aller Gesundheitsminister, orientiert sich selbstverst\u00e4ndlich an diesen Zahlen."
+            },
+            {
+                "start": 292.24,
+                "end": 296.32,
+                "label": " Aber letztendlich ist auch entscheidend, wie wir gemeinsam aus dieser pandemischen Situation herauskommen."
+            },
+            {
+                "start": 296.44,
+                "end": 297.7,
+                "label": " Das ist die entscheidende Frage."
+            },
+            {
+                "start": 298.3,
+                "end": 301.18,
+                "label": " Dort gibt es die Absprachen mit den L\u00e4ndern."
+            },
+            {
+                "start": 301.58,
+                "end": 310.74,
+                "label": " Wir werden hier \u00fcber eine Reihe von Ma\u00dfnahmen reden, die uns in den n\u00e4chsten Wochen verh\u00e4ltnism\u00e4\u00dfig durch diese pandemische Krise f\u00fchren k\u00f6nnen."
+            },
+            {
+                "start": 310.74,
+                "end": 311.92,
+                "label": " Das ist das Entscheidende."
+            },
+            {
+                "start": 312.42,
+                "end": 318.18,
+                "label": " Die Statistik ist nicht meine Aufgabe, die Richtigkeit zu bewerten, ja oder nein."
+            },
+            {
+                "start": 318.66,
+                "end": 320.7,
+                "label": " Damit wird jetzt gearbeitet."
+            },
+            {
+                "start": 321.1,
+                "end": 322.18,
+                "label": " Daraus werden Schlussfolgerungen gestellt."
+            },
+            {
+                "start": 322.18,
+                "end": 327.7,
+                "label": " Lassen Sie uns \u00fcber die Schlussforderungen, die man ableitet, aus mehr oder weniger stimmenden Zahlen sprechen."
+            },
+            {
+                "start": 327.92,
+                "end": 329.52,
+                "label": " Da stehen mehrere Dinge im Raum."
+            },
+            {
+                "start": 329.76,
+                "end": 331.78,
+                "label": " Die Impfpflicht, die FDP, erst daf\u00fcr, dann dagegen."
+            },
+            {
+                "start": 332.12,
+                "end": 333.5,
+                "label": " Jetzt sprechen wir \u00fcber Omikron."
+            },
+            {
+                "start": 333.64,
+                "end": 336.7,
+                "label": " Man fragt sich, soll man die Quarant\u00e4ne-Zeiten verk\u00fcrzen?"
+            },
+            {
+                "start": 336.78,
+                "end": 337.96,
+                "label": " Was sind Ihre Vorschl\u00e4ge?"
+            },
+            {
+                "start": 337.96,
+                "end": 345.74,
+                "label": " Wenn Sie mich im Sommer gefragt h\u00e4tten, bin ich f\u00fcr oder gegen die allgemeine Impfpflicht?"
+            },
+            {
+                "start": 345.8,
+                "end": 346.36,
+                "label": " Haben wir gefragt."
+            },
+            {
+                "start": 346.72,
+                "end": 348.221,
+                "label": " Genau."
+            },
+            {
+                "start": 348.32,
+                "end": 351.34,
+                "label": " Im Sommer h\u00e4tte ich gesagt, ich bin gegen die allgemeine Impfpflicht."
+            },
+            {
+                "start": 351.72,
+                "end": 353.44,
+                "label": " Jetzt haben wir eine andere Situation."
+            },
+            {
+                "start": 354.6,
+                "end": 360.04,
+                "label": " Die pandemische Entwicklung ist anders gekommen, als ich das im Sommer noch gedacht hatte."
+            },
+            {
+                "start": 361.24,
+                "end": 362.54,
+                "label": " Jetzt haben wir diese Debatte."
+            },
+            {
+                "start": 362.7,
+                "end": 366.42,
+                "label": " Im Deutschen Bundestag wird eine fraktions\u00fcbergreifende Entscheidung dazu zustande kommen."
+            },
+            {
+                "start": 366.56,
+                "end": 367.78,
+                "label": " Es werden Gruppenantr\u00e4ge kommen."
+            },
+            {
+                "start": 368.18,
+                "end": 370.02,
+                "label": " Wir werden sehen, was das f\u00fcr Gruppenantr\u00e4ge sind."
+            },
+            {
+                "start": 370.34,
+                "end": 373.12,
+                "label": " Es gibt noch keinen einzigen, der vorliegt?"
+            },
+            {
+                "start": 373.62,
+                "end": 376.58,
+                "label": " Es gibt Gruppenantr\u00e4ge, die gerade bearbeitet werden."
+            },
+            {
+                "start": 378.46,
+                "end": 380.58,
+                "label": " Zwei davon kenne ich auch schon selbst."
+            },
+            {
+                "start": 380.8,
+                "end": 383.44,
+                "label": " Aber die werden gerade alle noch vorbereitet."
+            },
+            {
+                "start": 383.84,
+                "end": 387.52,
+                "label": " Es sind nat\u00fcrlich die unterschiedlichen Varianten der Debatte, die abgedeckt werden."
+            },
+            {
+                "start": 387.84,
+                "end": 390.52,
+                "label": " F\u00fcr die allgemeine Impfpflicht, gegen die allgemeine Impfpflicht."
+            },
+            {
+                "start": 390.9,
+                "end": 394.14,
+                "label": " Aber nichtdestotrotz, die Dinge ver\u00e4ndern sich schnell."
+            },
+            {
+                "start": 394.14,
+                "end": 396.2,
+                "label": " Sie merken das auch bei dieser Debatte."
+            },
+            {
+                "start": 396.36,
+                "end": 401.3,
+                "label": " Das, was ich im Sommer gesagt habe, ist heute schon von der Realit\u00e4t \u00fcberholt worden."
+            },
+            {
+                "start": 401.52,
+                "end": 404.6,
+                "label": " Das ist diese Entwicklung, die f\u00fcr uns alle neu ist."
+            },
+            {
+                "start": 404.9,
+                "end": 407.56,
+                "label": " Deswegen entsteht bei den Menschen drau\u00dfen die Unsicherheit."
+            },
+            {
+                "start": 407.72,
+                "end": 409.78,
+                "label": " Wieso \u00e4ndern sie permanent ihre Meinung?"
+            },
+            {
+                "start": 410.0,
+                "end": 411.92,
+                "label": " Das ist aber leider in dieser Situation so."
+            },
+            {
+                "start": 412.18,
+                "end": 414.34,
+                "label": " Weil wir eine vergleichbare Situation noch nicht hatten."
+            },
+            {
+                "start": 415.539,
+                "end": 421.72,
+                "label": " Wenn wir dieses Gespr\u00e4ch im Sommer gef\u00fchrt h\u00e4tten, ich wusste im Sommer nicht, dass wir es irgendwann mal mit einer Omikron-Variante tun k\u00f6nnen."
+            },
+            {
+                "start": 421.72,
+                "end": 423.24,
+                "label": " Es gibt Politiker, die waren schon immer f\u00fcr eine Impfpflicht."
+            },
+            {
+                "start": 423.36,
+                "end": 425.04,
+                "label": " Und es gibt Politiker, die waren schon immer dagegen."
+            },
+            {
+                "start": 425.18,
+                "end": 426.7,
+                "label": " Die haben ihre Meinung in der Zeit nicht ge\u00e4ndert."
+            },
+            {
+                "start": 426.82,
+                "end": 427.9,
+                "label": " Sie haben ihre Meinung ge\u00e4ndert."
+            },
+            {
+                "start": 428.26,
+                "end": 432.92,
+                "label": " Das hat zum Glaubw\u00fcrdigkeitsverlust auch beigetragen."
+            },
+            {
+                "start": 433.04,
+                "end": 435.8,
+                "label": " Auch die FDP, wie sie ihre Haltung in der Zeit ver\u00e4ndert."
+            },
+            {
+                "start": 435.84,
+                "end": 440.52,
+                "label": " Die Debatte \u00fcber die allgemeine Impfpflicht, die gibt es in allen Parteien."
+            },
+            {
+                "start": 441.02,
+                "end": 442.918,
+                "label": " Das ist nicht ein Ph\u00e4nomen, was nur in der FDP ist."
+            },
+            {
+                "start": 442.938,
+                "end": 443.864,
+                "label": "Aber Sie sind in der FDP"
+            },
+            {
+                "start": 444.099,
+                "end": 447.06,
+                "label": " Schauen Sie mal die Debatte im Ethikrat an."
+            },
+            {
+                "start": 447.24,
+                "end": 448.92,
+                "label": " Wie differenziert diese Debatte war."
+            },
+            {
+                "start": 448.92,
+                "end": 453.04,
+                "label": " Da gab es Experten, die am Ende gesagt haben, wir sind gegen die allgemeine Impfpflicht."
+            },
+            {
+                "start": 453.38,
+                "end": 460.08,
+                "label": " Und selbst die, die sich f\u00fcr die Impfpflicht ausgesprochen haben, haben gesagt, wir haben unterschiedliche Vorstellungen von der Umsetzung."
+            },
+            {
+                "start": 460.18,
+                "end": 464.84,
+                "label": " Wir haben unterschiedliche Vorstellungen, was die Altersstufen betrifft."
+            },
+            {
+                "start": 464.92,
+                "end": 467.58,
+                "label": " Die einen waren f\u00fcr ab 18, die anderen wollten ab 60."
+            },
+            {
+                "start": 467.88,
+                "end": 470.14,
+                "label": " Die Debatte ist extrem komplex."
+            },
+            {
+                "start": 470.46,
+                "end": 475.34,
+                "label": " Es ist definitiv keine parteipolitische Debatte, sondern eine medizinisch-ethische Debatte."
+            },
+            {
+                "start": 475.64,
+                "end": 476.56,
+                "label": " Die sollten auch so f\u00fchren."
+            },
+            {
+                "start": 476.56,
+                "end": 478.92,
+                "label": " Es wird so weitergehen."
+            },
+            {
+                "start": 479.18,
+                "end": 481.78,
+                "label": " Der Vertrauensverlust kann nicht aufgefangen werden."
+            },
+            {
+                "start": 481.9,
+                "end": 486.52,
+                "label": " Man h\u00f6rt am Ende nur, wir wussten zu dem Zeitpunkt noch nicht, was wir jetzt wissen."
+            },
+            {
+                "start": 486.8,
+                "end": 490.82,
+                "label": " Wenn ich aufs n\u00e4chste Jahr schaue, werde ich diesen Satz noch \u00f6fter h\u00f6ren."
+            },
+            {
+                "start": 491.12,
+                "end": 494.18,
+                "label": " Das k\u00f6nnte dazu f\u00fchren, dass noch mehr Menschen das Vertrauen verlieren."
+            },
+            {
+                "start": 494.26,
+                "end": 495.4,
+                "label": " Ich kann das nachvollziehen."
+            },
+            {
+                "start": 495.5,
+                "end": 499.62,
+                "label": " V.a. kann ich die Entt\u00e4uschung, die damit verbunden ist, nachvollziehen."
+            },
+            {
+                "start": 500.5,
+                "end": 510.12,
+                "label": " Ich selbst h\u00e4tte im Jahr 2020, Silvester 2020, der Meinung, 2021 werden wir die Pandemie ganz klar hinter uns lassen."
+            },
+            {
+                "start": 510.5,
+                "end": 515.039,
+                "label": " Diese Entt\u00e4uschung ist bei mir und auch bei Politikern enorm gro\u00df."
+            },
+            {
+                "start": 515.159,
+                "end": 517.94,
+                "label": " Wir sind B\u00fcrger dieses Landes, wir leben in diesem Land."
+            },
+            {
+                "start": 518.039,
+                "end": 522.94,
+                "label": " Dementsprechend ist die Entt\u00e4uschung gro\u00df, dass wir uns immer noch nach so langer Zeit mit diesen Themen besch\u00e4ftigen."
+            },
+            {
+                "start": 523.34,
+                "end": 529.84,
+                "label": " Was mich im Nachhinein \u00e4rgert, ich geh\u00f6re nicht zu den Menschen, die die Lottozahlen im Vorfeld schon kennen."
+            },
+            {
+                "start": 529.98,
+                "end": 532.66,
+                "label": " Diese Leute gibt es auch, die alles besser wissen."
+            },
+            {
+                "start": 533.679,
+                "end": 539.64,
+                "label": " Die Entt\u00e4uschung ist gro\u00df, dass aus meiner Sicht das Land unvorbereitet in diese 4. Welle reingegangen ist."
+            },
+            {
+                "start": 539.74,
+                "end": 544.06,
+                "label": " Das h\u00e4tte der gesamten Politik nicht passieren d\u00fcrfen."
+            },
+            {
+                "start": 544.16,
+                "end": 547.8,
+                "label": " Ich will nicht die alte Bundesregierung kritisieren."
+            },
+            {
+                "start": 548.22,
+                "end": 552.826,
+                "label": " Aber das Land ist unvorbereitet in diese 4. Welle reingegangen."
+            },
+            {
+                "start": 552.826,
+                "end": 554.58,
+                "label": " Kurz zu den Quarant\u00e4neregeln."
+            },
+            {
+                "start": 554.64,
+                "end": 556.84,
+                "label": " Das ist so wichtig im Moment f\u00fcr den Alltag der Deutschen."
+            },
+            {
+                "start": 556.94,
+                "end": 558.66,
+                "label": " Sei es an Schulen oder bei der Arbeit."
+            },
+            {
+                "start": 558.92,
+                "end": 561.5,
+                "label": " Wof\u00fcr pl\u00e4dieren Sie? Andere L\u00e4nder haben es uns schon vorgemacht."
+            },
+            {
+                "start": 561.5,
+                "end": 565.76,
+                "label": " Gro\u00dfbritannien, S\u00fcdafrika z.B., die viel mehr Erfahrung mit Omikron haben."
+            },
+            {
+                "start": 565.82,
+                "end": 571.08,
+                "label": " Die haben gesagt, es muss nur noch der in Quarant\u00e4ne, der tats\u00e4chlich Omikron hat, alle anderen nicht mehr."
+            },
+            {
+                "start": 571.14,
+                "end": 573.6,
+                "label": " Kommt das in Deutschland? Sind Sie daf\u00fcr? Und wenn ja, wann?"
+            },
+            {
+                "start": 574.04,
+                "end": 578.7,
+                "label": " Das wird eine wesentliche Komponente der Diskussion am Freitag sein."
+            },
+            {
+                "start": 578.88,
+                "end": 579.38,
+                "label": " Wof\u00fcr sind Sie?"
+            },
+            {
+                "start": 579.58,
+                "end": 591.94,
+                "label": " Ich pers\u00f6nlich, aus meiner Sicht ist es nachvollziehbar in der jetzigen Situation, v.a. vor dem Hintergrund, was jetzt auf uns kommen k\u00f6nnte, ernsthaft dar\u00fcber nachzudenken, die Quarant\u00e4neverordnung zu \u00e4ndern."
+            },
+            {
+                "start": 592.4,
+                "end": 595.82,
+                "label": " V.a. f\u00fcr Geboosterte zu \u00e4ndern. Ich halte das f\u00fcr plausibel."
+            },
+            {
+                "start": 596.32,
+                "end": 597.96,
+                "label": " Aber so, dass die Quarant\u00e4ne wegf\u00e4llt?"
+            },
+            {
+                "start": 598.14,
+                "end": 600.78,
+                "label": " Oder dass man nur so mutig ist, dass man sie ein bisschen verk\u00fcrzt?"
+            },
+            {
+                "start": 600.8,
+                "end": 603.46,
+                "label": " Dass man so mutig ist und kraftvoll ein wenig verk\u00fcrzt."
+            },
+            {
+                "start": 603.88,
+                "end": 611.84,
+                "label": " Aber das m\u00fcssen die Leute entscheiden, die tats\u00e4chlich tief in dieser Materie sind und sich damit besch\u00e4ftigen."
+            },
+            {
+                "start": 612.3,
+                "end": 623.806,
+                "label": " Ich werde das nicht detailliert hier kommentieren, weil ich dann vermutlich in 3-4 Tagen wieder dann, wenn Sie mich wieder einladen, hier stehe und m\u00f6glicherweise sage, das war falsch oder ist wieder von der Realit\u00e4t \u00fcberholt worden."
+            },
+            {
+                "start": 623.806,
+                "end": 626.877,
+                "label": " Das geht m\u00f6glicherweise auch den Menschen, die sich tief mit der Materie besch\u00e4ftigen."
+            },
+            {
+                "start": 626.89,
+                "end": 628.173,
+                "label": "absolut, absolut"
+            },
+            {
+                "start": 628.173,
+                "end": 633.32,
+                "label": " Aber dass sich Politiker gar nicht mehr festlegen, das kann ja auch keine L\u00f6sung sein, dass man nur noch das abwartet."
+            },
+            {
+                "start": 633.84,
+                "end": 635.24,
+                "label": " Nein, das stimmt so nicht."
+            },
+            {
+                "start": 635.34,
+                "end": 646.66,
+                "label": " Wir haben gerade als FDP, weil Sie auch vorhin die FDP angesprochen haben, wir haben bewusst Wert darauf gelegt, dass die Entscheidung, wie man mit der Pandemie umgeht, dass diese Entscheidung wieder im Deutschen Bundestag getroffen wird."
+            },
+            {
+                "start": 646.96,
+                "end": 649.88,
+                "label": " Vorher, in den Monaten davor, war ja der Bundestag immer au\u00dfen vor."
+            },
+            {
+                "start": 649.98,
+                "end": 653.04,
+                "label": " Wir haben quasi diese Entscheidung in dem Parlament wieder zur\u00fcckgeholt."
+            },
+            {
+                "start": 653.18,
+                "end": 656.18,
+                "label": " Wir zeigen Ihnen zum Abschluss noch ein Foto vom US-Pr\u00e4sidenten."
+            },
+            {
+                "start": 656.24,
+                "end": 662.92,
+                "label": " Der hatte mal einen Tag Pause, ist dann spazieren gegangen am Strand mit seiner Frau und seinem Hund, der Commander hei\u00dft sinnvollerweise."
+            },
+            {
+                "start": 663.06,
+                "end": 674.7,
+                "label": " Und wir sehen den US-Pr\u00e4sidenten Joe Biden, vielleicht k\u00f6nnen wir es gleich kurz zeigen, der am Strand v\u00f6llig alleine mit seiner Ehefrau und seinem Sch\u00e4ferhund eine Maske tr\u00e4gt. Wie finden Sie das? Sollte er das tun?"
+            },
+            {
+                "start": 675.9,
+                "end": 677.62,
+                "label": " Finden Sie das vern\u00fcnftig? Finden Sie das albern?"
+            },
+            {
+                "start": 677.76,
+                "end": 679.48,
+                "label": " Also das ist seine pers\u00f6nliche Entscheidung."
+            },
+            {
+                "start": 679.62,
+                "end": 681.46,
+                "label": " Der kann von mir aus auch einen Motorradhelm tragen."
+            },
+            {
+                "start": 681.66,
+                "end": 687.38,
+                "label": " Also das ist seine pers\u00f6nliche Entscheidung, wie er am Strand unterwegs ist mit seinem Hund oder demn\u00e4chst mit der Katze."
+            },
+            {
+                "start": 687.44,
+                "end": 688.34,
+                "label": " Aber das ist ihm \u00fcberlassen."
+            },
+            {
+                "start": 689.7,
+                "end": 690.32,
+                "label": " Gut, also."
+            },
+            {
+                "start": 690.8,
+                "end": 693.34,
+                "label": " Es ist ein bisschen befremdlich, oder? Ein bisschen befremdlich."
+            },
+            {
+                "start": 693.66,
+                "end": 697.68,
+                "label": " Vermutlich waren hunderte Security-Leute dabei, tausende Fotografen."
+            },
+            {
+                "start": 697.92,
+                "end": 698.98,
+                "label": " Vorher im tollen Caf\u00e9."
+            },
+            {
+                "start": 698.98,
+                "end": 700.82,
+                "label": " Ich denke, er wusste, dass er fotografiert wird."
+            },
+            {
+                "start": 700.96,
+                "end": 702.74,
+                "label": " Das sind ja alles auch PR-Profis."
+            },
+            {
+                "start": 702.9,
+                "end": 705.22,
+                "label": " Von daher, ja, das sollten wir nicht \u00fcberbewerten."
+            },
+            {
+                "start": 705.68,
+                "end": 706.32,
+                "label": " Alles klar."
+            },
+            {
+                "start": 706.36,
+                "end": 710.46,
+                "label": " Vielen Dank an den k\u00fcnftigen FDP-Generalsekret\u00e4r bei uns bei BILD LIVE im Studio heute fr\u00fch."
+            },
+            {
+                "start": 710.66,
+                "end": 711.98,
+                "label": " Danke Ihnen. Vielen Dank f\u00fcr die Einladung."
+            }
+        ]
+    },
+    "shots": {
+        "name": "shots",
+        "segments": []
+    },
+    "speaker": {
+        "name": "speaker",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 16.54,
+                "label": "anchor"
+            },
+            {
+                "start": 16.6,
+                "end": 17.44,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 18.18,
+                "end": 22.08,
+                "label": "anchor"
+            },
+            {
+                "start": 22.92,
+                "end": 41.34,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 41.62,
+                "end": 78.52,
+                "label": "anchor"
+            },
+            {
+                "start": 78.82,
+                "end": 146.38,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 146.68,
+                "end": 161.58,
+                "label": "anchor"
+            },
+            {
+                "start": 161.92,
+                "end": 206.94,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 206.94,
+                "end": 242.86,
+                "label": "anchor"
+            },
+            {
+                "start": 243.12,
+                "end": 267.62,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 267.72,
+                "end": 281.16,
+                "label": "anchor"
+            },
+            {
+                "start": 281.16,
+                "end": 322.18,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 322.18,
+                "end": 337.96,
+                "label": "anchor"
+            },
+            {
+                "start": 337.96,
+                "end": 345.74,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 345.8,
+                "end": 346.36,
+                "label": "anchor"
+            },
+            {
+                "start": 346.72,
+                "end": 370.02,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 370.34,
+                "end": 373.12,
+                "label": "anchor"
+            },
+            {
+                "start": 373.62,
+                "end": 421.72,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 421.72,
+                "end": 435.8,
+                "label": "anchor"
+            },
+            {
+                "start": 435.84,
+                "end": 442.918,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 442.938,
+                "end": 443.864,
+                "label": "anchor"
+            },
+            {
+                "start": 444.099,
+                "end": 476.56,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 476.56,
+                "end": 494.18,
+                "label": "anchor"
+            },
+            {
+                "start": 494.26,
+                "end": 552.826,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 552.826,
+                "end": 573.6,
+                "label": "anchor"
+            },
+            {
+                "start": 574.04,
+                "end": 578.7,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 578.88,
+                "end": 579.38,
+                "label": "anchor"
+            },
+            {
+                "start": 579.58,
+                "end": 595.82,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 596.32,
+                "end": 600.78,
+                "label": "anchor"
+            },
+            {
+                "start": 600.8,
+                "end": 623.795,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 623.795,
+                "end": 626.867,
+                "label": "anchor"
+            },
+            {
+                "start": 626.904,
+                "end": 628.204,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 628.204,
+                "end": 633.32,
+                "label": "anchor"
+            },
+            {
+                "start": 633.84,
+                "end": 653.04,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 653.18,
+                "end": 677.62,
+                "label": "anchor"
+            },
+            {
+                "start": 677.76,
+                "end": 688.34,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 689.7,
+                "end": 690.32,
+                "label": "anchor"
+            },
+            {
+                "start": 690.8,
+                "end": 697.68,
+                "label": "anchor"
+            },
+            {
+                "start": 697.92,
+                "end": 705.22,
+                "label": "politician-ampel"
+            },
+            {
+                "start": 705.68,
+                "end": 711.98,
+                "label": "anchor"
+            }
+        ]
+    }
+}

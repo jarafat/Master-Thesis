@@ -1,0 +1,967 @@
+{
+    "video_fn": "20220118_Corona_Demos_Randale_und_Aggression_ydzy-emLHfY.mp4",
+    "speakers": {
+        "name": "speakers",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 5.64,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 5.88,
+                "end": 9.3,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 9.38,
+                "end": 12.38,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 12.54,
+                "end": 14.82,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 15.58,
+                "end": 18.38,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 18.54,
+                "end": 22.82,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 22.96,
+                "end": 25.48,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 26.06,
+                "end": 29.1,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 29.1,
+                "end": 33.04,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 33.2,
+                "end": 34.08,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 34.36,
+                "end": 38.2,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 38.3,
+                "end": 40.62,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 41.08,
+                "end": 43.34,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 43.72,
+                "end": 49.34,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 49.5,
+                "end": 54.7,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 55.48,
+                "end": 60.2,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 60.34,
+                "end": 70.66,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 70.94,
+                "end": 77.42,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 77.6,
+                "end": 81.28,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 81.74,
+                "end": 83.8,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 84.46,
+                "end": 86.44,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 87.3,
+                "end": 90.58,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 90.76,
+                "end": 93.22,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 93.3,
+                "end": 97.2,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 97.64,
+                "end": 99.64,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 99.92,
+                "end": 101.64,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 101.76,
+                "end": 111.24,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 111.24,
+                "end": 113.24,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 113.38,
+                "end": 119.76,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 119.86,
+                "end": 122.32,
+                "label": "SPEAKER_07"
+            },
+            {
+                "start": 122.9,
+                "end": 131.26,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 133.84,
+                "end": 138.22,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 138.82,
+                "end": 140.96,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 141.46,
+                "end": 144.22,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 144.98,
+                "end": 151.68,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 152.42,
+                "end": 158.72,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 159.2,
+                "end": 159.9,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 160.72,
+                "end": 165.18,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 165.18,
+                "end": 169.3,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 170.0,
+                "end": 176.12,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 176.4,
+                "end": 180.5,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 181.44,
+                "end": 182.2,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 182.96,
+                "end": 185.92,
+                "label": "SPEAKER_08"
+            },
+            {
+                "start": 186.0,
+                "end": 189.04,
+                "label": "SPEAKER_08"
+            },
+            {
+                "start": 189.6,
+                "end": 191.98,
+                "label": "SPEAKER_08"
+            },
+            {
+                "start": 191.98,
+                "end": 197.48,
+                "label": "SPEAKER_08"
+            },
+            {
+                "start": 197.58,
+                "end": 202.18,
+                "label": "SPEAKER_08"
+            },
+            {
+                "start": 202.56,
+                "end": 207.46,
+                "label": "SPEAKER_08"
+            },
+            {
+                "start": 208.3,
+                "end": 214.06,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 214.48,
+                "end": 218.88,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 218.88,
+                "end": 225.1,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 225.78,
+                "end": 234.06,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 234.78,
+                "end": 235.28,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 235.62,
+                "end": 238.1,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 238.2,
+                "end": 241.0,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 241.54,
+                "end": 245.48,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 245.52,
+                "end": 248.44,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 248.44,
+                "end": 252.68,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 253.24,
+                "end": 255.96,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 256.0,
+                "end": 258.94,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 259.86,
+                "end": 261.94,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 262.68,
+                "end": 265.2,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 265.74,
+                "end": 268.96,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 269.68,
+                "end": 271.16,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 271.9,
+                "end": 274.18,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 274.64,
+                "end": 277.16,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 277.16,
+                "end": 280.32,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 280.92,
+                "end": 282.16,
+                "label": null
+            },
+            {
+                "start": 282.62,
+                "end": 284.8,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 284.86,
+                "end": 289.58,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 289.86,
+                "end": 291.68,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 291.92,
+                "end": 295.26,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 295.38,
+                "end": 296.5,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 297.08,
+                "end": 302.0,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 302.94,
+                "end": 305.28,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 305.28,
+                "end": 312.52,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 312.96,
+                "end": 314.72,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 316.8,
+                "end": 319.12,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 319.96,
+                "end": 322.16,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 323.38,
+                "end": 327.7,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 327.96,
+                "end": 328.94,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 329.48,
+                "end": 331.32,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 331.32,
+                "end": 331.58,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 331.58,
+                "end": 332.66,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 333.46,
+                "end": 334.34,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 334.56,
+                "end": 337.46,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 338.08,
+                "end": 339.88,
+                "label": "SPEAKER_04"
+            }
+        ]
+    },
+    "transcript": {
+        "name": "transcript",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 5.64,
+                "label": " Die Politik schaut ratlos auf die Bilder der heftigen Corona-Proteste."
+            },
+            {
+                "start": 5.88,
+                "end": 9.3,
+                "label": " Jeden Montagabend, so auch am gestrigen Abend."
+            },
+            {
+                "start": 9.38,
+                "end": 12.38,
+                "label": " Immer mehr Menschen sind da auf den Stra\u00dfen in immer mehr St\u00e4dten."
+            },
+            {
+                "start": 12.54,
+                "end": 14.82,
+                "label": " So sah es eben diesmal aus."
+            },
+            {
+                "start": 15.58,
+                "end": 18.38,
+                "label": " Eskaliert ist die Lage am Abend vor allem in Rostock."
+            },
+            {
+                "start": 18.54,
+                "end": 22.82,
+                "label": " Da hat die Polizei die Demo aufgel\u00f6st und ist dann brutal angegriffen worden."
+            },
+            {
+                "start": 22.96,
+                "end": 25.48,
+                "label": " Flaschen und Steine sind geflogen, Feuerwerksk\u00f6rper."
+            },
+            {
+                "start": 26.06,
+                "end": 29.1,
+                "label": " Das, was wir hier sehen, das ist Corona-Deutschland."
+            },
+            {
+                "start": 29.1,
+                "end": 33.04,
+                "label": " Dar\u00fcber sprechen wir jetzt hier im Studio mit unserem Bild-Politik-Chef Jan Sch\u00e4fer."
+            },
+            {
+                "start": 33.2,
+                "end": 34.08,
+                "label": " Sch\u00f6nen guten Tag, Jan."
+            },
+            {
+                "start": 34.36,
+                "end": 38.2,
+                "label": " Diese Bilder sind zu einem Ritual geworden in Corona-Deutschland."
+            },
+            {
+                "start": 38.3,
+                "end": 40.62,
+                "label": " Jeden Montagabend, an vielen anderen Wochentagen auch."
+            },
+            {
+                "start": 41.08,
+                "end": 43.34,
+                "label": " Die Politik hat das im Blick, sagt sie."
+            },
+            {
+                "start": 43.72,
+                "end": 49.34,
+                "label": " Sie hat dieses Problem erkannt, die heftigen Auseinandersetzungen dort auf den Stra\u00dfen seit vielen Monaten."
+            },
+            {
+                "start": 49.5,
+                "end": 54.7,
+                "label": " Trotzdem gibt es immer mehr Zulauf und trotzdem radikalisiert sich diese Szene immer weiter."
+            },
+            {
+                "start": 55.48,
+                "end": 60.2,
+                "label": " Der Chef des Bundesverfassungsschutzes hat sich j\u00fcngst ge\u00e4u\u00dfert, Thomas Haldenwang."
+            },
+            {
+                "start": 60.34,
+                "end": 70.66,
+                "label": " Er hat auch gesagt, wir sehen dort eine neue Szene, die sich radikalisiert, die gar nichts mehr zu tun hat mit dem klassischen Rechts-Links-Schema, sondern das sind mehr oder weniger Staatsfeinde."
+            },
+            {
+                "start": 70.94,
+                "end": 77.42,
+                "label": " Er hat auch gesagt, \u00fcberraschend, mit welcher Aggressivit\u00e4t dort einige, ich muss immer sagen einige, auch gegen die Polizei vorgehen."
+            },
+            {
+                "start": 77.6,
+                "end": 81.28,
+                "label": " Also auch gegen jene, die den Staat eigentlich verteidigen gegen Gewalt."
+            },
+            {
+                "start": 81.74,
+                "end": 83.8,
+                "label": " Also eine neue radikale Szene bildet sich heraus."
+            },
+            {
+                "start": 84.46,
+                "end": 86.44,
+                "label": " Vieles entscheidet sich ja an der Impfpflicht."
+            },
+            {
+                "start": 87.3,
+                "end": 90.58,
+                "label": " Die ist schwierig einzuf\u00fchren, da ist sich die Politik gar nicht einig."
+            },
+            {
+                "start": 90.76,
+                "end": 93.22,
+                "label": " Man stellt sich die Frage, g\u00e4be es diese Diskussion?"
+            },
+            {
+                "start": 93.3,
+                "end": 97.2,
+                "label": " Ich w\u00fcrde mal sagen, Einf\u00fchrung der allgemeinen Impfpflicht ist jetzt erst mal vom Tisch."
+            },
+            {
+                "start": 97.64,
+                "end": 99.64,
+                "label": " Glaubst du, dadurch w\u00fcrde sich die Lage beruhigen?"
+            },
+            {
+                "start": 99.92,
+                "end": 101.64,
+                "label": " Das glaube ich schon in gewisser Weise."
+            },
+            {
+                "start": 101.76,
+                "end": 111.24,
+                "label": " Denn wir sehen ja, dass die Zahl derjenigen, die protestiert, auch zugenommen hat, parallel zu der Debatte \u00fcber die Impfpflicht, die wir ja seit Oktober eigentlich haben."
+            },
+            {
+                "start": 111.24,
+                "end": 113.24,
+                "label": " Nach der Bundestagswahl ging es los."
+            },
+            {
+                "start": 113.38,
+                "end": 119.76,
+                "label": " Seitdem sehen wir eine deutliche Zunahme an Teilnehmerzahlen, aber auch an Demonstrationen insgesamt im gesamten Bundesgebiet."
+            },
+            {
+                "start": 119.86,
+                "end": 122.32,
+                "label": " Das bedeutet ganz klar, da gibt es eine Parallelit\u00e4t."
+            },
+            {
+                "start": 122.9,
+                "end": 131.26,
+                "label": " Unsere Reporter waren bundesweit am gestrigen Abend im Einsatz und haben aus ganz Deutschland diese Bilder mitgebracht von den Corona-Protesten."
+            },
+            {
+                "start": 133.84,
+                "end": 138.22,
+                "label": " Impf-Skeptiker und Gegner, Querdenker, besorgte B\u00fcrger."
+            },
+            {
+                "start": 138.82,
+                "end": 140.96,
+                "label": " Die Montagsspazierg\u00e4nge im Land."
+            },
+            {
+                "start": 141.46,
+                "end": 144.22,
+                "label": " Proteste gegen die staatlichen Corona-Ma\u00dfnahmen."
+            },
+            {
+                "start": 144.98,
+                "end": 151.68,
+                "label": " Einige dieser Demonstrationen sind bei der Polizei angemeldet, zu anderen wird nur \u00fcber Messenger-Dienste aufgerufen."
+            },
+            {
+                "start": 152.42,
+                "end": 158.72,
+                "label": " Aber wer sind diese Menschen, die sich als das Volk und die unterdr\u00fcckte Mehrheit bezeichnen?"
+            },
+            {
+                "start": 159.2,
+                "end": 159.9,
+                "label": " Berlin."
+            },
+            {
+                "start": 160.72,
+                "end": 165.18,
+                "label": " Laut Polizei demonstrieren gestern Abend Tausende gegen die Corona-Ma\u00dfnahmen."
+            },
+            {
+                "start": 165.18,
+                "end": 169.3,
+                "label": " Der Trupp zieht vom Alexanderplatz Richtung Brandenburger Tor."
+            },
+            {
+                "start": 170.0,
+                "end": 176.12,
+                "label": " Geimpft oder nicht, gemeinsam gegen die Impfpflicht, ist auf Transparenten zu lesen."
+            },
+            {
+                "start": 176.4,
+                "end": 180.5,
+                "label": " Nur wenige Menschen tragen Maske, die Stimmung aufgeheizt."
+            },
+            {
+                "start": 181.44,
+                "end": 182.2,
+                "label": " M\u00fcnster."
+            },
+            {
+                "start": 182.96,
+                "end": 185.92,
+                "label": " In M\u00fcnster ist die Polizei heute mit einem Gro\u00dfaufgebot vor Ort."
+            },
+            {
+                "start": 186.0,
+                "end": 189.04,
+                "label": " Hier marschieren ca. 700 Demonstranten durch die Innenstadt."
+            },
+            {
+                "start": 189.6,
+                "end": 191.98,
+                "label": " Im Mittelpunkt des Protestes steht nat\u00fcrlich die Impfpflicht."
+            },
+            {
+                "start": 191.98,
+                "end": 197.48,
+                "label": " Aber wenn man sich hier umh\u00f6rt, stellt man \u00fcberrascht fest, dass einige der Demonstranten sehr wohl geimpft sind."
+            },
+            {
+                "start": 197.58,
+                "end": 202.18,
+                "label": " Es geht den Menschen also vielmehr darum, dass sie selber bestimmen wollen, ob sie sich impfen lassen oder nicht."
+            },
+            {
+                "start": 202.56,
+                "end": 207.46,
+                "label": " Deshalb ziehen die Menschen heute friedlich ca. 5 km durch die M\u00fcnsteraner Innenstadt."
+            },
+            {
+                "start": 208.3,
+                "end": 214.06,
+                "label": " Deutschlandweit demonstrieren Zehntausende Menschen gegen Corona-Ma\u00dfnahmen und eine m\u00f6gliche Impfpflicht."
+            },
+            {
+                "start": 214.48,
+                "end": 218.88,
+                "label": " Die Polizei sch\u00e4tzt die Zahl in dieser Nacht auf mehr als 70.000."
+            },
+            {
+                "start": 218.88,
+                "end": 225.1,
+                "label": " Die Proteste werden von Polizei und vereinzelt auch immer wieder von Gegendemonstrationen begleitet."
+            },
+            {
+                "start": 225.78,
+                "end": 234.06,
+                "label": " Versammlungen im Cottbus werden aufgel\u00f6st, weil die Polizei keinen Versammlungsleiter feststellen kann oder weil kein Mund-Nasen-Schutz getragen wird."
+            },
+            {
+                "start": 234.78,
+                "end": 235.28,
+                "label": " Mannheim."
+            },
+            {
+                "start": 235.62,
+                "end": 238.1,
+                "label": " Wir befinden uns hier in Mannheim auf dem Toulourplatz."
+            },
+            {
+                "start": 238.2,
+                "end": 241.0,
+                "label": " Das ist nicht weit weg vom Zentrum der Stadt."
+            },
+            {
+                "start": 241.54,
+                "end": 245.48,
+                "label": " Auf einer angek\u00fcndigten Kundgebung von Impfgegnern."
+            },
+            {
+                "start": 245.52,
+                "end": 248.44,
+                "label": " Das wurde mit 200 Teilnehmern hier angemeldet."
+            },
+            {
+                "start": 248.44,
+                "end": 252.68,
+                "label": " Wie man sieht, sind auch nicht viel mehr oder eher weniger gekommen."
+            },
+            {
+                "start": 253.24,
+                "end": 255.96,
+                "label": " Die Kundgebung besteht aus ein paar Rednern."
+            },
+            {
+                "start": 256.0,
+                "end": 258.94,
+                "label": " Hier wird Musik gespielt. Alles l\u00e4uft bislang ganz friedlich ab."
+            },
+            {
+                "start": 259.86,
+                "end": 261.94,
+                "label": " Hexenkessel Mecklenburg-Vorpommern."
+            },
+            {
+                "start": 262.68,
+                "end": 265.2,
+                "label": " Aufgeheizte Stimmung in der Rostocker Innenstadt."
+            },
+            {
+                "start": 265.74,
+                "end": 268.96,
+                "label": " An zwei Kreuzungen f\u00e4hrt die Polizei mit Wasserwerfern auf."
+            },
+            {
+                "start": 269.68,
+                "end": 271.16,
+                "label": " Eingekesselte Demonstranten."
+            },
+            {
+                "start": 271.9,
+                "end": 274.18,
+                "label": " Proteste auch in Freiberg in Sachsen."
+            },
+            {
+                "start": 274.64,
+                "end": 277.16,
+                "label": " Auch hier Aufschrei gegen die Impfpflicht."
+            },
+            {
+                "start": 277.16,
+                "end": 280.32,
+                "label": " Die Demos verlaufen gr\u00f6\u00dftenteils friedlich."
+            },
+            {
+                "start": 280.92,
+                "end": 282.16,
+                "label": " Baden-W\u00fcrttemberg."
+            },
+            {
+                "start": 282.62,
+                "end": 284.8,
+                "label": " Die Menschen, die wir hier sehen, sehen allt\u00e4glich aus."
+            },
+            {
+                "start": 284.86,
+                "end": 289.58,
+                "label": " Es sind keine Nazis oder linksgerichtete Menschen."
+            },
+            {
+                "start": 289.86,
+                "end": 291.68,
+                "label": " Ganz normale Leute."
+            },
+            {
+                "start": 291.92,
+                "end": 295.26,
+                "label": " Wir versuchen mal weiterzufragen, warum sie hier sind."
+            },
+            {
+                "start": 295.38,
+                "end": 296.5,
+                "label": " Was ist ihre Motivation?"
+            },
+            {
+                "start": 297.08,
+                "end": 302.0,
+                "label": " Ich m\u00f6chte darauf aufmerksam machen, dass die Gesundheit eine pers\u00f6nliche Entscheidung ist."
+            },
+            {
+                "start": 302.94,
+                "end": 305.28,
+                "label": " Und ich wirklich die Freiheit auch m\u00f6chte."
+            },
+            {
+                "start": 305.28,
+                "end": 312.52,
+                "label": " Ich m\u00f6chte darauf bestehen, sich selber zu entscheiden, was ich damit tue, wie ich es tue, mit was ich tue."
+            },
+            {
+                "start": 312.96,
+                "end": 314.72,
+                "label": " Und mich einfach nicht dar\u00fcber bestimmen lassen."
+            },
+            {
+                "start": 316.8,
+                "end": 319.12,
+                "label": " Immerhin, ich bin aus dem medizinischen Bereich."
+            },
+            {
+                "start": 319.96,
+                "end": 322.16,
+                "label": " Und ich habe eine gewisse Kenntnis dar\u00fcber."
+            },
+            {
+                "start": 323.38,
+                "end": 327.7,
+                "label": " Und die Kompetenz muss man mir einfach zugestehen, selber \u00fcber meine Gesundheit zu entscheiden."
+            },
+            {
+                "start": 327.96,
+                "end": 328.94,
+                "label": " Das ist im Grunde alles."
+            },
+            {
+                "start": 329.48,
+                "end": 331.32,
+                "label": " Wir sind hier, weil wir mit den ganzen Ma\u00dfnahmen nicht zufrieden sind."
+            },
+            {
+                "start": 331.32,
+                "end": 331.58,
+                "label": " Wir sind nicht zufrieden."
+            },
+            {
+                "start": 331.58,
+                "end": 332.66,
+                "label": " Das ist, was jeder sagt."
+            },
+            {
+                "start": 333.46,
+                "end": 334.34,
+                "label": " Wir finden das \u00fcbertrieben."
+            },
+            {
+                "start": 334.56,
+                "end": 337.46,
+                "label": " Es gibt keine Basis daf\u00fcr, was hier abgezogen wird."
+            },
+            {
+                "start": 338.08,
+                "end": 339.88,
+                "label": " Wir sind damit unzufrieden."
+            }
+        ]
+    },
+    "shots": {
+        "name": "shots",
+        "segments": []
+    },
+    "speaker": {
+        "name": "speaker",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 14.82,
+                "label": "anchor"
+            },
+            {
+                "start": 15.58,
+                "end": 29.1,
+                "label": "anchor"
+            },
+            {
+                "start": 29.1,
+                "end": 54.7,
+                "label": "anchor"
+            },
+            {
+                "start": 55.48,
+                "end": 83.8,
+                "label": "reporter"
+            },
+            {
+                "start": 84.46,
+                "end": 99.64,
+                "label": "anchor"
+            },
+            {
+                "start": 99.92,
+                "end": 122.32,
+                "label": "reporter"
+            },
+            {
+                "start": 122.9,
+                "end": 131.26,
+                "label": "anchor"
+            },
+            {
+                "start": 133.84,
+                "end": 182.2,
+                "label": "reporter"
+            },
+            {
+                "start": 182.96,
+                "end": 207.46,
+                "label": "reporter"
+            },
+            {
+                "start": 208.3,
+                "end": 235.28,
+                "label": "reporter"
+            },
+            {
+                "start": 235.62,
+                "end": 258.94,
+                "label": "reporter"
+            },
+            {
+                "start": 259.86,
+                "end": 282.16,
+                "label": "reporter"
+            },
+            {
+                "start": 282.62,
+                "end": 296.5,
+                "label": "reporter"
+            },
+            {
+                "start": 297.08,
+                "end": 328.94,
+                "label": "layperson-x-covid"
+            },
+            {
+                "start": 329.48,
+                "end": 339.88,
+                "label": "layperson-x-covid"
+            }
+        ]
+    }
+}

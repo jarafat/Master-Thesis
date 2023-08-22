@@ -1,0 +1,43 @@
+
+--------------------------- SPEAKER - Hierarchy 0 ---------------------------
+python /nfs/home/arafatj/master_project/src/training.py --kfold --speaker --rf --seg --hierarchy 0
+10-Fold Cross-Validation: 0.8321 accuracy with a standard deviation of 0.03
+
+python /nfs/home/arafatj/master_project/src/training.py --kfold --speaker --rf --sw --hierarchy 0
+10-Fold Cross-Validation: 0.8257 accuracy with a standard deviation of 0.04
+
+python /nfs/home/arafatj/master_project/src/training.py --kfold --speaker --xgb --seg --hierarchy 0
+10-Fold Cross-Validation: 0.8523 accuracy with a standard deviation of 0.04
+
+python /nfs/home/arafatj/master_project/src/training.py --kfold --speaker --xgb --sw --hierarchy 0
+10-Fold Cross-Validation: 0.8395 accuracy with a standard deviation of 0.03
+-----------------------------------------------------------------------------
+
+--------------------------- SPEAKER - Hierarchy 1 ---------------------------
+python /nfs/home/arafatj/master_project/src/training.py --kfold --speaker --rf --seg --hierarchy 1
+10-Fold Cross-Validation: 0.7588 accuracy with a standard deviation of 0.03
+
+python /nfs/home/arafatj/master_project/src/training.py --kfold --speaker --rf --sw --hierarchy 1
+10-Fold Cross-Validation: 0.7598 accuracy with a standard deviation of 0.03
+
+python /nfs/home/arafatj/master_project/src/training.py --kfold --speaker --xgb --seg --hierarchy 1
+10-Fold Cross-Validation: 0.7790 accuracy with a standard deviation of 0.02
+
+python /nfs/home/arafatj/master_project/src/training.py --kfold --speaker --xgb --sw --hierarchy 1
+10-Fold Cross-Validation: 0.7619 accuracy with a standard deviation of 0.03
+------------------------------------------------------------------------------
+
+--------------------------------- SITUATIONS ---------------------------------
+python /nfs/home/arafatj/master_project/src/training.py --kfold --situations --rf --seg
+10-Fold Cross-Validation: 0.8454 accuracy with a standard deviation of 0.03
+
+python /nfs/home/arafatj/master_project/src/training.py --kfold --situations --rf --sw
+10-Fold Cross-Validation: 0.8478 accuracy with a standard deviation of 0.05
+
+python /nfs/home/arafatj/master_project/src/training.py --kfold --situations --xgb --seg
+10-Fold Cross-Validation: 0.8480 accuracy with a standard deviation of 0.05
+
+python /nfs/home/arafatj/master_project/src/training.py --kfold --situations --xgb --sw
+10-Fold Cross-Validation: 0.8246 accuracy with a standard deviation of 0.07
+------------------------------------------------------------------------------
+

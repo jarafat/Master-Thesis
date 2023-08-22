@@ -1,0 +1,1502 @@
+{
+    "video_fn": "20220117_Ukraine_Konflikt_Annalena_Baerbock_ist_u3X1kayjCro.mp4",
+    "speakers": {
+        "name": "speakers",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 3.52,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 3.64,
+                "end": 6.28,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 6.52,
+                "end": 9.24,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 9.82,
+                "end": 12.02,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 12.4,
+                "end": 19.22,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 19.36,
+                "end": 22.94,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 23.06,
+                "end": 24.82,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 24.96,
+                "end": 28.8,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 28.8,
+                "end": 32.68,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 32.82,
+                "end": 34.88,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 34.96,
+                "end": 40.9,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 43.02,
+                "end": 47.64,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 49.12,
+                "end": 52.56,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 53.06,
+                "end": 59.02,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 60.2,
+                "end": 63.96,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 64.06,
+                "end": 66.96,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 67.3,
+                "end": 74.02,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 74.14,
+                "end": 82.1,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 82.699,
+                "end": 85.26,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 85.72,
+                "end": 91.48,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 91.98,
+                "end": 94.6,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 97.0,
+                "end": 99.96,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 100.18,
+                "end": 103.18,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 103.38,
+                "end": 106.48,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 106.68,
+                "end": 108.4,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 108.62,
+                "end": 111.04,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 111.04,
+                "end": 119.16,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 119.16,
+                "end": 122.92,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 123.16,
+                "end": 127.56,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 127.84,
+                "end": 132.56,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 132.8,
+                "end": 136.0,
+                "label": "SPEAKER_00"
+            },
+            {
+                "start": 137.04,
+                "end": 142.62,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 143.2,
+                "end": 145.72,
+                "label": "SPEAKER_05"
+            },
+            {
+                "start": 151.16,
+                "end": 164.1,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 164.1,
+                "end": 165.52,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 165.9,
+                "end": 168.62,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 168.74,
+                "end": 172.1,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 173.3,
+                "end": 180.0,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 180.12,
+                "end": 181.38,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 181.68,
+                "end": 187.74,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 187.84,
+                "end": 190.3,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 190.46,
+                "end": 198.16,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 198.32,
+                "end": 199.62,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 199.74,
+                "end": 201.94,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 202.2,
+                "end": 204.32,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 204.72,
+                "end": 209.42,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 209.48,
+                "end": 211.94,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 212.58,
+                "end": 218.32,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 218.32,
+                "end": 221.92,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 222.36,
+                "end": 224.4,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 224.52,
+                "end": 228.6,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 229.0,
+                "end": 230.26,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 232.26,
+                "end": 237.1,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 237.34,
+                "end": 239.92,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 240.26,
+                "end": 243.66,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 243.96,
+                "end": 248.84,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 249.18,
+                "end": 253.34,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 253.52,
+                "end": 258.959,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 259.38,
+                "end": 261.74,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 263.28,
+                "end": 277.62,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 278.34,
+                "end": 283.26,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 283.8,
+                "end": 286.32,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 287.46,
+                "end": 296.56,
+                "label": "SPEAKER_02"
+            },
+            {
+                "start": 298.02,
+                "end": 302.06,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 302.2,
+                "end": 305.48,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 305.6,
+                "end": 307.62,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 307.68,
+                "end": 310.94,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 311.16,
+                "end": 314.94,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 315.04,
+                "end": 317.1,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 318.24,
+                "end": 321.9,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 322.06,
+                "end": 327.44,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 327.44,
+                "end": 330.44,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 330.6,
+                "end": 334.68,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 335.04,
+                "end": 338.52,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 338.54,
+                "end": 341.78,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 342.02,
+                "end": 352.36,
+                "label": "SPEAKER_06"
+            },
+            {
+                "start": 353.42,
+                "end": 356.44,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 356.44,
+                "end": 364.14,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 364.64,
+                "end": 367.7,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 368.08,
+                "end": 370.54,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 370.62,
+                "end": 376.72,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 376.98,
+                "end": 382.52,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 382.64,
+                "end": 387.44,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 387.76,
+                "end": 391.66,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 392.12,
+                "end": 393.58,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 394.08,
+                "end": 400.6,
+                "label": "SPEAKER_01"
+            },
+            {
+                "start": 402.28,
+                "end": 408.34,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 409.8,
+                "end": 424.28,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 424.92,
+                "end": 445.22,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 445.6,
+                "end": 450.24,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 451.14,
+                "end": 453.42,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 453.58,
+                "end": 466.74,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 467.4,
+                "end": 472.04,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 472.04,
+                "end": 475.1,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 475.54,
+                "end": 483.66,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 484.24,
+                "end": 487.68,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 487.78,
+                "end": 493.3,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 493.86,
+                "end": 502.24,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 502.8,
+                "end": 506.38,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 506.52,
+                "end": 514.34,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 515.799,
+                "end": 528.7,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 528.94,
+                "end": 536.24,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 536.42,
+                "end": 547.24,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 547.24,
+                "end": 556.66,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 557.14,
+                "end": 561.76,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 562.38,
+                "end": 575.3,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 575.3,
+                "end": 580.12,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 580.72,
+                "end": 583.48,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 583.9,
+                "end": 610.86,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 611.18,
+                "end": 614.36,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 614.62,
+                "end": 629.66,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 630.42,
+                "end": 635.84,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 636.2,
+                "end": 656.1,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 656.62,
+                "end": 667.46,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 667.52,
+                "end": 674.36,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 674.68,
+                "end": 676.32,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 677.66,
+                "end": 684.0,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 684.0,
+                "end": 688.12,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 688.2,
+                "end": 693.78,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 694.0,
+                "end": 699.46,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 699.76,
+                "end": 705.5,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 705.58,
+                "end": 709.0,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 709.76,
+                "end": 713.14,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 715.04,
+                "end": 719.84,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 719.98,
+                "end": 723.58,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 723.96,
+                "end": 744.44,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 744.54,
+                "end": 746.96,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 747.38,
+                "end": 761.26,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 761.58,
+                "end": 764.94,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 764.94,
+                "end": 776.96,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 777.26,
+                "end": 785.32,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 785.74,
+                "end": 806.66,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 807.12,
+                "end": 816.73,
+                "label": "SPEAKER_03"
+            },
+            {
+                "start": 817.04,
+                "end": 819.8,
+                "label": "SPEAKER_04"
+            },
+            {
+                "start": 819.98,
+                "end": 828.66,
+                "label": "SPEAKER_04"
+            }
+        ]
+    },
+    "transcript": {
+        "name": "transcript",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 3.52,
+                "label": " Jetzt kommt es auf Sie an, Au\u00dfenministerin Annalena Baerbock."
+            },
+            {
+                "start": 3.64,
+                "end": 6.28,
+                "label": " Ihre erste, richtig heikle Mission heute."
+            },
+            {
+                "start": 6.52,
+                "end": 9.24,
+                "label": " Rein ins Krisengebiet, in die Ukraine."
+            },
+            {
+                "start": 9.82,
+                "end": 12.02,
+                "label": " Und dann anschlie\u00dfend nach Russland."
+            },
+            {
+                "start": 12.4,
+                "end": 19.22,
+                "label": " Dort trifft Baerbock dann nachher auf einen ganz wichtigen Mann, den wir Ihnen gleich zeigen, Sergej Lavrov."
+            },
+            {
+                "start": 19.36,
+                "end": 22.94,
+                "label": " Er ist die eiskalte rechte Hand von Putin."
+            },
+            {
+                "start": 23.06,
+                "end": 24.82,
+                "label": " Und er wird genannt Mr. Njet."
+            },
+            {
+                "start": 24.96,
+                "end": 28.8,
+                "label": " Und diesem Mann muss Baerbock heute gegen\u00fcber sitzen, in die Augen schauen."
+            },
+            {
+                "start": 28.8,
+                "end": 32.68,
+                "label": " Sie muss gegen ihn unsere Interessen vertreten."
+            },
+            {
+                "start": 32.82,
+                "end": 34.88,
+                "label": " Und das inmitten Kriegsangst."
+            },
+            {
+                "start": 34.96,
+                "end": 40.9,
+                "label": " In der Ukraine, da zittern die Menschen vor Putin, der seine Armee an den Grenzen l\u00e4ngst hat aufmarschieren lassen."
+            },
+            {
+                "start": 43.02,
+                "end": 47.64,
+                "label": " Sie robben durch den Sand, schmei\u00dfen sich in die B\u00fcsche, h\u00f6ren auf Kommandos."
+            },
+            {
+                "start": 49.12,
+                "end": 52.56,
+                "label": " Ein russischer Angriff auf die Ukraine wird immer wahrscheinlicher."
+            },
+            {
+                "start": 53.06,
+                "end": 59.02,
+                "label": " Das S\u00e4belrasseln ist inzwischen so laut, dass sich sogar Zivilisten auf Putins m\u00f6gliche Invasion vorbereiten."
+            },
+            {
+                "start": 60.2,
+                "end": 63.96,
+                "label": " Wie ernst die Lage mittlerweile in Kiew ist, zeigt diese Milit\u00e4r\u00fcbung."
+            },
+            {
+                "start": 64.06,
+                "end": 66.96,
+                "label": " Das sind keine Soldaten, sondern Zivilisten, die hier trainieren."
+            },
+            {
+                "start": 67.3,
+                "end": 74.02,
+                "label": " Aus gro\u00dfer Angst und Sorge, dass Putins Truppen auch in Kiew einfallen k\u00f6nnten und hier ihre Familien bedrohen."
+            },
+            {
+                "start": 74.14,
+                "end": 82.1,
+                "label": " Deswegen trainieren sie hier jedes Wochenende, wie sie sich dann gegen russische Truppen verteidigen k\u00f6nnen."
+            },
+            {
+                "start": 82.699,
+                "end": 85.26,
+                "label": " Marta Juskiew ist eine solche Zivilistin."
+            },
+            {
+                "start": 85.72,
+                "end": 91.48,
+                "label": " Im normalen Leben ist die 45-j\u00e4hrige Angestellte bei einem Gro\u00dfkonzern, forscht in klinischen Studien."
+            },
+            {
+                "start": 91.98,
+                "end": 94.6,
+                "label": " Seit mehreren Monaten kommt sie samstags hierher."
+            },
+            {
+                "start": 97.0,
+                "end": 99.96,
+                "label": " Es war eine weitere Eskalation an der Grenze."
+            },
+            {
+                "start": 100.18,
+                "end": 103.18,
+                "label": " Also bringt Putin die Truppen an die ukrainische Grenze."
+            },
+            {
+                "start": 103.38,
+                "end": 106.48,
+                "label": " Und ich habe einen Artikel \u00fcber Territorialverteidigung gesehen."
+            },
+            {
+                "start": 106.68,
+                "end": 108.4,
+                "label": " Ich habe vorher nichts davon gewusst."
+            },
+            {
+                "start": 108.62,
+                "end": 111.04,
+                "label": " Aber als ich den Artikel sah, entschied ich mich daf\u00fcr."
+            },
+            {
+                "start": 111.04,
+                "end": 119.16,
+                "label": " Sie alle haben Angst, dass Russlands Pr\u00e4sident Wladimir Putin ernst machen k\u00f6nnte und auch die ukrainische Hauptstadt Kiew angreift."
+            },
+            {
+                "start": 119.16,
+                "end": 122.92,
+                "label": " Wir haben alle etwas, was uns wertvoll ist."
+            },
+            {
+                "start": 123.16,
+                "end": 127.56,
+                "label": " Es ist unser Land, es sind unsere Gr\u00e4ber, sind die Familien unserer Familien."
+            },
+            {
+                "start": 127.84,
+                "end": 132.56,
+                "label": " Wir wissen ja auch, dass die Kommunikation zwischen Putin und Biden nicht sehr erfolgreich war."
+            },
+            {
+                "start": 132.8,
+                "end": 136.0,
+                "label": " Und Putin das Risiko einer Eskalation immer hoch h\u00e4lt."
+            },
+            {
+                "start": 137.04,
+                "end": 142.62,
+                "label": " Mehr als 100.000 russische Soldaten stehen an der Grenze bereit f\u00fcr den Einmarsch in die Ukraine."
+            },
+            {
+                "start": 143.2,
+                "end": 145.72,
+                "label": " Kampflos wollen sich die B\u00fcrger dort nicht ergeben."
+            },
+            {
+                "start": 151.16,
+                "end": 164.1,
+                "label": " Und uns zugeschaltet in der Ukraine ist jetzt Bild-Vize Paul Ronsheimer, der uns auch diesen Bericht geschickt hat von Marta, die sich aufmacht als Zivilistin, sich vorbereitet f\u00fcr den Krieg."
+            },
+            {
+                "start": 164.1,
+                "end": 165.52,
+                "label": " Paul ist uns jetzt zugeschaltet."
+            },
+            {
+                "start": 165.9,
+                "end": 168.62,
+                "label": " Hallo Paul, berichte uns von den Menschen in der Ukraine."
+            },
+            {
+                "start": 168.74,
+                "end": 172.1,
+                "label": " Berichte uns davon, wie gro\u00df die Angst vor einem Krieg dort ist."
+            },
+            {
+                "start": 173.3,
+                "end": 180.0,
+                "label": " Patricia, das, was wir dort in diesem Beitrag gesehen haben, hat sich hier in Kiew ereignet, wo ich mit den Menschen sprechen konnte."
+            },
+            {
+                "start": 180.12,
+                "end": 181.38,
+                "label": " Es ist tats\u00e4chlich diese Stimmung."
+            },
+            {
+                "start": 181.68,
+                "end": 187.74,
+                "label": " Zivilisten sind bereit, sich gegen Putin zu stellen, sind bereit, ihr Land zu verteidigen."
+            },
+            {
+                "start": 187.84,
+                "end": 190.3,
+                "label": " Und das ist die gro\u00dfe Ver\u00e4nderung, die ich auch hier sp\u00fcre."
+            },
+            {
+                "start": 190.46,
+                "end": 198.16,
+                "label": " Ich stehe ja am Maidan, wo vor 8 Jahren die Menschen erschossen wurden, wo die Menschen f\u00fcr Freiheit auf die Stra\u00dfe gegangen sind."
+            },
+            {
+                "start": 198.32,
+                "end": 199.62,
+                "label": " Yanukovych dann gest\u00fcrzt wurde."
+            },
+            {
+                "start": 199.74,
+                "end": 201.94,
+                "label": " Und dann ist der Krieg entstanden in der Ostukraine."
+            },
+            {
+                "start": 202.2,
+                "end": 204.32,
+                "label": " Das darf man ja nicht vergessen. Der geht schon seit 8 Jahren."
+            },
+            {
+                "start": 204.72,
+                "end": 209.42,
+                "label": " Und jetzt diese Forderung von Putin, die niemand erf\u00fcllen kann auf der Welt."
+            },
+            {
+                "start": 209.48,
+                "end": 211.94,
+                "label": " Und die Menschen haben tats\u00e4chlich Angst. Das ist die Stimmung hier."
+            },
+            {
+                "start": 212.58,
+                "end": 218.32,
+                "label": " Paul, wir sp\u00fcren, was du als Reporter dort am Maidan f\u00fcr ein besonderes Verh\u00e4ltnis zu den Menschen dort hast."
+            },
+            {
+                "start": 218.32,
+                "end": 221.92,
+                "label": " Nun kommt dort heute unsere neue Au\u00dfenministerin hin, Annalena Baerbock."
+            },
+            {
+                "start": 222.36,
+                "end": 224.4,
+                "label": " Was erwarten die Menschen dort?"
+            },
+            {
+                "start": 224.52,
+                "end": 228.6,
+                "label": " Was erwartet Marta dort von der deutschen Au\u00dfenministerin in dieser Krise?"
+            },
+            {
+                "start": 229.0,
+                "end": 230.26,
+                "label": " Was erwartet die Ukraine?"
+            },
+            {
+                "start": 232.26,
+                "end": 237.1,
+                "label": " Die Ukraine erwartet, dass sich Deutschland hinter dieses Land stellt."
+            },
+            {
+                "start": 237.34,
+                "end": 239.92,
+                "label": " Dass Deutschland aufh\u00f6rt, mit Putin zu kuscheln."
+            },
+            {
+                "start": 240.26,
+                "end": 243.66,
+                "label": " Dass Deutschland aufh\u00f6rt, nicht zu verstehen, was hier vorgeht."
+            },
+            {
+                "start": 243.96,
+                "end": 248.84,
+                "label": " Viele sind entt\u00e4uscht \u00fcber die Debatten um Nord Stream, \u00fcber die Gaspipeline, dass da nichts passiert ist."
+            },
+            {
+                "start": 249.18,
+                "end": 253.34,
+                "label": " Die Ukraine ist stellvertretend f\u00fcr das, was die Menschen hier empfinden."
+            },
+            {
+                "start": 253.52,
+                "end": 258.959,
+                "label": " Es ist Vitaly Klitschko, der B\u00fcrgermeister, m\u00f6glicherweise Pr\u00e4sidentschaftskandidat in zwei Jahren hier in der Ukraine."
+            },
+            {
+                "start": 259.38,
+                "end": 261.74,
+                "label": " Und mit ihm habe ich kurz vorher sprechen k\u00f6nnen."
+            },
+            {
+                "start": 263.28,
+                "end": 277.62,
+                "label": " Wir setzen in der Ukraine eine gro\u00dfe Hoffnung auf den Besuch von Au\u00dfenministerin Annalena Baerbock, weil sie mit der Ablehnung von Nord Stream 2 gezeigt hat, dass sie auf der einzigen richtigen Seite steht."
+            },
+            {
+                "start": 278.34,
+                "end": 283.26,
+                "label": " Es muss alles getan werden, dass es nicht um eine russische Invasion kommt."
+            },
+            {
+                "start": 283.8,
+                "end": 286.32,
+                "label": " Das w\u00e4re ein absoluter Albtraum."
+            },
+            {
+                "start": 287.46,
+                "end": 296.56,
+                "label": " Wir in der Ukraine brauchen Unterst\u00fctzung, wir brauchen Defensivwaffen und harte Sanktionsdruckungen gegen Russland f\u00fcr den Fall eines Angriffs."
+            },
+            {
+                "start": 298.02,
+                "end": 302.06,
+                "label": " Also Paul, wir h\u00f6ren, Vitaly Klitschko sagt ganz klar, sie steht auf der richtigen Seite."
+            },
+            {
+                "start": 302.2,
+                "end": 305.48,
+                "label": " Die Hoffnung in Annalena Baerbock ist gro\u00df."
+            },
+            {
+                "start": 305.6,
+                "end": 307.62,
+                "label": " Sehen das die Menschen in der Ukraine auch so?"
+            },
+            {
+                "start": 307.68,
+                "end": 310.94,
+                "label": " Ist sie dort beliebt? Setzen die Menschen wirklich auf sie?"
+            },
+            {
+                "start": 311.16,
+                "end": 314.94,
+                "label": " Oder sind sie mittlerweile an dem Punkt angekommen, dass sie sagen, k\u00f6nnen wir uns \u00fcberhaupt noch verlassen?"
+            },
+            {
+                "start": 315.04,
+                "end": 317.1,
+                "label": " K\u00f6nnen wir \u00fcberhaupt noch vertrauen? Wie ist da die Stimmung?"
+            },
+            {
+                "start": 318.24,
+                "end": 321.9,
+                "label": " Das ist die gro\u00dfe Frage, die sich die Menschen stellen."
+            },
+            {
+                "start": 322.06,
+                "end": 327.44,
+                "label": " Denn damals, als ich vor acht Jahren hier auf diesem Platz war, hinter mir, da standen die Menschen mit Europa-Flaggen."
+            },
+            {
+                "start": 327.44,
+                "end": 330.44,
+                "label": " Sie standen f\u00fcr unsere Werte dort, f\u00fcr die EU."
+            },
+            {
+                "start": 330.6,
+                "end": 334.68,
+                "label": " Sie haben gesagt, wir wollen demokratisch sein, wir wollen nicht zu Putins Reich geh\u00f6ren."
+            },
+            {
+                "start": 335.04,
+                "end": 338.52,
+                "label": " Und das, was danach passiert ist, das hat sich schon ein bisschen entt\u00e4uscht."
+            },
+            {
+                "start": 338.54,
+                "end": 341.78,
+                "label": " Die Hoffnung, was Annalena Baerbock angeht, die gibt es."
+            },
+            {
+                "start": 342.02,
+                "end": 352.36,
+                "label": " Und sie wird in wenigen Stunden hier hinter mir auf diesem Platz ein Kranz niederlegen, dort wird sie erinnern an die Menschen, die niedergeschossen wurden bei den Protesten f\u00fcr die Freiheit 2014."
+            },
+            {
+                "start": 353.42,
+                "end": 356.44,
+                "label": " Danke, Paul. In die Ukraine, danke. Nach Kiew."
+            },
+            {
+                "start": 356.44,
+                "end": 364.14,
+                "label": " Wir alle warten gespannt auf diese heikle Mission von Annalena Baerbock, die weiter nach Moskau reisen wird."
+            },
+            {
+                "start": 364.64,
+                "end": 367.7,
+                "label": " Das alles erleben Sie bei BILD live am Mittag."
+            },
+            {
+                "start": 368.08,
+                "end": 370.54,
+                "label": " Hier das Statement von Annalena Baerbock."
+            },
+            {
+                "start": 370.62,
+                "end": 376.72,
+                "label": " Also der erste Auftritt von ihr mitten in dieser Krise, inmitten von Kriegsangst."
+            },
+            {
+                "start": 376.98,
+                "end": 382.52,
+                "label": " Dar\u00fcber wollen wir jetzt sprechen mit dem Chef der M\u00fcnchner Sicherheitskonferenz Wolfgang Ischinger."
+            },
+            {
+                "start": 382.64,
+                "end": 387.44,
+                "label": " Denn es ist eine schwierige Reise, die Annalena Baerbock heute vor sich hat."
+            },
+            {
+                "start": 387.76,
+                "end": 391.66,
+                "label": " Kriegsangst. Gibt es eine reale Kriegsgefahr in der Ukraine?"
+            },
+            {
+                "start": 392.12,
+                "end": 393.58,
+                "label": " Sch\u00f6n, Herr Ischinger, dass Sie bei uns sind."
+            },
+            {
+                "start": 394.08,
+                "end": 400.6,
+                "label": " Wie real ist f\u00fcr Sie, wie sch\u00e4tzen Sie die Situation ein, die Kriegsgefahr und wie schwierig ist heute dieser Tag f\u00fcr Annalena Baerbock?"
+            },
+            {
+                "start": 402.28,
+                "end": 408.34,
+                "label": " Also zum ersten Teil ihrer Frage, die Kriegsgefahr ist sicherlich real."
+            },
+            {
+                "start": 409.8,
+                "end": 424.28,
+                "label": " Es gibt unendlich viele Informationen dar\u00fcber, wie die Ansammlung russischer Einheiten in den letzten Wochen, l\u00e4ngeren Wochen, sich weiter eskaliert hat."
+            },
+            {
+                "start": 424.92,
+                "end": 445.22,
+                "label": " Es ist kaum vorstellbar, dass nach einer so langen Zeit des Drohens durch die russische F\u00fchrung sozusagen man pl\u00f6tzlich umdreht und nach Hause f\u00e4hrt und damit dann zumindest nach russischer Auffassung auch das Gesicht verlieren w\u00fcrde."
+            },
+            {
+                "start": 445.6,
+                "end": 450.24,
+                "label": " Also die Gefahr ist real. Die Frage ist berechtigt."
+            },
+            {
+                "start": 451.14,
+                "end": 453.42,
+                "label": " Was kann jetzt diplomatisch getan werden?"
+            },
+            {
+                "start": 453.58,
+                "end": 466.74,
+                "label": " Ich w\u00fcrde dazu raten, die Erwartungen an diese erste Reise unserer neuen Au\u00dfenministerin A. in das Krisengebiet und B. nach Moskau jetzt nicht mit allzu hohen Erwartungen zu \u00fcberfrachten."
+            },
+            {
+                "start": 467.4,
+                "end": 472.04,
+                "label": " Es ist gut aus meiner Sicht, dass sie zuerst in die Ukraine f\u00e4hrt."
+            },
+            {
+                "start": 472.04,
+                "end": 475.1,
+                "label": " Und dann nach Moskau weiterf\u00e4hrt."
+            },
+            {
+                "start": 475.54,
+                "end": 483.66,
+                "label": " Es w\u00e4re schlimm gewesen f\u00fcr die ukrainischen Nachbarn und Partner, wenn sie die Reise umgekehrt angetreten h\u00e4tte."
+            },
+            {
+                "start": 484.24,
+                "end": 487.68,
+                "label": " Also das schon mal richtig entschieden, sagt Wolfgang Ischinger."
+            },
+            {
+                "start": 487.78,
+                "end": 493.3,
+                "label": " Wir haben gerade in dem Bericht von Paul Ronzheimer die Menschen gesehen, die sich dort vorbereiten auf den Kriegsfall."
+            },
+            {
+                "start": 493.86,
+                "end": 502.24,
+                "label": " Zivilisten, Zivilistinnen, wie diese Martha, die uns Paul eben vorgestellt hat, die pl\u00f6tzlich an der Waffe trainieren, dort im Schnee in der Ukraine."
+            },
+            {
+                "start": 502.8,
+                "end": 506.38,
+                "label": " Was glauben Sie, k\u00f6nnen wir im Westen deren Erwartungen erf\u00fcllen?"
+            },
+            {
+                "start": 506.52,
+                "end": 514.34,
+                "label": " K\u00f6nnen die sich tats\u00e4chlich auf uns, auf uns alle im Westen, auf uns Deutsche verlassen, dass wir im Ernstfall an ihrer Seite, an der Seite der Ukrainer stehen?"
+            },
+            {
+                "start": 515.799,
+                "end": 528.7,
+                "label": " Also das, was diese ukrainischen Milizen, diese Zivilisten hier vorexerzieren, ist nat\u00fcrlich eigentlich ein Tropfen auf einen hei\u00dfen Stein."
+            },
+            {
+                "start": 528.94,
+                "end": 536.24,
+                "label": " Auf der anderen Seite stehen riesige Panzerverb\u00e4nde und ballistische Waffen und enorme Zahlen von Flugzeugen."
+            },
+            {
+                "start": 536.42,
+                "end": 547.24,
+                "label": " Aber es ist trotzdem der Versuch der ukrainischen Zivilbev\u00f6lkerung, an dem Thema der Abschreckung mitzuwirken."
+            },
+            {
+                "start": 547.24,
+                "end": 556.66,
+                "label": " Und das ist der Punkt, der f\u00fcr die Bundesrepublik Deutschland, der f\u00fcr die EU, der f\u00fcr die ganze NATO, der allein entscheidende ist."
+            },
+            {
+                "start": 557.14,
+                "end": 561.76,
+                "label": " Wir m\u00fcssen alles tun, um Krieg zu verh\u00fcten in dieser Lage."
+            },
+            {
+                "start": 562.38,
+                "end": 575.3,
+                "label": " Und das geht nicht nur durch freundliche diplomatische Worte, sage ich jetzt als alter Hase der Diplomatie, sondern das geht in diesem Fall durch das klassische NATO-Konzept."
+            },
+            {
+                "start": 575.3,
+                "end": 580.12,
+                "label": " Erstens Abschreckung, auch durch milit\u00e4rische St\u00e4rke."
+            },
+            {
+                "start": 580.72,
+                "end": 583.48,
+                "label": " Und zweitens umfassendes Dialogangebot."
+            },
+            {
+                "start": 583.9,
+                "end": 610.86,
+                "label": " Und ich denke, die Bundesrepublik Deutschland muss sich gemeinsam mit den Partnern fragen, ob es hilft, wenn wir \u00fcber m\u00f6gliche Waffenlieferungen immer nur mit einem Tabu reagieren, wenn wir \u00fcber massive Sanktions\u00fcberlegungen gegen Russland im Falle einer Invasion auch ablehnend reagieren, wie das gerade vor wenigen Stunden Friedrich Merz gemacht hat."
+            },
+            {
+                "start": 611.18,
+                "end": 614.36,
+                "label": " Ja, was ist denn dann unser Beitrag zur Abschreckung?"
+            },
+            {
+                "start": 614.62,
+                "end": 629.66,
+                "label": " Wir m\u00fcssen doch in den russischen K\u00f6pfen das Gef\u00fchl st\u00e4rken, dass der Preis, der zu bezahlen w\u00e4re im Falle einer Milit\u00e4raktion gegen die Ukraine, so hoch ist, dass sich das m\u00f6glicherweise doch nicht rechnet."
+            },
+            {
+                "start": 630.42,
+                "end": 635.84,
+                "label": " Und deswegen ist es gut, wenn wir in dieser Lage nichts ausschlie\u00dfen."
+            },
+            {
+                "start": 636.2,
+                "end": 656.1,
+                "label": " Weder massive wirtschaftliche Sanktionen noch Waffenlieferungen, nat\u00fcrlich nicht Deutschlands als Deutschland, sondern Lieferungen von Defensivwaffen, beispielsweise durch die Europ\u00e4ische Union, die in dieser Lage leider bisher ja nur am Spielfeldrand gestanden ist und hilflos zuschauen musste."
+            },
+            {
+                "start": 656.62,
+                "end": 667.46,
+                "label": " Ich muss Ihnen sagen, ich f\u00fchle mich so ein kleines bisschen erinnert an die erste H\u00e4lfte der 90er Jahre, als wir h\u00e4nderingend vor den Jugoslawien-Kriegen standen."
+            },
+            {
+                "start": 667.52,
+                "end": 674.36,
+                "label": " Da mussten 300.000 Menschen sterben, bis dann schlie\u00dflich die USA eingriffen und uns aus der Patsche halfen."
+            },
+            {
+                "start": 674.68,
+                "end": 676.32,
+                "label": " So \u00e4hnlich kommt mir das jetzt vor."
+            },
+            {
+                "start": 677.66,
+                "end": 684.0,
+                "label": " Jetzt haben wir gerade eingeblendet gesehen, dass wir auf diesen Termin von Annalena Baerbock nat\u00fcrlich ganz genau schauen."
+            },
+            {
+                "start": 684.0,
+                "end": 688.12,
+                "label": " Heute Mittag zun\u00e4chst in der Ukraine, dann anschlie\u00dfend am Abend in Moskau."
+            },
+            {
+                "start": 688.2,
+                "end": 693.78,
+                "label": " Sie haben gerade schon die Erwartungen etwas ged\u00e4mpft an diesen Antrittsbesuch von der neuen deutschen Au\u00dfenministerin."
+            },
+            {
+                "start": 694.0,
+                "end": 699.46,
+                "label": " Sie hat diese Aufgabe, dem Sergej Lavrov heute in die Augen zu schauen, sage ich jetzt einmal ganz undiplomatisch."
+            },
+            {
+                "start": 699.76,
+                "end": 705.5,
+                "label": " Aber das ist ja tats\u00e4chlich eine besondere Begegnung, dieser Au\u00dfenminister Recke, Putins rechte Hand."
+            },
+            {
+                "start": 705.58,
+                "end": 709.0,
+                "label": " Wir haben gerade gesagt, dieser eiskalte Mann, den Sie ja bestens kennen von der M\u00fcnchner Sicherheitskonferenz."
+            },
+            {
+                "start": 709.76,
+                "end": 713.14,
+                "label": " Wie macht man das? Wie begegnet man diesem Sergej Lavrov?"
+            },
+            {
+                "start": 715.04,
+                "end": 719.84,
+                "label": " Also ich kenne Sergej Lavrov seit Mitte der 90er Jahre."
+            },
+            {
+                "start": 719.98,
+                "end": 723.58,
+                "label": " Damals war er noch russischer Botschafter bei den Vereinten Nationen."
+            },
+            {
+                "start": 723.96,
+                "end": 744.44,
+                "label": " Und man muss zun\u00e4chst einmal sagen, und das wei\u00df nat\u00fcrlich Annalena Baerbock auch ganz genau, dass dieser Mann der mit gro\u00dfem Abstand erfahrenste, schlauste und kl\u00fcgste Au\u00dfenminister ist, den ich pers\u00f6nlich in den letzten 20, 30 Jahren kennengelernt habe."
+            },
+            {
+                "start": 744.54,
+                "end": 746.96,
+                "label": " Das ist also schon eine gewisse Gr\u00f6\u00dfe."
+            },
+            {
+                "start": 747.38,
+                "end": 761.26,
+                "label": " Man mag ihn als Zyniker bezeichnen, man mag dar\u00fcber diskutieren, dass das russische Au\u00dfenministerium nur noch eine Hilfsagentur des Kreml ist und keine eigentliche gestaltende Rolle haben kann."
+            },
+            {
+                "start": 761.58,
+                "end": 764.94,
+                "label": " Aber Lavrov muss man ernst nehmen."
+            },
+            {
+                "start": 764.94,
+                "end": 776.96,
+                "label": " Wenn ich jetzt Frau Baerbock begleiten w\u00fcrde, w\u00fcrde ich sagen, h\u00f6ren Sie ihm erstmal ruhig zu, lassen Sie ihn mal ausreden. H\u00f6ren Sie sich das alles an, was er zu sagen hat."
+            },
+            {
+                "start": 777.26,
+                "end": 785.32,
+                "label": " Und ich bin ganz sicher, dass da ein vern\u00fcnftiges, vielleicht strittiges, streitbares Gespr\u00e4ch herauskommt."
+            },
+            {
+                "start": 785.74,
+                "end": 806.66,
+                "label": " Aber ich bin der Meinung, deswegen ist das wichtig, dass er Sie kennenlernt, dass er wei\u00df, dass Sie mit klaren Positionen in Moskau ankommen und dass sich hieraus vielleicht doch erste Ans\u00e4tze zu einem weiterf\u00fchrenden deutsch-russischen, europ\u00e4isch-russischen Dialog entwickeln."
+            },
+            {
+                "start": 807.12,
+                "end": 816.72,
+                "label": " Wie gesagt, mit dem Ziel der Kriegsverh\u00fctung durch eine Doppelstrategie, Abschreckung und Kooperationsangebot."
+            },
+            {
+                "start": 817.04,
+                "end": 819.8,
+                "label": " Danke herzlich f\u00fcr das Gespr\u00e4ch, Herr Ischinger."
+            },
+            {
+                "start": 819.98,
+                "end": 828.66,
+                "label": " Danke an den Chef der M\u00fcnchner Sicherheitskonferenz f\u00fcr die Einblicke in die Diplomatie und in die Einblicke in den Kopf von Sergej Lavrov. Vielen Dank."
+            }
+        ]
+    },
+    "shots": {
+        "name": "shots",
+        "segments": []
+    },
+    "speaker": {
+        "name": "speaker",
+        "segments": [
+            {
+                "start": 0.0,
+                "end": 12.02,
+                "label": "anchor"
+            },
+            {
+                "start": 12.4,
+                "end": 28.8,
+                "label": "anchor"
+            },
+            {
+                "start": 28.8,
+                "end": 40.9,
+                "label": "anchor"
+            },
+            {
+                "start": 43.02,
+                "end": 59.02,
+                "label": "reporter"
+            },
+            {
+                "start": 60.2,
+                "end": 82.1,
+                "label": "reporter"
+            },
+            {
+                "start": 82.699,
+                "end": 94.6,
+                "label": "reporter"
+            },
+            {
+                "start": 97.0,
+                "end": 111.04,
+                "label": "layperson"
+            },
+            {
+                "start": 111.04,
+                "end": 119.16,
+                "label": "reporter"
+            },
+            {
+                "start": 119.16,
+                "end": 136.0,
+                "label": "layperson"
+            },
+            {
+                "start": 137.04,
+                "end": 145.72,
+                "label": "reporter"
+            },
+            {
+                "start": 151.16,
+                "end": 172.1,
+                "label": "anchor"
+            },
+            {
+                "start": 173.3,
+                "end": 211.94,
+                "label": "reporter"
+            },
+            {
+                "start": 212.58,
+                "end": 230.26,
+                "label": "anchor"
+            },
+            {
+                "start": 232.26,
+                "end": 261.74,
+                "label": "reporter"
+            },
+            {
+                "start": 263.28,
+                "end": 296.56,
+                "label": "politician-n-de"
+            },
+            {
+                "start": 298.02,
+                "end": 317.1,
+                "label": "layperson-4-covid"
+            },
+            {
+                "start": 318.24,
+                "end": 352.36,
+                "label": "reporter"
+            },
+            {
+                "start": 353.42,
+                "end": 376.72,
+                "label": "anchor"
+            },
+            {
+                "start": 376.98,
+                "end": 400.6,
+                "label": "anchor"
+            },
+            {
+                "start": 402.28,
+                "end": 408.34,
+                "label": null
+            },
+            {
+                "start": 409.8,
+                "end": 483.66,
+                "label": "expert-other"
+            },
+            {
+                "start": 484.24,
+                "end": 514.34,
+                "label": "anchor"
+            },
+            {
+                "start": 515.799,
+                "end": 676.32,
+                "label": "expert-other"
+            },
+            {
+                "start": 677.66,
+                "end": 713.14,
+                "label": "anchor"
+            },
+            {
+                "start": 715.04,
+                "end": 816.72,
+                "label": "expert-other"
+            },
+            {
+                "start": 817.04,
+                "end": 828.66,
+                "label": "anchor"
+            }
+        ]
+    }
+}

@@ -32,7 +32,6 @@ pos_dict:
 ######
 
 ###### create_train_data.py
-clip_queries: "/nfs/home/arafatj/master_project/models/CLIP/CLIP_queries.json"
 trainingdata_dir: "/nfs/home/arafatj/master_project/trainingdata/"
 
 source_abbreviations:
@@ -97,13 +96,13 @@ context_size: 1
 ######
 
 ###### training.py
-speaker_trainingdata_tagesschau_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/tag_412_samples_trainingdata.pkl"
+speaker_trainingdata_tagesschau_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/tag_553_samples_trainingdata.pkl"
 speaker_trainingdata_bildtv_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/bild_91_samples_trainingdata.pkl"
-speaker_trainingdata_compacttv_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/com_82_samples_trainingdata.pkl"
+speaker_trainingdata_compacttv_seg: "/nfs/home/arafatj/master_project/trainingdata/speaker/segment_based/hierarchy_{speaker_hierarchy_level}/com_297_samples_trainingdata.pkl"
 
-speaker_trainingdata_tagesschau_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/tag_412_samples_trainingdata.pkl"
+speaker_trainingdata_tagesschau_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/tag_553_samples_trainingdata.pkl"
 speaker_trainingdata_bildtv_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/bild_91_samples_trainingdata.pkl"
-speaker_trainingdata_compacttv_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/com_82_samples_trainingdata.pkl"
+speaker_trainingdata_compacttv_window: "/nfs/home/arafatj/master_project/trainingdata/speaker/window_based/hierarchy_{speaker_hierarchy_level}/com_297_samples_trainingdata.pkl"
 
 situations_trainingdata_tagesschau_seg: "/nfs/home/arafatj/master_project/trainingdata/situations/segment_based/tag_225_samples_trainingdata.pkl"
 situations_trainingdata_bildtv_seg: "/nfs/home/arafatj/master_project/trainingdata/situations/segment_based/bild_86_samples_trainingdata.pkl"
@@ -115,7 +114,7 @@ situations_trainingdata_compacttv_window: "/nfs/home/arafatj/master_project/trai
 
 seed: 100
 
-k: 5
+k: 10
 
 labels_0:
   - anchor

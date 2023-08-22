@@ -170,8 +170,11 @@ def shot_density(video_path, output_dir):
 
     """
     # VISUALIZATION
+    import matplotlib.pyplot as plt
     plt.plot(output_data["time"], output_data["y"])
-    plt.savefig(f'/nfs/home/arafatj/master_project/graphics/shot_density/{os.path.basename(pkl_file.replace(".pkl", ".png"))}')
+    plt.xlabel('Video timestamp in seconds', fontsize=12)
+    plt.ylabel('Shot density', fontsize=12)
+    plt.savefig(f'/nfs/home/arafatj/master_project/graphics/shot_density/{os.path.basename(video_path.replace(".mp4", ".png"))}')
     """
 
 
@@ -269,7 +272,7 @@ def predict_CLIP_queries(video_path, output_dir, noprint):
     import json
 
     os.makedirs(f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}", exist_ok=True)
-    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/clip.pkl"
+    pkl_file = f"{output_dir}/{os.path.basename(video_path.replace('.mp4', ''))}/clip_v2.pkl"
 
     np.set_printoptions(suppress=True) # do not print floats in scientific notation (e^...)
 
@@ -319,7 +322,7 @@ def predict_CLIP_queries(video_path, output_dir, noprint):
                 # only take top5 place categories
                 top_places_with_probs = sorted(places_with_probs, key=lambda item:item[1], reverse=True)[:5]
                 result_matrices[domain].append(top_places_with_probs)
-                continue
+                
 
             # single labels like 'anchor', 'interview' etc.
             for label in queries[domain].keys():
@@ -607,7 +610,7 @@ def ner_tagger(video_path, output_dir):
             event_set.add(line.strip())
 
     ## Get NER Tags and Vectors
-    sen_nes, seg_nes = feat_functions.get_ner_outputs(proc_text, proc_segments, ner_dict, event_set)
+    sent_nes, seg_nes = feat_functions.get_ner_outputs(proc_text, proc_segments, ner_dict, event_set)
 
     all_ner = []
     for i, seg in enumerate(seg_nes):
@@ -619,7 +622,6 @@ def ner_tagger(video_path, output_dir):
         vector = seg['vector']
         tags = seg['tags']
         all_ner.append({"start_time": start, "end_time": end, "text": text, "vector": vector, "tags": tags})
-
 
     # store result as pkl
     with open(tags_pkl, 'wb') as pkl:
@@ -694,7 +696,6 @@ if __name__ == '__main__':
     parser.add_argument('--imgemb', action='store_true', help="Image Embeddings")
     parser.add_argument('--sentemb', action='store_true', help="Sentence Embeddings")
     parser.add_argument('--ner', action='store_true', help="Named Entity Recognition Tagger")
-
 
 
     args = parser.parse_args()

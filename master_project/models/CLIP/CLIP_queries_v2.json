@@ -30,20 +30,16 @@
             "a firefighter car",
             "a fire department"
         ],
-        "doctor-nurse": [
-            "a doctor",
-            "a nurse"
-        ],
         "layperson": [
             "a layperson",
             "a layperson being interviewed outdoors",
             "a person without professional or specialized knowledge in a particular subject"
         ],
-        "expert-medicine": [
+        "expert": [
             "a medical expert",
-            "a medical expert being interviewed"
-        ],
-        "expert-other": [
+            "a medical expert being interviewed",
+            "a doctor",
+            "a nurse",
             "an expert in a specific field being interviewed",
             "an expert being interviewed"
         ],
